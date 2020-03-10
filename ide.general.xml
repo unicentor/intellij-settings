@@ -9,7 +9,6 @@
     <entry key="ide.tree.ui.experimental" value="false" />
     <entry key="async.project.view.collapse.tree.path.recursively" value="false" />
     <entry key="ide.tree.collapse.recursively" value="false" />
-    <entry key="ide.tooltip.initialDelay" value="0" />
-    <entry key="documentation.show.toolbar" value="true" />
+    <entry key="ide.tooltip.initialDelay" value="36" />
   </component>
 </application>
