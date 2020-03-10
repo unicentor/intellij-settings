@@ -30,6 +30,14 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
+  <action id="Bitbucket.CopyFileUrlInBitbucket" />
+  <action id="Bitbucket.CreatePullRequest">
+    <keyboard-shortcut first-keystroke="ctrl l" second-keystroke="p" />
+  </action>
+  <action id="Bitbucket.CreateSnippet" />
+  <action id="Bitbucket.OpenFileInBitbucket">
+    <keyboard-shortcut first-keystroke="ctrl l" second-keystroke="b" />
+  </action>
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="shift alt 0" />
   </action>
@@ -144,6 +152,9 @@
   </action>
   <action id="FileChooser.TogglePathShowing" />
   <action id="FileStructurePopup" />
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift f3" />
   </action>
@@ -287,13 +298,14 @@
     <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
   <action id="Rerun" />
+  <action id="RerunTests" />
   <action id="ResetToMySettings">
     <keyboard-shortcut first-keystroke="shift alt u" />
   </action>
   <action id="RestoreDefaultLayout" />
   <action id="Resume" />
   <action id="RevealIn">
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="r" />
+    <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift f10" />
@@ -379,6 +391,7 @@
     <keyboard-shortcut first-keystroke="shift alt j" />
     <keyboard-shortcut first-keystroke="ctrl u" />
   </action>
+  <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Log.Refresh" />
   <action id="Vcs.Log.ShowAllAffected" />
   <action id="Vcs.Push">
