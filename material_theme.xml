@@ -1,11 +1,13 @@
 <application>
   <component name="MaterialThemeConfig">
+    <option name="highlightColorEnabled" value="true" />
     <option name="isHighContrast" value="true" />
     <option name="isWizardShown" value="true" />
     <option name="pristineConfig" value="false" />
     <option name="tabFontSize" value="14" />
     <option name="tabsHeight" value="18" />
     <option name="accentColor" value="66d9ef" />
+    <option name="highlightColor" value="007acc" />
     <option name="selectedTheme" value="CUSTOM" />
     <option name="userId" value="-62b24e66:170bb4b480e:-8000" />
     <option name="version" value="4.11.5" />
