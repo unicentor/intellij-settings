@@ -1,4 +1,7 @@
 <keymap version="1" name="Windows copy" parent="$default">
+  <action id="ActivateEventLogToolWindow">
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateMessagesToolWindow">
     <keyboard-shortcut first-keystroke="alt w" />
@@ -13,6 +16,9 @@
   </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt back_quote" />
+  </action>
+  <action id="ActivateTypeScriptToolWindow">
+    <keyboard-shortcut first-keystroke="alt w" />
   </action>
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="shift ctrl g" />
@@ -51,6 +57,9 @@
   </action>
   <action id="CompareTwoFiles" />
   <action id="Console.Execute.Multiline" />
+  <action id="ConsoleView.ClearAll">
+    <keyboard-shortcut first-keystroke="ctrl alt 3" />
+  </action>
   <action id="ContextHelp" />
   <action id="CopyElement" />
   <action id="CopyPaths">
