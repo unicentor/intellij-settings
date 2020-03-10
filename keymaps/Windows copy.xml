@@ -1,4 +1,7 @@
 <keymap version="1" name="Windows copy" parent="$default">
+  <action id="ActivateEventLogToolWindow">
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateMessagesToolWindow">
     <keyboard-shortcut first-keystroke="alt w" />
@@ -39,10 +42,10 @@
     <keyboard-shortcut first-keystroke="shift alt 0" />
   </action>
   <action id="ChangesView.Diff" />
-  <action id="ChangesView.SetDefault" />
   <action id="ChangesView.ShelveSilently" />
-  <action id="CheckinProject" />
-  <action id="ClassNameCompletion" />
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="alt k" />
+  </action>
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="w" />
   </action>
@@ -53,7 +56,6 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="f" />
   </action>
   <action id="CodeGlance.toggle" />
-  <action id="CollapseBlock" />
   <action id="CollapseSelection" />
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="shift ctrl slash" />
@@ -65,6 +67,9 @@
   </action>
   <action id="CompareTwoFiles" />
   <action id="Console.Execute.Multiline" />
+  <action id="ConsoleView.ClearAll">
+    <keyboard-shortcut first-keystroke="ctrl alt 3" />
+  </action>
   <action id="ContextHelp" />
   <action id="CopyElement" />
   <action id="CopyPaths">
@@ -112,8 +117,6 @@
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorMatchBrace">
-    <keyboard-shortcut first-keystroke="shift ctrl m" />
-    <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
     <keyboard-shortcut first-keystroke="alt g" />
   </action>
   <action id="EditorScrollDown" />
@@ -141,9 +144,6 @@
   <action id="ExpressionTypeInfo">
     <keyboard-shortcut first-keystroke="alt t" />
   </action>
-  <action id="ExternalSystem.ToggleAutoImport">
-    <keyboard-shortcut first-keystroke="shift ctrl period" />
-  </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
@@ -169,6 +169,15 @@
   </action>
   <action id="Generate.Missing.Members.ES6" />
   <action id="Generate.Missing.Members.TypeScript" />
+  <action id="Git.CreateNewBranch">
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+  </action>
+  <action id="Git.Merge">
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
+  </action>
+  <action id="Git.Pull">
+    <keyboard-shortcut first-keystroke="shift alt k" />
+  </action>
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
@@ -182,7 +191,6 @@
     <mouse-shortcut keystroke="alt button1" />
   </action>
   <action id="GotoFile">
-    <keyboard-shortcut first-keystroke="shift ctrl n" />
     <keyboard-shortcut first-keystroke="ctrl p" />
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
@@ -223,6 +231,9 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl q" />
   </action>
   <action id="JumpToLastWindow" />
+  <action id="MergeSettings">
+    <keyboard-shortcut first-keystroke="shift alt d" />
+  </action>
   <action id="MethodHierarchy" />
   <action id="MethodOverloadSwitchDown" />
   <action id="MethodOverloadSwitchUp" />
@@ -275,7 +286,6 @@
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="f2" />
-    <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="RenameFile">
     <keyboard-shortcut first-keystroke="f2" />
@@ -284,6 +294,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
   <action id="Replace">
+    <keyboard-shortcut first-keystroke="ctrl r" />
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
   <action id="ReplaceInPath">
@@ -291,6 +302,9 @@
   </action>
   <action id="Rerun" />
   <action id="RerunTests" />
+  <action id="ResetToMySettings">
+    <keyboard-shortcut first-keystroke="shift alt u" />
+  </action>
   <action id="RestoreDefaultLayout" />
   <action id="Resume" />
   <action id="RevealIn">
@@ -343,10 +357,6 @@
     <keyboard-shortcut first-keystroke="ctrl alt f7" />
     <keyboard-shortcut first-keystroke="shift f12" />
   </action>
-  <action id="SmartTypeCompletion">
-    <keyboard-shortcut first-keystroke="ctrl alt space" />
-    <keyboard-shortcut first-keystroke="shift ctrl space" />
-  </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="ctrl back_slash" />
   </action>
@@ -388,19 +398,20 @@
   <action id="Vcs.Log.Refresh" />
   <action id="Vcs.Log.ShowAllAffected" />
   <action id="Vcs.Push">
-    <keyboard-shortcut first-keystroke="alt k" />
-    <keyboard-shortcut first-keystroke="shift alt k" />
+    <keyboard-shortcut first-keystroke="ctrl alt k" />
   </action>
   <action id="Vcs.QuickListPopupAction" />
   <action id="Vcs.UpdateProject" />
   <action id="VcsHistory.ShowAllAffected" />
   <action id="ViewSource" />
+  <action id="WD.UploadCurrentRemoteFileAction" />
   <action id="WelcomeScreen.Plugins">
     <keyboard-shortcut first-keystroke="shift ctrl x" />
   </action>
   <action id="XDebugger.CopyWatch" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.SetValue" />
+  <action id="hg4idea.QFold" />
   <action id="hg4idea.QRefresh" />
   <action id="openAssertEqualsDiff" />
   <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction">
