@@ -1,0 +1,106 @@
+<templateSet group="JavaScript">
+  <template name="fori" value="for($VARKIND$ $i$ = 0; $i$ &lt; $LIMIT$; $i$++) {&#10;  $END$&#10;}" description="Create iteration loop" toReformat="true" toShortenFQNames="true">
+    <variable name="VARKIND" expression="jsSuggestDefaultVariableKind(false)" defaultValue="var" alwaysStopAt="false" />
+    <variable name="i" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LIMIT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="imd" value="import { $moduleName$ } from '$module$';&#10;" description="Import statement - import { b } from 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="module" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="moduleName" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ime" value="import * as $alias$ from '$module$';" description="Import statement - import * as b from 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="module" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="alias" expression="jsSuggestImportedEntityName()" defaultValue="Namespace" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="imp" value="import $moduleName$ from '$module$';" description="Import statement - import b from 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="module" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="moduleName" expression="jsSuggestImportedEntityName()" defaultValue="Namespace" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="exa" value="export * from '$MODULE$';" description="Export statement - export * from 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="exf" value="export { $ITEM$$END$ } from '$MODULE$';&#10;" description="Export statement - export { b } from 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ITEM" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ex" value="export { $ITEM$$END$ };&#10;" description="Export statement - export {b}" toReformat="true" toShortenFQNames="true">
+    <variable name="ITEM" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cl" value="console.log($1$);" description="console.log()" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cle" value="console.error($END$)" description="console.error()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="clw" value="console.warn($END$)" description="console.warn()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cli" value="console.info($END$)" description="console.info()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="clt" value="console.trace($END$)" description="console.trace()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cla" value="console.assert($END$)" description="console.assert()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="defn" value="define([&quot;$MODULE_REF$&quot;], function($MODULE_VAR$) {&#10;$END$&#10;});" description="Inserts define() expression" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="MODULE_REF" expression="complete()" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="MODULE_VAR" expression="jsDefineParameter(MODULE_REF)" defaultValue="mod" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="imn" value="import '$module$';" description="Import statement - import 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="module" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ima" value="import { $originalName$ as $alias$ } from '$module$';" description="Import statement - import { b as c } from 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="module" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="originalName" expression="complete())" defaultValue="" alwaysStopAt="true" />
+    <variable name="alias" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

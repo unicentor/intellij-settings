@@ -1,7 +1,8 @@
 <templateSet group="JavaScript Testing">
-  <template name="desc" value="describe('$1$', () =&gt; {&#10;  $2$&#10;});" description="creates a describe block" toReformat="true" toShortenFQNames="true">
-    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="desc" value="describe('$1$$2$', () =&gt; {&#10;  $3$&#10;});" description="creates a describe block" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="&quot;when &quot;" defaultValue="" alwaysStopAt="true" />
     <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
@@ -95,9 +96,180 @@
     </context>
   </template>
   <template name="it" value="it('$1$$2$', async () =&gt; {&#10;  $0$&#10;});" description="creates an it block" toReformat="true" toShortenFQNames="true">
-    <variable name="1" expression="&quot;when &quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="&quot;should &quot;" defaultValue="" alwaysStopAt="true" />
     <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
+  </template>
+  <template name="tbct" value="expect($1$).toBeCloseTo($number$, $delta$);" description="expects the first argument to be close to the second one base on the delta" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="number" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="delta" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tbd" value="expect($1$).toBeDefined();" description="expects the argument is defined" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tbf" value="expect($1$).toBeFalsy();" description="expects the argument is falsy" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tbgt" value="expect($1$).toBeGreaterThan($0$);" description="expects the argument is greater than or equal" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tbgte" value="expect($1$).toBeGreaterThanOrEqual($0$);" description="expects the argument is greater than" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tbi" value="expect($1$).toBeInstanceOf($0$);" description="expects the argument is less than" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tblt" value="expect($1$).toBeLessThan($0$);" description="expects the argument is less than" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tblte" value="expect($1$).toBeLessThanOrEqual($0$);" description="expects the argument is less than or equal" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tbn" value="expect($1$).toBeNull();" description="expects the argument is null" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tbt" value="expect($1$).toBeTruthy();" description="expects the argument is truthy" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tbu" value="expect($1$).toBeUndefined();" description="expects the argument is undefined" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tc" value="expect($list$).toContain($0$);" description="expects the list contains the item (===)" toReformat="true" toShortenFQNames="true">
+    <variable name="list" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tce" value="expect($list$).toContainEqual($0$);" description="expects the list contains the item (equals)" toReformat="true" toShortenFQNames="true">
+    <variable name="list" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="te" value="expect($1$).toEqual($0$);" description="expects the first argument to be equal with the second one" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="thbc" value="expect($1$).toHaveBeenCalled();" description="returns true if the spy was called" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="thbct" value="expect($1$).toHaveBeenCalledTimes($0$);" description="returns true if the spy has been called given times" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="thbcw" value="expect($1$).toHaveBeenCalledWith($0$);" description="returns true if the spy has been called with" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="thblcw" value="expect($1$).toHaveBeenLastCalledWith($0$);" description="returns true if the spy has been last called with" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="thl" value="expect($1$).toHaveLength($0$);" description="expects the object to have length" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="thp" value="expect($1$).toHaveProperty($keyPath$, $value$);" description="returns true if the argument matches the second object" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="keyPath" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tm" value="expect($1$).toMatch($0$);" description="returns true if the argument matches the second value" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tmo" value="expect($1$).toMatchObject($0$);" description="returns true if the argument matches the second object" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tse" value="expect($1$).toStrictEqual($0$);" description="expects the first argument to be strictly equal with the second one" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tt" value="expect(() =&gt; {&#10;  $0$&#10;}).toThrow($1$);" description="expects that the method will throw an error" toReformat="true" toShortenFQNames="true">
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tte" value="expect(() =&gt; {&#10;  $0$&#10;}).toThrowError($1$);" description="expects that the method will throw an error" toReformat="true" toShortenFQNames="true">
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
   </template>
 </templateSet>
