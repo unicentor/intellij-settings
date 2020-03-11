@@ -1,9 +1,41 @@
 <templateSet group="JavaScript Testing">
-  <template name="descr" value="describe('$NAME$', () =&gt; {&#10;  $END$&#10;});" description="Inserts describe() block" toReformat="true" toShortenFQNames="true">
-    <variable name="NAME" expression="jsMethodName()" defaultValue="" alwaysStopAt="true" />
+  <template name="desc" value="describe('$1$', () =&gt; {&#10;  $2$&#10;});" description="creates a describe block" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="be" value="beforeEach(() =&gt; {&#10;  $END$&#10;});" description="beforeEach function is called once before each spec" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ae" value="afterEach(() =&gt; {&#10;  $0$&#10;});" description="afterEach function is called once after each spec" toReformat="true" toShortenFQNames="true">
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="af" value="after(() =&gt; {&#10;  $END$&#10;});" description="Inserts after() block" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="bf" value="before(() =&gt; {&#10;  $END$&#10;});" description="Inserts before() block" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
   <template name="aa" value="afterAll(() =&gt; {&#10;  $0$&#10;});" description="afterAll function is called once after all specs" toReformat="false" toShortenFQNames="true">
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ba" value="beforeAll(() =&gt; {&#10;  $0$&#10;});" description="beforeAll function is called once before all specs" toReformat="false" toShortenFQNames="true">
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="exp" value="expect($0$)" description="expect actual value" toReformat="true" toShortenFQNames="true">
     <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
