@@ -3,4 +3,10 @@
     <variable name="NAME" expression="jsMethodName()" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="aa" value="afterAll(() =&gt; {&#10;  $0$&#10;});" description="afterAll function is called once after all specs" toReformat="false" toShortenFQNames="true">
+    <variable name="0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
