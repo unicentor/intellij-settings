@@ -4,7 +4,7 @@
     <property name="created">2020-03-08T19:40:53</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2019.3.3.0.0</property>
-    <property name="modified">2020-03-11T17:26:06</property>
+    <property name="modified">2020-03-11T21:38:42</property>
     <property name="originalScheme">Monokai Pro</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -35,31 +35,31 @@
     <option name="DIFF_SEPARATORS_BACKGROUND" value="1e2a30" />
     <option name="DIFF_SEPARATORS_TOP_BORDER" value="1b262b" />
     <option name="DOCUMENTATION_COLOR" value="403e41" />
-    <option name="FILESTATUS_ADDED" value="629755" />
-    <option name="FILESTATUS_COPIED" value="629755" />
-    <option name="FILESTATUS_DELETED" value="6c6c6c" />
+    <option name="FILESTATUS_ADDED" value="81b88b" />
+    <option name="FILESTATUS_COPIED" value="e2c08d" />
+    <option name="FILESTATUS_DELETED" value="c74e39" />
     <option name="FILESTATUS_HIJACKED" value="" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="6c6c6c" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="848504" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="d5756c" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="d5756c" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="d5756c" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="c74e39" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="8c8c8c" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="6c6cc4" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="6c6cc4" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="6c6cc4" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="72a038" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
     <option name="FILESTATUS_IDEA_SVN_REPLACED" value="629755" />
-    <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="ffffff" />
-    <option name="FILESTATUS_MERGED" value="9876aa" />
-    <option name="FILESTATUS_MODIFIED" value="6897bb" />
-    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="6897bb" />
-    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="6897bb" />
+    <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="8c8c8c" />
+    <option name="FILESTATUS_MERGED" value="6c6cc4" />
+    <option name="FILESTATUS_MODIFIED" value="e2c08d" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="e2c08d" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="e2c08d" />
     <option name="FILESTATUS_OBSOLETE" value="" />
-    <option name="FILESTATUS_RENAMED" value="3a8484" />
-    <option name="FILESTATUS_SUPPRESSED" value="" />
+    <option name="FILESTATUS_RENAMED" value="e2c08d" />
+    <option name="FILESTATUS_SUPPRESSED" value="c74e39" />
     <option name="FILESTATUS_SWITCHED" value="" />
     <option name="FILESTATUS_UNKNOWN" value="d1675a" />
-    <option name="FILESTATUS_addedOutside" value="629755" />
-    <option name="FILESTATUS_changelistConflict" value="d5756c" />
-    <option name="FILESTATUS_modifiedOutside" value="6897bb" />
+    <option name="FILESTATUS_addedOutside" value="81b88b" />
+    <option name="FILESTATUS_changelistConflict" value="6c6cc4" />
+    <option name="FILESTATUS_modifiedOutside" value="e2c08d" />
     <option name="GUTTER_BACKGROUND" value="2d2a2e" />
     <option name="INDENT_GUIDE" value="403e41" />
     <option name="INFORMATION_HINT" value="403e41" />

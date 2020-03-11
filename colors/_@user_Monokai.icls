@@ -3,13 +3,31 @@
     <property name="created">2020-03-09T00:39:41</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2019.3.3.0.0</property>
-    <property name="modified">2020-03-09T01:13:53</property>
+    <property name="modified">2020-03-11T21:38:42</property>
     <property name="originalScheme">Monokai</property>
   </metaInfo>
   <colors>
     <option name="CARET_COLOR" value="f8f8f0" />
     <option name="CARET_ROW_COLOR" value="3e3d32" />
     <option name="CONSOLE_BACKGROUND_KEY" value="272822" />
+    <option name="FILESTATUS_ADDED" value="81b88b" />
+    <option name="FILESTATUS_COPIED" value="e2c08d" />
+    <option name="FILESTATUS_DELETED" value="c74e39" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="c74e39" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="8c8c8c" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="6c6cc4" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="6c6cc4" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="6c6cc4" />
+    <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="8c8c8c" />
+    <option name="FILESTATUS_MERGED" value="6c6cc4" />
+    <option name="FILESTATUS_MODIFIED" value="e2c08d" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="e2c08d" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="e2c08d" />
+    <option name="FILESTATUS_RENAMED" value="e2c08d" />
+    <option name="FILESTATUS_SUPPRESSED" value="c74e39" />
+    <option name="FILESTATUS_addedOutside" value="81b88b" />
+    <option name="FILESTATUS_changelistConflict" value="6c6cc4" />
+    <option name="FILESTATUS_modifiedOutside" value="e2c08d" />
     <option name="GUTTER_BACKGROUND" value="272822" />
     <option name="INDENT_GUIDE" value="464741" />
     <option name="LINE_NUMBERS_COLOR" value="f8f8f2" />
