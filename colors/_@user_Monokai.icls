@@ -3,13 +3,15 @@
     <property name="created">2020-03-09T00:39:41</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2019.3.3.0.0</property>
-    <property name="modified">2020-03-11T21:38:42</property>
+    <property name="modified">2020-03-11T21:56:02</property>
     <property name="originalScheme">Monokai</property>
   </metaInfo>
   <colors>
+    <option name="ADDED_LINES_COLOR" value="81b88b" />
     <option name="CARET_COLOR" value="f8f8f0" />
     <option name="CARET_ROW_COLOR" value="3e3d32" />
     <option name="CONSOLE_BACKGROUND_KEY" value="272822" />
+    <option name="DELETED_LINES_COLOR" value="c74e39" />
     <option name="FILESTATUS_ADDED" value="81b88b" />
     <option name="FILESTATUS_COPIED" value="e2c08d" />
     <option name="FILESTATUS_DELETED" value="c74e39" />
@@ -29,11 +31,15 @@
     <option name="FILESTATUS_changelistConflict" value="6c6cc4" />
     <option name="FILESTATUS_modifiedOutside" value="e2c08d" />
     <option name="GUTTER_BACKGROUND" value="272822" />
+    <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="81b88b" />
+    <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="c74e39" />
     <option name="INDENT_GUIDE" value="464741" />
     <option name="LINE_NUMBERS_COLOR" value="f8f8f2" />
+    <option name="MODIFIED_LINES_COLOR" value="e2c08d" />
     <option name="SELECTED_INDENT_GUIDE" value="464741" />
     <option name="SELECTION_BACKGROUND" value="575959" />
     <option name="WHITESPACES" value="464741" />
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="e2c08d" />
   </colors>
   <attributes>
     <option name="BAD_CHARACTER">
@@ -244,7 +250,7 @@
     </option>
     <option name="CONSOLE_ERROR_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="ffb3b3" />
+        <option name="FOREGROUND" value="f92672" />
       </value>
     </option>
     <option name="CONSOLE_GRAY_OUTPUT">
@@ -279,13 +285,18 @@
     </option>
     <option name="CONSOLE_USER_INPUT">
       <value>
-        <option name="FOREGROUND" value="6ae96a" />
+        <option name="FOREGROUND" value="a6e22e" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="CONSOLE_YELLOW_OUTPUT">
       <value>
         <option name="FOREGROUND" value="754200" />
+      </value>
+    </option>
+    <option name="CSS.COLOR">
+      <value>
+        <option name="FOREGROUND" value="e6db74" />
       </value>
     </option>
     <option name="CSS.COMMENT">
@@ -301,6 +312,17 @@
     <option name="CSS.IDENT">
       <value>
         <option name="FOREGROUND" value="a6e22e" />
+      </value>
+    </option>
+    <option name="CSS.IMPORTANT">
+      <value>
+        <option name="FOREGROUND" value="f92672" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="CSS.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="f92672" />
       </value>
     </option>
     <option name="CSS.NUMBER">
@@ -326,7 +348,7 @@
     </option>
     <option name="CSS.URL">
       <value>
-        <option name="FOREGROUND" value="fd971f" />
+        <option name="FOREGROUND" value="e6db74" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -825,6 +847,17 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
+    <option name="IGNORE.NEGATION">
+      <value>
+        <option name="FOREGROUND" value="f92672" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="IGNORE.VALUE">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+      </value>
+    </option>
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="fda5ff" />
@@ -1022,6 +1055,31 @@
     <option name="LESS_VARIABLE">
       <value>
         <option name="FOREGROUND" value="f8f8f2" />
+      </value>
+    </option>
+    <option name="LOG_DEBUG_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="ae81ff" />
+      </value>
+    </option>
+    <option name="LOG_ERROR_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="f92672" />
+      </value>
+    </option>
+    <option name="LOG_INFO_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="e6db74" />
+      </value>
+    </option>
+    <option name="LOG_VERBOSE_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="66d9ef" />
+      </value>
+    </option>
+    <option name="LOG_WARNING_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="fd971f" />
       </value>
     </option>
     <option name="MACRONAME">
