@@ -227,6 +227,9 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl q" />
   </action>
   <action id="JumpToLastWindow" />
+  <action id="ManageRecentProjects">
+    <keyboard-shortcut first-keystroke="shift alt p" />
+  </action>
   <action id="MergeSettings">
     <keyboard-shortcut first-keystroke="shift alt d" />
   </action>
@@ -250,6 +253,10 @@
   </action>
   <action id="NextEditorTab" />
   <action id="NextOccurence" />
+  <action id="NextProjectWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt close_bracket" />
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
@@ -411,6 +418,7 @@
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.SetValue" />
   <action id="hg4idea.QFold" />
+  <action id="hg4idea.QPushAction" />
   <action id="hg4idea.QRefresh" />
   <action id="openAssertEqualsDiff" />
   <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction">
