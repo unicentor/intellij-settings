@@ -223,6 +223,9 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl q" />
   </action>
   <action id="JumpToLastWindow" />
+  <action id="Macro.Fix &amp; Save">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
   <action id="ManageRecentProjects">
     <keyboard-shortcut first-keystroke="shift alt p" />
   </action>
@@ -319,10 +322,11 @@
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
-    <keyboard-shortcut first-keystroke="ctrl alt s" />
-    <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
   <action id="SaveAs" />
+  <action id="SaveDocument">
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
+  </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="shift ctrl a" />
   </action>
