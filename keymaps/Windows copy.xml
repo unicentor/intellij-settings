@@ -218,9 +218,6 @@
   <action id="ImplementMethods" />
   <action id="Inline" />
   <action id="InsertLiveTemplate" />
-  <action id="Javascript.Linters.EsLint.Fix">
-    <keyboard-shortcut first-keystroke="ctrl s" />
-  </action>
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="shift ctrl back_space" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl q" />
@@ -323,6 +320,7 @@
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
     <keyboard-shortcut first-keystroke="ctrl alt s" />
+    <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
   <action id="SaveAs" />
   <action id="SearchEverywhere">
