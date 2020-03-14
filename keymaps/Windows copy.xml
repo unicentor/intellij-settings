@@ -387,6 +387,9 @@
     <keyboard-shortcut first-keystroke="f5" />
   </action>
   <action id="SurroundWith" />
+  <action id="SurroundWithEmmet">
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
   <action id="Switcher" />
   <action id="Synchronize">
     <keyboard-shortcut first-keystroke="ctrl alt y" />
