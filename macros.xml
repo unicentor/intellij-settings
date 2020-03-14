@@ -4,5 +4,9 @@
       <action id="Javascript.Linters.EsLint.Fix" />
       <action id="SaveDocument" />
     </macro>
+    <macro name="Fix &amp; Save All">
+      <action id="Javascript.Linters.EsLint.Fix" />
+      <action id="SaveAll" />
+    </macro>
   </component>
 </application>

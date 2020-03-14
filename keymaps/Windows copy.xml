@@ -223,7 +223,7 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl q" />
   </action>
   <action id="JumpToLastWindow" />
-  <action id="Macro.Fix &amp; Save">
+  <action id="Macro.Fix &amp; Save All">
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
   <action id="ManageRecentProjects">
@@ -295,15 +295,16 @@
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="RenameFile">
     <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
   <action id="Replace">
-    <keyboard-shortcut first-keystroke="ctrl r" />
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
   <action id="ReplaceInPath">
