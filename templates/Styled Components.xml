@@ -1,0 +1,28 @@
+<templateSet group="Styled Components">
+  <template name="sc" value="const $1$ = styled.$2$`&#10;  $END$&#10;`;" description="Styled component" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="scg" value="const GlobalStyle = createGlobalStyle`&#10;  $END$&#10;`;" description="createGlobalStyle" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="scc" value="const Styled$1$ = styled($2$)`&#10;  $END$&#10;`;" description="Styled component from existing component" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sca" value="import styled from 'styled-components';&#10;&#10;const $1$ = styled.$2$`&#10;  $END$&#10;`;" description="Styled component atom" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
