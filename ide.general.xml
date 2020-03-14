@@ -12,5 +12,6 @@
     <entry key="async.project.view.collapse.tree.path.recursively" value="false" />
     <entry key="ide.tree.collapse.recursively" value="false" />
     <entry key="ide.tooltip.initialDelay" value="36" />
+    <entry key="completion.stats.show.ml.ranking.diff" value="true" />
   </component>
 </application>
