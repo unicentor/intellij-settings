@@ -44,15 +44,14 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ex" value="export { $ITEM$$END$ };&#10;" description="Export statement - export {b}" toReformat="true" toShortenFQNames="true">
+  <template name="ex" value="export { $ITEM$$END$ };&#10;" description="Export statement - export { b }" toReformat="true" toShortenFQNames="true">
     <variable name="ITEM" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ES6_STATEMENT" value="true" />
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="cl" value="console.log($1$);" description="console.log()" toReformat="true" toShortenFQNames="true">
-    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="cl" value="console.log($END$);" description="console.log()" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
@@ -82,11 +81,6 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="defn" value="define([&quot;$MODULE_REF$&quot;], function($MODULE_VAR$) {&#10;$END$&#10;});" description="Inserts define() expression" toReformat="true" toShortenFQNames="true" deactivated="true">
-    <variable name="MODULE_REF" expression="complete()" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <variable name="MODULE_VAR" expression="jsDefineParameter(MODULE_REF)" defaultValue="mod" alwaysStopAt="true" />
-    <context />
-  </template>
   <template name="imn" value="import '$module$';" description="Import statement - import 'a'" toReformat="true" toShortenFQNames="true">
     <variable name="module" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -101,6 +95,37 @@
     <context>
       <option name="ES6_STATEMENT" value="true" />
       <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="clor" value="console.log($END$) ||" description="console.log()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="me" value="module.exports = $1$;" description="module.exports" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="req" value="require('$module$');" description="require" toReformat="true" toShortenFQNames="true">
+    <variable name="module" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cre" value="const $1$ = require('$module$');" description="require" toReformat="true" toShortenFQNames="true">
+    <variable name="module" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fe" value="$arr$.forEach(($item$}) =&gt; ({&#10;  $END$&#10;})" description="forEach" toReformat="true" toShortenFQNames="true">
+    <variable name="arr" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="item" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>

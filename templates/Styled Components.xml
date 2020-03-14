@@ -25,4 +25,53 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="scattrs" value="const $1$ = styled.$2$.attrs({&#10;  $3$: $4$,&#10;})`&#10;  $END$&#10;`;" description="Styled component with attributes" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="scpt" value="${({ theme }) =&gt; theme.$END$};" description="Use props.theme inside styled-component" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS_PROPERTY_VALUE" value="true" />
+    </context>
+  </template>
+  <template name="scp" value="${props =&gt; props$END$};" description="Use props inside styled-component" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS_PROPERTY_VALUE" value="true" />
+    </context>
+  </template>
+  <template name="scpd" value="${({ $propsName$ }) =&gt;&#10;  $propsName$ &amp;&amp;&#10;  css`&#10;    $END$&#10;  `}" description="Conditional CSS inside styled-component" toReformat="false" toShortenFQNames="true">
+    <variable name="propsName" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+    </context>
+  </template>
+  <template name="scpco" value="${({ theme }) =&gt; theme.colors.$1$};" description="Use props.theme.colors inside styled-component" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_PROPERTY_VALUE" value="true" />
+    </context>
+  </template>
+  <template name="imsc" value="import styled from 'styled-components';" description="import styled from styled-components" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="imscg" value="import { createGlobalStyle } from 'styled-components';" description="import createGlobalStyle from styled-components" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="imsccss" value="import { css } from 'styled-components';" description="import css from styled-components" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
