@@ -121,9 +121,133 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="fe" value="$arr$.forEach(($item$}) =&gt; ({&#10;  $END$&#10;})" description="forEach" toReformat="true" toShortenFQNames="true">
+  <template name="fe" value="$arr$.forEach(item =&gt; {&#10;  $END$&#10;});" description="forEach" toReformat="true" toShortenFQNames="true">
     <variable name="arr" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="item" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="okfe" value="Object.keys($obj$).forEach(item =&gt; {&#10;  $END$&#10;});" description="Object.keys().forEach" toReformat="true" toShortenFQNames="true">
+    <variable name="obj" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="hop" value="if ($obj$.hasOwnProperty($key$)) {&#10;&#10;}" description="hasOwnProperty" toReformat="true" toShortenFQNames="true">
+    <variable name="obj" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="map" value="$arr$.map(item =&gt; $END$)" description="map" toReformat="true" toShortenFQNames="true">
+    <variable name="arr" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ro" value="({&#10;  $END$&#10;})" description="return object" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="st" value="setTimeout(() =&gt; {&#10;  $body$&#10;}, $timeout$);" description="setTimeout" toReformat="true" toShortenFQNames="true">
+    <variable name="body" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="timeout" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="si" value="setInterval(() =&gt; {&#10;  $body$&#10;}, $interval$);" description="setInterval" toReformat="true" toShortenFQNames="true">
+    <variable name="body" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="interval" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ov" value="Object.values($obj$)$END$" description="Object.values()" toReformat="true" toShortenFQNames="true">
+    <variable name="obj" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ok" value="Object.keys($obj$)$END$" description="Object.keys()" toReformat="true" toShortenFQNames="true">
+    <variable name="obj" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="c" value="const $1$ = $END$" description="const" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="r" value="return $END$" description="return" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="jp" value="JSON.parse($string$)$END$" description="JSON.parse" toReformat="true" toShortenFQNames="true">
+    <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="jst" value="JSON.stringify($obj$)$END$" description="JSON.stringify" toReformat="true" toShortenFQNames="true">
+    <variable name="obj" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="pr" value="{...props}" description="Rest {...props}" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tc" value="try {&#10;  $1$&#10;} catch (err) {&#10;  $2$&#10;}" description="try/catch" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="td" value="// TODO" description="TODO" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="na" value="const $1$ = ($params$) =&gt; $END$" description="named function" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ena" value="export const $1$ = ($params$) =&gt; $END$" description="export named function" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="af" value="($params$) =&gt; $END$" description="arrow function" toReformat="true" toShortenFQNames="true">
+    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="prom" value="new Promise((resolve, reject) =&gt; {&#10;  $END$&#10;});" description="Promise" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="apa" value="await Promise.all([$END$])" description="await Promise.all([])" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="a" value="await " description="await" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
