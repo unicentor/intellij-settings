@@ -344,6 +344,10 @@
         </TemplateKey>
         <TemplateKey>
           <option name="groupName" value="React" />
+          <option name="key" value="con" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="React" />
           <option name="key" value="conc" />
         </TemplateKey>
         <TemplateKey>
@@ -1053,66 +1057,6 @@
         <TemplateKey>
           <option name="groupName" value="Meteor HTML" />
           <option name="key" value="temp:name" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="React" />
-          <option name="key" value="bind" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="React" />
-          <option name="key" value="pt" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="React" />
-          <option name="key" value="useState" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="React" />
-          <option name="key" value="useEffect" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="React" />
-          <option name="key" value="useContext" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="React" />
-          <option name="key" value="useCallback" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="React" />
-          <option name="key" value="useImperativeHandle" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="React" />
-          <option name="key" value="useReducer" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="React" />
-          <option name="key" value="useMemo" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="React" />
-          <option name="key" value="useRef" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="React" />
-          <option name="key" value="useLayoutEffect" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="React" />
-          <option name="key" value="useDebugValue" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="React" />
-          <option name="key" value="cref" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="React" />
-          <option name="key" value="cctx" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="React" />
-          <option name="key" value="hoc" />
         </TemplateKey>
         <TemplateKey>
           <option name="groupName" value="Vue" />
