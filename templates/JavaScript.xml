@@ -4,7 +4,7 @@
     <variable name="limit" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="imn" value="import { $export1$ } from '$moduleName$';&#10;" description="Import named export - import { b } from 'a'" toReformat="true" toShortenFQNames="true">
+  <template name="imd" value="import { $export1$ } from '$moduleName$';&#10;" description="importDestructing" toReformat="true" toShortenFQNames="true">
     <variable name="moduleName" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <variable name="export1" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -12,7 +12,7 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ima" value="import * as $name$ from '$moduleName$';" description="Import all the named exports - import * as b from 'a'" toReformat="true" toShortenFQNames="true">
+  <template name="ime" value="import * as $name$ from '$moduleName$';" description="importEverything" toReformat="true" toShortenFQNames="true">
     <variable name="moduleName" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <variable name="name" expression="jsSuggestImportedEntityName()" defaultValue="Namespace" alwaysStopAt="true" />
     <context>
@@ -20,7 +20,7 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="imd" value="import $defaultExport$ from '$moduleName$';" description="Import statement - import b from 'a'" toReformat="true" toShortenFQNames="true">
+  <template name="imp" value="import $defaultExport$ from '$moduleName$';" description="import" toReformat="true" toShortenFQNames="true">
     <variable name="moduleName" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <variable name="defaultExport" expression="jsSuggestImportedEntityName()" defaultValue="Namespace" alwaysStopAt="true" />
     <context>
@@ -35,7 +35,7 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="exf" value="export { $ITEM$$END$ } from '$MODULE$';&#10;" description="Export from - export { b } from 'a'" toReformat="true" toShortenFQNames="true">
+  <template name="exd" value="export { $ITEM$$END$ } from '$MODULE$';&#10;" description="exportDestructing" toReformat="true" toShortenFQNames="true">
     <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <variable name="ITEM" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -50,44 +50,44 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="cl" value="console.log($END$);" description="console.log()" toReformat="true" toShortenFQNames="true">
+  <template name="cl" value="console.log($END$);" description="Displays a message in the console" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="cle" value="console.error($END$)" description="console.error()" toReformat="true" toShortenFQNames="true">
+  <template name="cle" value="console.error($END$)" description="Displays a message in the console and also includes a stack trace from where the method was called" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="clw" value="console.warn($END$)" description="console.warn()" toReformat="true" toShortenFQNames="true">
+  <template name="clw" value="console.warn($END$)" description="Displays a message in the console but also displays a yellow warning icon along with the logged message" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="cli" value="console.info($END$)" description="console.info()" toReformat="true" toShortenFQNames="true">
+  <template name="cli" value="console.info($END$)" description="Displays a message in the console but also displays a blue information icon along with the logged message" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="clt" value="console.trace($END$)" description="console.trace()" toReformat="true" toShortenFQNames="true">
+  <template name="clt" value="console.trace($END$)" description="Prints a stack trace from the point where the method was called" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="cla" value="console.assert($END$)" description="console.assert()" toReformat="true" toShortenFQNames="true">
+  <template name="cla" value="console.assert($END$)" description="If the specified expression is false, the message is written to the console along with a stack trace" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="imno" value="import '$moduleName$';" description="Import no exports - import 'a'" toReformat="true" toShortenFQNames="true">
+  <template name="imn" value="import '$moduleName$';" description="importNoModuleName" toReformat="true" toShortenFQNames="true">
     <variable name="moduleName" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ES6_STATEMENT" value="true" />
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="imna" value="import { $export1$ as $alias1$ } from '$moduleName$';" description="Import named export as - import { b as c } from 'a'" toReformat="true" toShortenFQNames="true">
+  <template name="ima" value="import { $export1$ as $alias1$ } from '$moduleName$';" description="importAs" toReformat="true" toShortenFQNames="true">
     <variable name="moduleName" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <variable name="export1" expression="complete())" defaultValue="" alwaysStopAt="true" />
     <variable name="alias1" expression="" defaultValue="" alwaysStopAt="true" />
@@ -96,7 +96,7 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="clor" value="console.log($END$) ||" description="console.log()" toReformat="true" toShortenFQNames="true">
+  <template name="clor" value="console.log($END$) ||" description="console.log() ||" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
@@ -150,14 +150,14 @@
       <option name="JS_EXPRESSION" value="true" />
     </context>
   </template>
-  <template name="st" value="setTimeout(() =&gt; {&#10;  $body$&#10;}, $timeout$);" description="setTimeout" toReformat="true" toShortenFQNames="true">
+  <template name="sto" value="setTimeout(() =&gt; {&#10;  $body$&#10;}, $delay$);" description="Executes the given function after the specified delay" toReformat="true" toShortenFQNames="true">
     <variable name="body" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="timeout" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="delay" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="si" value="setInterval(() =&gt; {&#10;  $body$&#10;}, $interval$);" description="setInterval" toReformat="true" toShortenFQNames="true">
+  <template name="sti" value="setInterval(() =&gt; {&#10;  $body$&#10;}, $interval$);" description="Executes the given function at specified intervals" toReformat="true" toShortenFQNames="true">
     <variable name="body" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="interval" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -216,27 +216,21 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="na" value="const $1$ = ($params$) =&gt; $END$" description="named function" toReformat="true" toShortenFQNames="true">
+  <template name="cfn" value="const $name$ = ($params$) =&gt; $END$" description="Creates a named function" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="enf" value="export const $1$ = ($params$) =&gt; $END$" description="Export named function" toReformat="true" toShortenFQNames="true">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ena" value="export const $1$ = ($params$) =&gt; $END$" description="export named function" toReformat="true" toShortenFQNames="true">
-    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JS_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="af" value="($params$) =&gt; $END$" description="arrow function" toReformat="true" toShortenFQNames="true">
-    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JS_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="prom" value="new Promise((resolve, reject) =&gt; {&#10;  $END$&#10;});" description="Promise" toReformat="true" toShortenFQNames="true">
+  <template name="prom" value="return new Promise((resolve, reject) =&gt; {&#10;  $END$&#10;});" description="Creates and returns a new Promise" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
@@ -251,9 +245,9 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="forof" value="for (let $item$ of $arr$) {&#10;  $END$&#10;}" description="Iterate (for..of)" toReformat="true" toShortenFQNames="true">
-    <variable name="arr" expression="" defaultValue="&quot;arr&quot;" alwaysStopAt="true" />
+  <template name="fof" value="for (let $item$ of $obj$) {&#10;  $END$&#10;}" description="Iterating over property names of iterable objects" toReformat="true" toShortenFQNames="true">
     <variable name="item" expression="" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
+    <variable name="obj" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ES6_STATEMENT" value="true" />
       <option name="TS_STATEMENT" value="true" />
@@ -267,7 +261,7 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="forin" value="for (let $key$ in $obj$) {&#10;  $END$&#10;}" description="Iterate (for..in)" toReformat="true" toShortenFQNames="true">
+  <template name="fin" value="for (let $key$ in $obj$) {&#10;  $END$&#10;}" description="Iterating over property values of iterable objects" toReformat="true" toShortenFQNames="true">
     <variable name="obj" expression="" defaultValue="&quot;obj&quot;" alwaysStopAt="true" />
     <variable name="key" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
     <context>
@@ -286,8 +280,9 @@
       <option name="JS_CLASS" value="true" />
     </context>
   </template>
-  <template name="dop" value="const { $1$ } = props;" description="Destructuring props" toReformat="true" toShortenFQNames="true">
-    <variable name="1" expression="complete()" defaultValue="" alwaysStopAt="true" />
+  <template name="dob" value="const { $propertyName$ } = $objectToDestruct$;" description="Creates and assigns a local variable using object destructing" toReformat="true" toShortenFQNames="true">
+    <variable name="objectToDestruct" expression="" defaultValue="&quot;props&quot;" alwaysStopAt="true" />
+    <variable name="propertyName" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
@@ -298,7 +293,8 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="exd" value="export default &#10;" description="Export default - export default" toReformat="true" toShortenFQNames="true">
+  <template name="exp" value="export default $1$&#10;" description="exportDefault" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ES6_STATEMENT" value="true" />
       <option name="TS_STATEMENT" value="true" />
@@ -306,6 +302,40 @@
   </template>
   <template name="eint" value="export interface $Interface$ {&#10;  $END$&#10;};" description="export interface" toReformat="true" toShortenFQNames="true">
     <variable name="Interface" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="exa" value="export { $export$ as $alias$$END$ } from '$module$';&#10;" description="exportAs" toReformat="true" toShortenFQNames="true">
+    <variable name="module" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="export" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="alias" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="edf" value="export default ($params$) =&gt; $END$" description="Export default function" toReformat="true" toShortenFQNames="true">
+    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fn" value="($params$) =&gt; $END$" description="Creates an anonymous function" toReformat="true" toShortenFQNames="true">
+    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="dar" value="const [$propertyName$] = $arrayToDestruct$;" description="Creates and assigns a local variable using array destructing" toReformat="true" toShortenFQNames="true">
+    <variable name="arrayToDestruct" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="propertyName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="clo" value="console.log('$obj$', $obj$);" description="Logs property with name" toReformat="true" toShortenFQNames="true">
+    <variable name="obj" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>

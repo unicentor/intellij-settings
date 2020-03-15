@@ -18,4 +18,18 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="esel" value="export const $selectorName$ = (state: RootState) =&gt; state.$selector$" description="export reduxSelector" toReformat="true" toShortenFQNames="true">
+    <variable name="selectorName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="selector" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sel" value="const $selectorName$ = (state: RootState) =&gt; state.$selector$" description="reduxSelector" toReformat="true" toShortenFQNames="true">
+    <variable name="selectorName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="selector" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
