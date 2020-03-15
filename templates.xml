@@ -1080,6 +1080,10 @@
         </TemplateKey>
         <TemplateKey>
           <option name="groupName" value="React" />
+          <option name="key" value="useImperativeHandle" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="React" />
           <option name="key" value="useReducer" />
         </TemplateKey>
         <TemplateKey>
@@ -1089,6 +1093,10 @@
         <TemplateKey>
           <option name="groupName" value="React" />
           <option name="key" value="useRef" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="React" />
+          <option name="key" value="useLayoutEffect" />
         </TemplateKey>
         <TemplateKey>
           <option name="groupName" value="React" />

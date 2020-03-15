@@ -39,7 +39,8 @@
       <option name="CSS_PROPERTY_VALUE" value="true" />
     </context>
   </template>
-  <template name="scp" value="${props =&gt; props$END$};" description="Use props inside styled-component" toReformat="false" toShortenFQNames="true">
+  <template name="scp" value="${({ $1$ }) =&gt; $END$};" description="Use props inside styled-component" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="CSS_PROPERTY_VALUE" value="true" />
     </context>
