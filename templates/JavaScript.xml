@@ -1,42 +1,41 @@
 <templateSet group="JavaScript">
-  <template name="fori" value="for($VARKIND$ $i$ = 0; $i$ &lt; $LIMIT$; $i$++) {&#10;  $END$&#10;}" description="Create iteration loop" toReformat="true" toShortenFQNames="true">
-    <variable name="VARKIND" expression="jsSuggestDefaultVariableKind(false)" defaultValue="var" alwaysStopAt="false" />
-    <variable name="i" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="fori" value="for(let $i$ = 0; $i$ &lt; $LIMIT$; $i$++) {&#10;  $END$&#10;}" description="Create iteration loop" toReformat="true" toShortenFQNames="true">
+    <variable name="i" expression="" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
     <variable name="LIMIT" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="imd" value="import { $moduleName$ } from '$module$';&#10;" description="Import statement - import { b } from 'a'" toReformat="true" toShortenFQNames="true">
-    <variable name="module" expression="complete()" defaultValue="" alwaysStopAt="true" />
+  <template name="imn" value="import { $export1$ } from '$moduleName$';&#10;" description="Import named export - import { b } from 'a'" toReformat="true" toShortenFQNames="true">
     <variable name="moduleName" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="export1" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ES6_STATEMENT" value="true" />
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ime" value="import * as $alias$ from '$module$';" description="Import statement - import * as b from 'a'" toReformat="true" toShortenFQNames="true">
-    <variable name="module" expression="complete()" defaultValue="" alwaysStopAt="true" />
-    <variable name="alias" expression="jsSuggestImportedEntityName()" defaultValue="Namespace" alwaysStopAt="true" />
+  <template name="ima" value="import * as $name$ from '$moduleName$';" description="Import all the named exports - import * as b from 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="moduleName" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="jsSuggestImportedEntityName()" defaultValue="Namespace" alwaysStopAt="true" />
     <context>
       <option name="ES6_STATEMENT" value="true" />
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="imp" value="import $moduleName$ from '$module$';" description="Import statement - import b from 'a'" toReformat="true" toShortenFQNames="true">
-    <variable name="module" expression="complete()" defaultValue="" alwaysStopAt="true" />
-    <variable name="moduleName" expression="jsSuggestImportedEntityName()" defaultValue="Namespace" alwaysStopAt="true" />
+  <template name="imd" value="import $defaultExport$ from '$moduleName$';" description="Import statement - import b from 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="moduleName" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="defaultExport" expression="jsSuggestImportedEntityName()" defaultValue="Namespace" alwaysStopAt="true" />
     <context>
       <option name="ES6_STATEMENT" value="true" />
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="exa" value="export * from '$MODULE$';" description="Export statement - export * from 'a'" toReformat="true" toShortenFQNames="true">
+  <template name="exaf" value="export * from '$MODULE$';" description="Export all from - export * from 'a'" toReformat="true" toShortenFQNames="true">
     <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ES6_STATEMENT" value="true" />
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="exf" value="export { $ITEM$$END$ } from '$MODULE$';&#10;" description="Export statement - export { b } from 'a'" toReformat="true" toShortenFQNames="true">
+  <template name="exf" value="export { $ITEM$$END$ } from '$MODULE$';&#10;" description="Export from - export { b } from 'a'" toReformat="true" toShortenFQNames="true">
     <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <variable name="ITEM" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -44,7 +43,7 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ex" value="export { $ITEM$$END$ };&#10;" description="Export statement - export { b }" toReformat="true" toShortenFQNames="true">
+  <template name="ex" value="export { $ITEM$$END$ };&#10;" description="Export named - export { b }" toReformat="true" toShortenFQNames="true">
     <variable name="ITEM" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ES6_STATEMENT" value="true" />
@@ -81,17 +80,17 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="imn" value="import '$module$';" description="Import statement - import 'a'" toReformat="true" toShortenFQNames="true">
-    <variable name="module" expression="complete()" defaultValue="" alwaysStopAt="true" />
+  <template name="imno" value="import '$moduleName$';" description="Import no exports - import 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="moduleName" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ES6_STATEMENT" value="true" />
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ima" value="import { $originalName$ as $alias$ } from '$module$';" description="Import statement - import { b as c } from 'a'" toReformat="true" toShortenFQNames="true">
-    <variable name="module" expression="complete()" defaultValue="" alwaysStopAt="true" />
-    <variable name="originalName" expression="complete())" defaultValue="" alwaysStopAt="true" />
-    <variable name="alias" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="imna" value="import { $export1$ as $alias1$ } from '$moduleName$';" description="Import named export as - import { b as c } from 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="moduleName" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="export1" expression="complete())" defaultValue="" alwaysStopAt="true" />
+    <variable name="alias1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ES6_STATEMENT" value="true" />
       <option name="TS_STATEMENT" value="true" />
@@ -252,6 +251,13 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="for" value="for (let $INDEX$ = 0; $INDEX$ &lt; $ARRAY$.length; $INDEX$++) {&#10;  const item = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Iterate elements of array" toReformat="true" toShortenFQNames="true">
+    <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="ARRAY" expression="" defaultValue="&quot;arr&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
   <template name="con" value="constructor(props) {&#10; super(props);&#10; $END$&#10;}&#10;" description="Adds a default constructor for the class that contains props as arguments" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_CLASS" value="true" />
@@ -259,6 +265,24 @@
   </template>
   <template name="dop" value="const { $1$ } = props;" description="Destructuring props" toReformat="true" toShortenFQNames="true">
     <variable name="1" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ec" value="export const $1$ = $END$" description="export const" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="exd" value="export default &#10;" description="Export default - export default" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="eint" value="export interface $Interface$ {&#10;  $END$&#10;};" description="export interface" toReformat="true" toShortenFQNames="true">
+    <variable name="Interface" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
