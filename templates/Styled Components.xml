@@ -51,7 +51,6 @@
       <option name="CSS" value="true" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
     </context>
   </template>
   <template name="scpco" value="${({ theme }) =&gt; theme.colors.$1$};" description="Use props.theme.colors inside styled-component" toReformat="false" toShortenFQNames="true">
