@@ -38,6 +38,7 @@
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="shift alt 0" />
   </action>
+  <action id="ChangesView.AddUnversioned" />
   <action id="ChangesView.Diff" />
   <action id="ChangesView.ShelveSilently" />
   <action id="CheckinProject">
@@ -72,6 +73,7 @@
   <action id="CopyPaths">
     <keyboard-shortcut first-keystroke="shift alt c" />
   </action>
+  <action id="Diagram.DeselectAll" />
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
   <action id="Diff.FocusOppositePane" />
@@ -244,7 +246,7 @@
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
   <action id="NewDir">
-    <keyboard-shortcut first-keystroke="ctrl alt 1" />
+    <keyboard-shortcut first-keystroke="ctrl alt a" />
   </action>
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="ctrl alt n" />
@@ -431,6 +433,7 @@
   <action id="hg4idea.QFold" />
   <action id="hg4idea.QPushAction" />
   <action id="hg4idea.QRefresh" />
+  <action id="hg4idea.add" />
   <action id="openAssertEqualsDiff" />
   <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="v" />
