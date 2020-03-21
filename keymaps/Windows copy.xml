@@ -1,4 +1,9 @@
 <keymap version="1" name="Windows copy" parent="$default">
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+    <keyboard-shortcut first-keystroke="shift alt back_space" />
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
   <action id="ActivateEventLogToolWindow">
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
@@ -86,6 +91,9 @@
   <action id="EditSourceInNewWindow">
     <keyboard-shortcut first-keystroke="shift f4" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="o" />
+  </action>
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
   <action id="EditorAddOrRemoveCaret">
     <mouse-shortcut keystroke="control button1" />

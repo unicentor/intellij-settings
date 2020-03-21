@@ -129,6 +129,7 @@
   <template name="okfe" value="Object.keys($obj$).forEach(item =&gt; {&#10;  $END$&#10;});" description="Object.keys().forEach" toReformat="true" toShortenFQNames="true">
     <variable name="obj" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="JSX_HTML" value="true" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
@@ -142,11 +143,13 @@
   <template name="map" value="$arr$.map(item =&gt; $END$)" description="map" toReformat="true" toShortenFQNames="true">
     <variable name="arr" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="JSX_HTML" value="true" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="ro" value="({&#10;  $END$&#10;})" description="return object" toReformat="true" toShortenFQNames="true">
     <context>
+      <option name="JSX_HTML" value="true" />
       <option name="JS_EXPRESSION" value="true" />
     </context>
   </template>
@@ -167,12 +170,14 @@
   <template name="ov" value="Object.values($obj$)$END$" description="Object.values()" toReformat="true" toShortenFQNames="true">
     <variable name="obj" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="JSX_HTML" value="true" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="ok" value="Object.keys($obj$)$END$" description="Object.keys()" toReformat="true" toShortenFQNames="true">
     <variable name="obj" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="JSX_HTML" value="true" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
@@ -201,6 +206,7 @@
   </template>
   <template name="pr" value="{...props}" description="Rest {...props}" toReformat="true" toShortenFQNames="true">
     <context>
+      <option name="JSX_HTML" value="true" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
