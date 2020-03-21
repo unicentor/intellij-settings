@@ -79,4 +79,10 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="ecss" value="export const css$1$ = css`&#10;  $END$&#10;`;" description="useStyle" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
