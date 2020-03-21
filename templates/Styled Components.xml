@@ -73,7 +73,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="css" value="const $1$ = css`&#10;  $END$&#10;`;" description="Styled component css" toReformat="false" toShortenFQNames="true">
+  <template name="scss" value="const $1$ = css`&#10;  $END$&#10;`;" description="Styled component css" toReformat="false" toShortenFQNames="true">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
@@ -83,6 +83,13 @@
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="css" value="${css$1$};" description="css style" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="true" />
     </context>
   </template>
 </templateSet>
