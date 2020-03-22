@@ -85,8 +85,9 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="css" value="${css$1$};" description="css style" toReformat="false" toShortenFQNames="true">
+  <template name="css" value="${css$1$$2$};" description="css style" toReformat="false" toShortenFQNames="true">
     <variable name="1" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="CSS_DECLARATION_BLOCK" value="true" />
       <option name="CSS_PROPERTY_VALUE" value="true" />
