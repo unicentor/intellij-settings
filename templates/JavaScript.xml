@@ -98,6 +98,7 @@
   </template>
   <template name="clor" value="console.log($END$) ||" description="console.log() ||" toReformat="true" toShortenFQNames="true">
     <context>
+      <option name="JS_EXPRESSION" value="true" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
