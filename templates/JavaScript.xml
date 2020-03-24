@@ -230,7 +230,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="enf" value="export const $1$ = ($params$) =&gt; $END$" description="Export named function" toReformat="true" toShortenFQNames="true">
+  <template name="efn" value="export const $1$ = ($params$) =&gt; $END$" description="Export named function" toReformat="true" toShortenFQNames="true">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
