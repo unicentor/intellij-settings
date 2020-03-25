@@ -408,6 +408,7 @@
   <action id="ToggleBookmark" />
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="z" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl z" />
   </action>
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="ctrl f8" />
