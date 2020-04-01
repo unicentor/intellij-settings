@@ -36,8 +36,8 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="usec" value="useCallback(&#10;  () =&gt; {&#10;    $callback$&#10;  },&#10;  [],&#10;)" description="useCallback" toReformat="true" toShortenFQNames="true">
-    <variable name="callback" expression="" defaultValue="&quot;callback&quot;" alwaysStopAt="true" />
+  <template name="usec" value="useCallback(&#10;  $callback$,&#10;  [],&#10;)" description="useCallback" toReformat="true" toShortenFQNames="true">
+    <variable name="callback" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_EXPRESSION" value="true" />
       <option name="JS_STATEMENT" value="true" />
