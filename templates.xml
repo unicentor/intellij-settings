@@ -947,6 +947,14 @@
           <option name="key" value="a-subscribe" />
         </TemplateKey>
         <TemplateKey>
+          <option name="groupName" value="Handlebars" />
+          <option name="key" value="itar" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Meteor HTML" />
+          <option name="key" value="temp:name" />
+        </TemplateKey>
+        <TemplateKey>
           <option name="groupName" value="Shell Script Hidden" />
           <option name="key" value="shell_if" />
         </TemplateKey>
@@ -1061,18 +1069,6 @@
         <TemplateKey>
           <option name="groupName" value="Shell Script Hidden" />
           <option name="key" value="shell_command exists" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Bitbucket Pipelines" />
-          <option name="key" value="pipeline" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Handlebars" />
-          <option name="key" value="itar" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Meteor HTML" />
-          <option name="key" value="temp:name" />
         </TemplateKey>
         <TemplateKey>
           <option name="groupName" value="Vue" />

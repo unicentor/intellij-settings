@@ -172,6 +172,7 @@
     <variable name="obj" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JSX_HTML" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
@@ -179,6 +180,7 @@
     <variable name="obj" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JSX_HTML" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
