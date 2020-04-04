@@ -9,9 +9,4 @@
     <lookup />
   </component>
   <component name="Instance" id="82d7f6ae-1909-4c04-9c3b-e2491e10bc5a" version="8.1.115" />
-  <component name="UsageLog">
-    <event name="CreatePullRequest" place="keyboard shortcut" timestamp="2020-03-31T14:36:59.524687Z">
-      <attribute name="bitbucket">cloud</attribute>
-    </event>
-  </component>
 </application>
