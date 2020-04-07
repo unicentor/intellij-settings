@@ -40,6 +40,7 @@
   <action id="Bitbucket.OpenFileInBitbucket">
     <keyboard-shortcut first-keystroke="ctrl l" second-keystroke="b" />
   </action>
+  <action id="CallHierarchy" />
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="shift alt 0" />
   </action>
@@ -233,6 +234,9 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl q" />
   </action>
   <action id="JumpToLastWindow" />
+  <action id="LocalHistory.ShowHistory">
+    <keyboard-shortcut first-keystroke="ctrl alt h" />
+  </action>
   <action id="Macro.Fix &amp; Save All">
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
