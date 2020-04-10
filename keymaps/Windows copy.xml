@@ -417,13 +417,13 @@
     <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
   <action id="ToggleBookmark" />
-  <action id="ToggleDistractionFreeMode">
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="z" />
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl z" />
-  </action>
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="ctrl f8" />
     <keyboard-shortcut first-keystroke="f9" />
+  </action>
+  <action id="ToggleZenMode">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="z" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl z" />
   </action>
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
