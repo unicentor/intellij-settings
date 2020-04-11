@@ -50,8 +50,9 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="cl" value="console.log($END$);" description="Displays a message in the console" toReformat="true" toShortenFQNames="true">
+  <template name="cl" value="console.log($END$)" description="Displays a message in the console" toReformat="true" toShortenFQNames="true">
     <context>
+      <option name="JS_EXPRESSION" value="true" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
