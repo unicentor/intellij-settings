@@ -3,4 +3,7 @@
     <option name="UI_SHOW_FILES" value="false" />
     <option name="UI_FILTER_LEGALS" value="true" />
   </component>
+  <component name="UISettings">
+    <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
+  </component>
 </application>
