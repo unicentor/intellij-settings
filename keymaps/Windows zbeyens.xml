@@ -1,8 +1,28 @@
-<keymap version="1" name="Windows copy" parent="$default">
+<keymap version="1" name="Windows zbeyens" parent="$default">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+    <keyboard-shortcut first-keystroke="meta c" />
+  </action>
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="ctrl x" />
+    <keyboard-shortcut first-keystroke="shift delete" />
+    <keyboard-shortcut first-keystroke="meta x" />
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="meta v" />
+  </action>
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="shift ctrl z" />
     <keyboard-shortcut first-keystroke="shift alt back_space" />
     <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="shift meta z" />
+    <keyboard-shortcut first-keystroke="meta y" />
+  </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="ctrl z" />
+    <keyboard-shortcut first-keystroke="alt back_space" />
+    <keyboard-shortcut first-keystroke="meta z" />
   </action>
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="alt 4" />
@@ -57,6 +77,7 @@
   </action>
   <action id="ChangesView.AddUnversioned" />
   <action id="ChangesView.Diff" />
+  <action id="ChangesView.SetDefault" />
   <action id="ChangesView.ShelveSilently" />
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="alt k" />
@@ -89,6 +110,7 @@
   <action id="CopyElement" />
   <action id="CopyPaths">
     <keyboard-shortcut first-keystroke="shift alt c" />
+    <keyboard-shortcut first-keystroke="shift meta c" />
   </action>
   <action id="Diagram.DeselectAll" />
   <action id="Diff.ApplyLeftSide" />
@@ -104,19 +126,36 @@
     <keyboard-shortcut first-keystroke="shift f4" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="o" />
   </action>
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="meta c" />
+  </action>
+  <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="meta x" />
+  </action>
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="meta v" />
+  </action>
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="shift meta z" />
+    <keyboard-shortcut first-keystroke="meta y" />
+  </action>
+  <action id="Editor Undo">
+    <keyboard-shortcut first-keystroke="meta z" />
   </action>
   <action id="EditorAddOrRemoveCaret">
     <mouse-shortcut keystroke="control button1" />
+    <mouse-shortcut keystroke="meta button1" />
   </action>
   <action id="EditorChooseLookupItemCompleteStatement" />
   <action id="EditorChooseLookupItemDot" />
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
+    <keyboard-shortcut first-keystroke="ctrl meta up" />
   </action>
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="ctrl alt down" />
+    <keyboard-shortcut first-keystroke="ctrl meta down" />
   </action>
   <action id="EditorCompleteStatement" />
   <action id="EditorCreateRectangularSelectionOnMouseDrag">
@@ -125,23 +164,28 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
     <keyboard-shortcut first-keystroke="alt d" />
+    <keyboard-shortcut first-keystroke="meta d" />
   </action>
   <action id="EditorDuplicate" />
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
+    <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
   <action id="EditorJoinLines">
     <keyboard-shortcut first-keystroke="ctrl j" />
+    <keyboard-shortcut first-keystroke="meta j" />
   </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorMatchBrace">
     <keyboard-shortcut first-keystroke="alt g" />
+    <keyboard-shortcut first-keystroke="meta g" />
   </action>
   <action id="EditorScrollDown" />
   <action id="EditorScrollUp" />
   <action id="EditorSelectLine">
     <keyboard-shortcut first-keystroke="ctrl i" />
+    <keyboard-shortcut first-keystroke="meta l" />
   </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="shift alt right" />
@@ -366,8 +410,8 @@
   </action>
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="shift ctrl alt j" />
-    <keyboard-shortcut first-keystroke="ctrl f2" />
     <keyboard-shortcut first-keystroke="shift ctrl l" />
+    <keyboard-shortcut first-keystroke="meta f2" />
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="alt j" />
@@ -388,6 +432,7 @@
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="ctrl comma" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl s" />
+    <keyboard-shortcut first-keystroke="meta comma" />
   </action>
   <action id="ShowUsages">
     <keyboard-shortcut first-keystroke="ctrl alt f7" />
