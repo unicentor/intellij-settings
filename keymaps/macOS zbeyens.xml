@@ -7,6 +7,7 @@
     <keyboard-shortcut first-keystroke="meta x" />
     <keyboard-shortcut first-keystroke="shift delete" />
     <keyboard-shortcut first-keystroke="meta l" />
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
   <action id="$Delete">
     <keyboard-shortcut first-keystroke="delete" />
@@ -90,6 +91,7 @@
   </action>
   <action id="Editor Cut">
     <keyboard-shortcut first-keystroke="meta l" />
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="meta quote" />
@@ -211,7 +213,6 @@
   </action>
   <action id="Macro.FixAndSave">
     <keyboard-shortcut first-keystroke="meta s" />
-    <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
   <action id="ManageRecentProjects">
     <keyboard-shortcut first-keystroke="shift alt p" />
