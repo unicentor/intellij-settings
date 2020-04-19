@@ -16,6 +16,8 @@
     <keyboard-shortcut first-keystroke="meta back_quote" />
   </action>
   <action id="ChangesView.Diff" />
+  <action id="ChangesView.Move" />
+  <action id="ChangesView.UnshelveSilently" />
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
@@ -37,6 +39,7 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="ctrl meta down" />
   </action>
+  <action id="EditorCutLineEnd" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta back_space" />
     <keyboard-shortcut first-keystroke="meta d" />
@@ -61,24 +64,75 @@
     <keyboard-shortcut first-keystroke="alt f7" />
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
+  <action id="Git.Merge">
+    <keyboard-shortcut first-keystroke="shift meta m" />
+  </action>
+  <action id="Git.Pull">
+    <keyboard-shortcut first-keystroke="shift alt k" />
+  </action>
   <action id="Github.PullRequest.Comments.Reload" />
   <action id="Github.PullRequest.Details.Reload" />
   <action id="Github.PullRequest.Timeline.Update" />
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="f1" />
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift meta o" />
+    <keyboard-shortcut first-keystroke="meta t" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
   <action id="GotoLine" />
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="f8" />
+  </action>
+  <action id="GotoPreviousError">
+    <keyboard-shortcut first-keystroke="shift f2" />
+    <keyboard-shortcut first-keystroke="shift f8" />
+  </action>
   <action id="GotoRelated" />
+  <action id="GotoTest">
+    <keyboard-shortcut first-keystroke="shift meta t" />
+    <keyboard-shortcut first-keystroke="meta alt t" />
+  </action>
+  <action id="Help.KeymapReference">
+    <keyboard-shortcut first-keystroke="ctrl k" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl r" />
+  </action>
+  <action id="HideSideWindows">
+    <keyboard-shortcut first-keystroke="meta back_slash" />
+  </action>
   <action id="InsertLiveTemplate" />
   <action id="List-selectNextColumn">
     <keyboard-shortcut first-keystroke="right" />
+  </action>
+  <action id="LocalHistory.ShowHistory">
+    <keyboard-shortcut first-keystroke="ctrl meta h" />
+  </action>
+  <action id="Macro.FixAndSave">
+    <keyboard-shortcut first-keystroke="meta s" />
   </action>
   <action id="NextWindow" />
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="ctrl j" />
+    <mouse-shortcut keystroke="control button2" />
+  </action>
+  <action id="Refactorings.QuickListPopupAction" />
   <action id="Refresh" />
   <action id="Replace" />
   <action id="Rerun" />
   <action id="RunDashboard.CopyConfiguration" />
+  <action id="SaveAll" />
   <action id="SendEOF" />
+  <action id="ServiceView.GroupByContributor" />
+  <action id="ShowUmlDiagramPopup" />
+  <action id="StepOut" />
+  <action id="StepOver" />
+  <action id="SurroundWith" />
   <action id="Table-selectNextColumn">
     <keyboard-shortcut first-keystroke="right" />
   </action>
@@ -86,6 +140,8 @@
   <action id="Uml.ShowDiff" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Log.Refresh" />
+  <action id="Vcs.MoveChangedLinesToChangelist" />
+  <action id="Vcs.UpdateProject" />
   <action id="XDebugger.CopyWatch" />
   <action id="hg4idea.QRefresh" />
   <action id="openAssertEqualsDiff" />
