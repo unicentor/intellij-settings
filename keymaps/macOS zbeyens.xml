@@ -30,6 +30,9 @@
   </action>
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
@@ -113,6 +116,20 @@
   <action id="Macro.FixAndSave">
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
+  <action id="ManageRecentProjects">
+    <keyboard-shortcut first-keystroke="shift alt p" />
+  </action>
+  <action id="MergeSettings">
+    <keyboard-shortcut first-keystroke="shift alt d" />
+  </action>
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="shift meta down" />
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="MoveStatementUp">
+    <keyboard-shortcut first-keystroke="shift meta up" />
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
   <action id="NextWindow" />
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="alt space" />
@@ -127,8 +144,20 @@
   <action id="Rerun" />
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SaveAll" />
+  <action id="SearchEverywhere.NavigateToNextGroup">
+    <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="SearchEverywhere.NavigateToPrevGroup">
+    <keyboard-shortcut first-keystroke="page_up" />
+  </action>
   <action id="SendEOF" />
   <action id="ServiceView.GroupByContributor" />
+  <action id="ServiceView.JumpToServices">
+    <keyboard-shortcut first-keystroke="alt home" />
+  </action>
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="alt home" />
+  </action>
   <action id="ShowUmlDiagramPopup" />
   <action id="StepOut" />
   <action id="StepOver" />
@@ -138,11 +167,19 @@
   </action>
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="Uml.ShowDiff" />
+  <action id="Vcs.EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Log.Refresh" />
   <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.UpdateProject" />
   <action id="XDebugger.CopyWatch" />
+  <action id="XDebugger.JumpToSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="hg4idea.QFold" />
+  <action id="hg4idea.QPushAction" />
   <action id="hg4idea.QRefresh" />
   <action id="openAssertEqualsDiff" />
   <action id="tasks.close" />
