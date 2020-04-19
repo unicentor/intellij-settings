@@ -49,17 +49,27 @@
     <keyboard-shortcut first-keystroke="shift ctrl j" />
     <keyboard-shortcut first-keystroke="meta j" />
   </action>
+  <action id="EditorRight">
+    <keyboard-shortcut first-keystroke="right" />
+  </action>
   <action id="EditorSelectLine">
     <keyboard-shortcut first-keystroke="meta i" />
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
   <action id="FileChooser.GotoDesktop" />
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="alt f7" />
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
   <action id="Github.PullRequest.Comments.Reload" />
   <action id="Github.PullRequest.Details.Reload" />
   <action id="Github.PullRequest.Timeline.Update" />
   <action id="GotoLine" />
   <action id="GotoRelated" />
   <action id="InsertLiveTemplate" />
+  <action id="List-selectNextColumn">
+    <keyboard-shortcut first-keystroke="right" />
+  </action>
   <action id="NextWindow" />
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="alt space" />
@@ -69,6 +79,10 @@
   <action id="Rerun" />
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SendEOF" />
+  <action id="Table-selectNextColumn">
+    <keyboard-shortcut first-keystroke="right" />
+  </action>
+  <action id="TodoViewGroupByFlattenPackage" />
   <action id="Uml.ShowDiff" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Log.Refresh" />
