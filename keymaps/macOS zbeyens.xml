@@ -44,6 +44,8 @@
   </action>
   <action id="ChangesView.ShelveSilently" />
   <action id="ChangesView.UnshelveSilently" />
+  <action id="ChooseDebugConfiguration" />
+  <action id="ChooseRunConfiguration" />
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
@@ -54,6 +56,9 @@
   <action id="CompareTwoFiles" />
   <action id="ConsoleView.ClearAll">
     <keyboard-shortcut first-keystroke="alt w" />
+  </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
@@ -247,8 +252,17 @@
     <keyboard-shortcut first-keystroke="shift meta h" />
   </action>
   <action id="Rerun" />
+  <action id="RerunTests">
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
   <action id="ResetToMySettings">
     <keyboard-shortcut first-keystroke="shift alt u" />
+  </action>
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="alt r" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SaveAll" />
@@ -257,6 +271,14 @@
   </action>
   <action id="SearchEverywhere.NavigateToPrevGroup">
     <keyboard-shortcut first-keystroke="page_up" />
+  </action>
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="ctrl meta g" />
+    <keyboard-shortcut first-keystroke="meta f2" />
+  </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="SendEOF" />
   <action id="ServiceView.GroupByContributor" />
@@ -274,6 +296,7 @@
   <action id="ShowUmlDiagramPopup" />
   <action id="StepOut" />
   <action id="StepOver" />
+  <action id="Stop" />
   <action id="StringManipulation.SwitchStyleAction">
     <keyboard-shortcut first-keystroke="ctrl quote" />
   </action>
