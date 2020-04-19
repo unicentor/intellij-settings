@@ -8,6 +8,10 @@
     <keyboard-shortcut first-keystroke="shift delete" />
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
+  <action id="$Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="meta v" />
     <keyboard-shortcut first-keystroke="meta quote" />
@@ -17,6 +21,7 @@
     <keyboard-shortcut first-keystroke="shift alt back_space" />
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
+  <action id="AceAction" />
   <action id="ActivateEventLogToolWindow">
     <keyboard-shortcut first-keystroke="meta 5" />
   </action>
@@ -29,14 +34,20 @@
     <keyboard-shortcut first-keystroke="meta back_quote" />
   </action>
   <action id="Arrangement.Alias.Rule.Edit" />
-  <action id="Arrangement.Rule.Add">
-    <keyboard-shortcut first-keystroke="ctrl enter" />
-  </action>
+  <action id="Arrangement.Rule.Add" />
   <action id="Arrangement.Rule.Edit" />
+  <action id="Arrangement.Rule.Remove">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="meta alt left" />
     <mouse-shortcut keystroke="button4" />
   </action>
+  <action id="Bitbucket.CopyFileUrlInBitbucket" />
+  <action id="Bitbucket.CreatePullRequest" />
+  <action id="Bitbucket.CreateSnippet" />
+  <action id="Bitbucket.OpenFileInBitbucket" />
   <action id="ChangesView.Diff" />
   <action id="ChangesView.Move" />
   <action id="ChangesView.Rename">
@@ -57,6 +68,7 @@
   <action id="ConsoleView.ClearAll">
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
+  <action id="CopyElement" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
@@ -64,6 +76,10 @@
   <action id="Diff.FocusOppositePaneAndScroll" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="DomCollectionControl.Remove">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -87,8 +103,13 @@
   </action>
   <action id="EditorCutLineEnd" />
   <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="meta back_space" />
     <keyboard-shortcut first-keystroke="meta d" />
+  </action>
+  <action id="EditorDeleteToLineEnd">
+    <keyboard-shortcut first-keystroke="meta delete" />
+  </action>
+  <action id="EditorDeleteToLineStart">
+    <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
   <action id="EditorDuplicate" />
   <action id="EditorDuplicateLines">
@@ -119,9 +140,7 @@
     <keyboard-shortcut first-keystroke="alt f7" />
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
-  <action id="Generate">
-    <keyboard-shortcut first-keystroke="ctrl enter" />
-  </action>
+  <action id="Generate" />
   <action id="Git.Merge">
     <keyboard-shortcut first-keystroke="shift meta m" />
   </action>
@@ -158,8 +177,8 @@
   <action id="GotoTest">
     <keyboard-shortcut first-keystroke="meta alt t" />
   </action>
+  <action id="Graph.ApplyCurrentLayout" />
   <action id="Help.KeymapReference">
-    <keyboard-shortcut first-keystroke="ctrl k" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl r" />
   </action>
   <action id="HideSideWindows">
@@ -195,9 +214,7 @@
   <action id="NewDir">
     <keyboard-shortcut first-keystroke="ctrl meta n" />
   </action>
-  <action id="NewElement">
-    <keyboard-shortcut first-keystroke="ctrl enter" />
-  </action>
+  <action id="NewElement" />
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
@@ -229,9 +246,7 @@
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
   <action id="Refresh" />
-  <action id="RemoteHost.NewRemoteItem">
-    <keyboard-shortcut first-keystroke="ctrl enter" />
-  </action>
+  <action id="RemoteHost.NewRemoteItem" />
   <action id="RemoteHostView.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
@@ -258,6 +273,9 @@
   <action id="ResetToMySettings">
     <keyboard-shortcut first-keystroke="shift alt u" />
   </action>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="meta alt r" />
+  </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
@@ -265,6 +283,11 @@
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
+  <action id="RunDashboard.UngroupConfigurations">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="SafeDelete" />
   <action id="SaveAll" />
   <action id="SearchEverywhere.NavigateToNextGroup">
     <keyboard-shortcut first-keystroke="page_down" />
@@ -290,24 +313,59 @@
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="alt enter" />
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt home" />
   </action>
   <action id="ShowUmlDiagramPopup" />
-  <action id="StepOut" />
-  <action id="StepOver" />
-  <action id="Stop" />
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="alt back_slash" />
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f7" />
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="shift f11" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
   <action id="StringManipulation.SwitchStyleAction">
     <keyboard-shortcut first-keystroke="ctrl quote" />
   </action>
   <action id="SurroundWith" />
+  <action id="SurroundWithEmmet">
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
   <action id="Switcher" />
   <action id="Table-selectNextColumn">
     <keyboard-shortcut first-keystroke="right" />
   </action>
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="ToggleBookmark" />
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="meta f8" />
+    <keyboard-shortcut first-keystroke="f9" />
+  </action>
+  <action id="ToggleZenMode">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl z" />
+  </action>
   <action id="Uml.ShowDiff" />
+  <action id="UnselectPreviousOccurrence">
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+    <keyboard-shortcut first-keystroke="ctrl u" />
+  </action>
+  <action id="UsageView.Exclude">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="Vcs.EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -315,16 +373,26 @@
   <action id="Vcs.Log.Refresh" />
   <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.UpdateProject" />
+  <action id="WelcomeScreen.Plugins">
+    <keyboard-shortcut first-keystroke="shift meta x" />
+  </action>
   <action id="XDebugger.CopyWatch" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.JumpToSource">
     <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="XDebugger.RemoveWatch">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="XDebugger.SetValue" />
   <action id="hg4idea.QFold" />
   <action id="hg4idea.QPushAction" />
   <action id="hg4idea.QRefresh" />
   <action id="openAssertEqualsDiff" />
+  <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="v" />
+  </action>
   <action id="osmedile.intellij.stringmanip.swap.SwapQuote">
     <keyboard-shortcut first-keystroke="alt quote" />
   </action>
