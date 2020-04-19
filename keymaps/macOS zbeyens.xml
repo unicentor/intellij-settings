@@ -65,6 +65,7 @@
   </action>
   <action id="CollapseSelection" />
   <action id="CompareTwoFiles" />
+  <action id="Console.Execute.Multiline" />
   <action id="ConsoleView.ClearAll">
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
@@ -76,6 +77,7 @@
   <action id="Diff.FocusOppositePaneAndScroll" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="DomCollectionControl.Remove">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
@@ -95,11 +97,17 @@
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
+  <action id="EditorChooseLookupItemCompleteStatement">
+    <keyboard-shortcut first-keystroke="shift ctrl enter" />
+  </action>
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="ctrl meta up" />
   </action>
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="ctrl meta down" />
+  </action>
+  <action id="EditorCompleteStatement">
+    <keyboard-shortcut first-keystroke="shift ctrl enter" />
   </action>
   <action id="EditorCutLineEnd" />
   <action id="EditorDeleteLine">
@@ -125,6 +133,15 @@
   <action id="EditorSelectLine">
     <keyboard-shortcut first-keystroke="meta i" />
     <keyboard-shortcut first-keystroke="meta g" />
+  </action>
+  <action id="EditorSplitLine" />
+  <action id="EditorStartNewLine">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
+  <action id="EditorStartNewLineBefore">
+    <keyboard-shortcut first-keystroke="meta alt enter" />
+    <keyboard-shortcut first-keystroke="shift meta enter" />
   </action>
   <action id="EditorToggleCase" />
   <action id="FileChooser.GotoDesktop" />
@@ -373,6 +390,7 @@
   <action id="Vcs.Log.Refresh" />
   <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.UpdateProject" />
+  <action id="ViewSource" />
   <action id="WelcomeScreen.Plugins">
     <keyboard-shortcut first-keystroke="shift meta x" />
   </action>
@@ -386,6 +404,7 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="XDebugger.SetValue" />
+  <action id="com.intellij.lang.jsgraphql.v1.ide.actions.JSGraphQLExecuteEditorAction" />
   <action id="hg4idea.QFold" />
   <action id="hg4idea.QPushAction" />
   <action id="hg4idea.QRefresh" />
