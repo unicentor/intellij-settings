@@ -248,11 +248,13 @@
   </action>
   <action id="NewDir">
     <keyboard-shortcut first-keystroke="ctrl meta n" />
+    <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
   <action id="NewElement" />
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
+  <action id="NewScratchFile" />
   <action id="NextProjectWindow">
     <keyboard-shortcut first-keystroke="meta alt back_quote" />
     <keyboard-shortcut first-keystroke="alt s" />
