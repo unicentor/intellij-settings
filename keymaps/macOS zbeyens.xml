@@ -71,6 +71,10 @@
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="shift alt w" />
   </action>
+  <action id="CollapseExpandableComponent">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+    <keyboard-shortcut first-keystroke="meta minus" />
+  </action>
   <action id="CollapseSelection" />
   <action id="CompareTwoFiles" />
   <action id="Console.Execute.Multiline" />
@@ -147,14 +151,18 @@
   </action>
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLine">
-    <keyboard-shortcut first-keystroke="shift enter" />
     <keyboard-shortcut first-keystroke="meta enter" />
   </action>
   <action id="EditorStartNewLineBefore">
     <keyboard-shortcut first-keystroke="meta alt enter" />
     <keyboard-shortcut first-keystroke="shift meta enter" />
+    <keyboard-shortcut first-keystroke="shift enter" />
   </action>
   <action id="EditorToggleCase" />
+  <action id="ExpandExpandableComponent">
+    <keyboard-shortcut first-keystroke="meta add" />
+    <keyboard-shortcut first-keystroke="meta equals" />
+  </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.GotoProject" />
   <action id="FileChooser.NewFolder" />
@@ -190,7 +198,6 @@
     <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
   <action id="GotoFile">
-    <keyboard-shortcut first-keystroke="shift meta o" />
     <keyboard-shortcut first-keystroke="meta t" />
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
@@ -255,6 +262,11 @@
     <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
   <action id="NextWindow" />
+  <action id="OpenElementInNewWindow" />
+  <action id="OptimizeImports">
+    <keyboard-shortcut first-keystroke="ctrl alt o" />
+    <keyboard-shortcut first-keystroke="shift meta o" />
+  </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
