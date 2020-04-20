@@ -24,15 +24,22 @@
   </action>
   <action id="AceAction" />
   <action id="ActivateEventLogToolWindow">
-    <keyboard-shortcut first-keystroke="meta 5" />
+    <keyboard-shortcut first-keystroke="meta alt e" />
+  </action>
+  <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateServicesToolWindow">
+    <keyboard-shortcut first-keystroke="meta 6" />
   </action>
   <action id="ActivateStructureToolWindow">
-    <keyboard-shortcut first-keystroke="meta 7" />
     <keyboard-shortcut first-keystroke="meta r" />
   </action>
+  <action id="ActivateTODOToolWindow" />
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="meta back_quote" />
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="meta 2" />
   </action>
   <action id="Arrangement.Alias.Rule.Edit" />
   <action id="Arrangement.Rule.Add" />
@@ -67,6 +74,7 @@
   <action id="CollapseSelection" />
   <action id="CompareTwoFiles" />
   <action id="Console.Execute.Multiline" />
+  <action id="Console.History.Browse" />
   <action id="ConsoleView.ClearAll">
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
@@ -83,6 +91,7 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="DuplicatesForm.SendToRight" />
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -147,6 +156,7 @@
   </action>
   <action id="EditorToggleCase" />
   <action id="FileChooser.GotoDesktop" />
+  <action id="FileChooser.GotoProject" />
   <action id="FileChooser.NewFolder" />
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
