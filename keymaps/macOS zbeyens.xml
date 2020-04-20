@@ -245,6 +245,7 @@
   </action>
   <action id="Images.Editor.ToggleGrid" />
   <action id="InsertLiveTemplate" />
+  <action id="IntroduceField" />
   <action id="List-selectNextColumn">
     <keyboard-shortcut first-keystroke="right" />
   </action>
