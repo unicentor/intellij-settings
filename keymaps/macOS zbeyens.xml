@@ -79,6 +79,14 @@
     <keyboard-shortcut first-keystroke="meta minus" />
   </action>
   <action id="CollapseSelection" />
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="meta alt slash" />
+    <keyboard-shortcut first-keystroke="meta alt divide" />
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+    <keyboard-shortcut first-keystroke="shift meta divide" />
+    <keyboard-shortcut first-keystroke="shift meta divide" />
+  </action>
   <action id="CompareTwoFiles" />
   <action id="Console.Execute.Multiline" />
   <action id="Console.History.Browse" />
@@ -89,8 +97,16 @@
   <action id="Debug">
     <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
+  <action id="Diff.ApplyLeftSide" />
+  <action id="Diff.ApplyRightSide" />
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
+  <action id="Diff.NextChange">
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
+  </action>
+  <action id="Diff.PrevChange">
+    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
+  </action>
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
@@ -159,6 +175,8 @@
     <keyboard-shortcut first-keystroke="shift ctrl j" />
     <keyboard-shortcut first-keystroke="meta j" />
   </action>
+  <action id="EditorLookupDown" />
+  <action id="EditorLookupUp" />
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
   </action>
@@ -180,6 +198,7 @@
     <keyboard-shortcut first-keystroke="meta add" />
     <keyboard-shortcut first-keystroke="meta equals" />
   </action>
+  <action id="ExternalJavaDoc" />
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.GotoProject" />
   <action id="FileChooser.NewFolder" />
@@ -202,7 +221,7 @@
   </action>
   <action id="Generate" />
   <action id="Git.Merge">
-    <keyboard-shortcut first-keystroke="shift meta m" />
+    <keyboard-shortcut first-keystroke="shift alt m" />
   </action>
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="shift alt k" />
@@ -261,7 +280,9 @@
   <action id="MergeSettings">
     <keyboard-shortcut first-keystroke="shift alt d" />
   </action>
+  <action id="MethodDown" />
   <action id="MethodHierarchy" />
+  <action id="MethodUp" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift alt down" />
     <keyboard-shortcut first-keystroke="meta down" />
@@ -279,6 +300,7 @@
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
   <action id="NewScratchFile" />
+  <action id="NextEditorTab" />
   <action id="NextProjectWindow">
     <keyboard-shortcut first-keystroke="meta alt back_quote" />
     <keyboard-shortcut first-keystroke="alt s" />
@@ -293,6 +315,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt o" />
     <keyboard-shortcut first-keystroke="shift meta o" />
   </action>
+  <action id="PreviousEditorTab" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
@@ -339,6 +362,7 @@
   <action id="ResetToMySettings">
     <keyboard-shortcut first-keystroke="shift alt u" />
   </action>
+  <action id="RestoreDefaultLayout" />
   <action id="Resume">
     <keyboard-shortcut first-keystroke="meta alt r" />
   </action>
@@ -380,6 +404,7 @@
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
+  <action id="ShowContent" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="ctrl enter" />
@@ -462,6 +487,9 @@
   <action id="openAssertEqualsDiff" />
   <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="v" />
+  </action>
+  <action id="osmedile.intellij.stringmanip.PopupChoiceAction">
+    <keyboard-shortcut first-keystroke="alt m" />
   </action>
   <action id="osmedile.intellij.stringmanip.swap.SwapQuote">
     <keyboard-shortcut first-keystroke="alt quote" />
