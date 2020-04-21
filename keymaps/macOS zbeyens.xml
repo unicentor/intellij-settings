@@ -7,7 +7,6 @@
     <keyboard-shortcut first-keystroke="meta x" />
     <keyboard-shortcut first-keystroke="shift delete" />
     <keyboard-shortcut first-keystroke="meta l" />
-    <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
   <action id="$Delete">
     <keyboard-shortcut first-keystroke="delete" />
@@ -123,7 +122,6 @@
   </action>
   <action id="Editor Cut">
     <keyboard-shortcut first-keystroke="meta l" />
-    <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="meta quote" />
@@ -157,9 +155,15 @@
   <action id="EditorCompleteStatement">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
   </action>
+  <action id="EditorCut">
+    <keyboard-shortcut first-keystroke="meta x" />
+    <keyboard-shortcut first-keystroke="shift delete" />
+    <keyboard-shortcut first-keystroke="meta l" />
+  </action>
   <action id="EditorCutLineEnd" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta d" />
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
   <action id="EditorDeleteToLineEnd">
     <keyboard-shortcut first-keystroke="meta delete" />
