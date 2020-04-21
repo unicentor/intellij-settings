@@ -215,7 +215,7 @@
   </action>
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="alt f7" />
-    <keyboard-shortcut first-keystroke="ctrl f" />
+    <keyboard-shortcut first-keystroke="alt f" />
   </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="meta close_bracket" />
