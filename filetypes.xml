@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="preview.js" type="JSX Harmony" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="SelectEditorMode" type="TypeScript JSX" />
     </extensionMap>
   </component>
