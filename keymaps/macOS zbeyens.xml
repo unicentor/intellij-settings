@@ -162,8 +162,8 @@
   </action>
   <action id="EditorCutLineEnd" />
   <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="meta d" />
     <keyboard-shortcut first-keystroke="meta open_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="EditorDeleteToLineEnd">
     <keyboard-shortcut first-keystroke="meta delete" />
@@ -389,8 +389,8 @@
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl g" />
-    <keyboard-shortcut first-keystroke="ctrl d" />
     <keyboard-shortcut first-keystroke="alt d" />
+    <keyboard-shortcut first-keystroke="meta d" />
   </action>
   <action id="SendEOF" />
   <action id="ServiceView.GroupByContributor" />
