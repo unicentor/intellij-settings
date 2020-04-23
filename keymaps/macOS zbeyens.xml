@@ -353,12 +353,6 @@
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
-  <action id="Replace">
-    <keyboard-shortcut first-keystroke="meta h" />
-  </action>
-  <action id="ReplaceInPath">
-    <keyboard-shortcut first-keystroke="shift meta h" />
-  </action>
   <action id="Rerun" />
   <action id="RerunTests">
     <keyboard-shortcut first-keystroke="ctrl meta r" />
