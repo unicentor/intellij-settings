@@ -63,6 +63,7 @@
   <action id="ChangesView.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
+  <action id="ChangesView.SetDefault" />
   <action id="ChangesView.ShelveSilently" />
   <action id="ChangesView.UnshelveSilently" />
   <action id="ChooseDebugConfiguration" />
@@ -74,8 +75,8 @@
     <keyboard-shortcut first-keystroke="shift alt w" />
   </action>
   <action id="CodeCompletion">
-    <keyboard-shortcut first-keystroke="alt space" />
     <keyboard-shortcut first-keystroke="shift space" />
+    <keyboard-shortcut first-keystroke="ctrl space" />
   </action>
   <action id="CollapseExpandableComponent">
     <keyboard-shortcut first-keystroke="meta subtract" />
@@ -418,9 +419,6 @@
     <keyboard-shortcut first-keystroke="alt home" />
   </action>
   <action id="ShowUmlDiagramPopup" />
-  <action id="SmartTypeCompletion">
-    <keyboard-shortcut first-keystroke="shift alt space" />
-  </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="alt back_slash" />
   </action>
