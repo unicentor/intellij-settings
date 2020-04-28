@@ -272,6 +272,9 @@
     <keyboard-shortcut first-keystroke="shift f8" />
   </action>
   <action id="GotoRelated" />
+  <action id="GotoSuperMethod">
+    <keyboard-shortcut first-keystroke="ctrl u" />
+  </action>
   <action id="GotoTest">
     <keyboard-shortcut first-keystroke="meta alt t" />
   </action>
@@ -472,8 +475,8 @@
   <action id="Uml.ShowDiff" />
   <action id="UnselectPreviousOccurrence">
     <keyboard-shortcut first-keystroke="shift ctrl g" />
-    <keyboard-shortcut first-keystroke="ctrl u" />
     <keyboard-shortcut first-keystroke="alt u" />
+    <keyboard-shortcut first-keystroke="meta u" />
   </action>
   <action id="UsageView.Exclude">
     <keyboard-shortcut first-keystroke="delete" />
