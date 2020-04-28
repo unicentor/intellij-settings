@@ -192,6 +192,14 @@
   </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
+  <action id="EditorNextWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift alt right" />
+    <keyboard-shortcut first-keystroke="shift meta alt right" />
+  </action>
+  <action id="EditorPreviousWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift alt left" />
+    <keyboard-shortcut first-keystroke="shift meta alt left" />
+  </action>
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
   </action>
@@ -301,6 +309,8 @@
   <action id="Move">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
+  <action id="MoveElementLeft" />
+  <action id="MoveElementRight" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift alt down" />
     <keyboard-shortcut first-keystroke="meta down" />
@@ -448,6 +458,8 @@
   <action id="Table-selectNextColumn">
     <keyboard-shortcut first-keystroke="right" />
   </action>
+  <action id="Terminal.MoveToolWindowTabLeft" />
+  <action id="Terminal.MoveToolWindowTabRight" />
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="ToggleBookmark" />
   <action id="ToggleLineBreakpoint">
