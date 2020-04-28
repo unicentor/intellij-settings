@@ -42,6 +42,7 @@
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="meta 2" />
   </action>
+  <action id="AddToFavoritesPopup" />
   <action id="Arrangement.Alias.Rule.Edit" />
   <action id="Arrangement.Rule.Add" />
   <action id="Arrangement.Rule.Edit" />
