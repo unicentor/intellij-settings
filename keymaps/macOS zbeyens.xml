@@ -58,11 +58,12 @@
   <action id="Bitbucket.CreatePullRequest" />
   <action id="Bitbucket.CreateSnippet" />
   <action id="Bitbucket.OpenFileInBitbucket" />
+  <action id="ChangeSignature">
+    <keyboard-shortcut first-keystroke="meta f3" />
+  </action>
   <action id="ChangesView.Diff" />
   <action id="ChangesView.Move" />
-  <action id="ChangesView.Rename">
-    <keyboard-shortcut first-keystroke="shift f6" />
-  </action>
+  <action id="ChangesView.Rename" />
   <action id="ChangesView.SetDefault" />
   <action id="ChangesView.ShelveSilently" />
   <action id="ChangesView.UnshelveSilently" />
@@ -213,11 +214,11 @@
   <action id="FileChooser.GotoProject" />
   <action id="FileChooser.NewFolder" />
   <action id="FindNext">
-    <keyboard-shortcut first-keystroke="f3" />
+    <keyboard-shortcut first-keystroke="f6" />
   </action>
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift meta g" />
-    <keyboard-shortcut first-keystroke="shift f3" />
+    <keyboard-shortcut first-keystroke="shift f6" />
   </action>
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="alt f7" />
@@ -239,12 +240,8 @@
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="shift alt k" />
   </action>
-  <action id="Git.Rename.Local.Branch">
-    <keyboard-shortcut first-keystroke="shift f6" />
-  </action>
-  <action id="Git.Reword.Commit">
-    <keyboard-shortcut first-keystroke="shift f6" />
-  </action>
+  <action id="Git.Rename.Local.Branch" />
+  <action id="Git.Reword.Commit" />
   <action id="Github.PullRequest.Comments.Reload" />
   <action id="Github.PullRequest.Details.Reload" />
   <action id="Github.PullRequest.Timeline.Update" />
@@ -260,7 +257,6 @@
     <keyboard-shortcut first-keystroke="f8" />
   </action>
   <action id="GotoPreviousError">
-    <keyboard-shortcut first-keystroke="shift f2" />
     <keyboard-shortcut first-keystroke="shift f8" />
   </action>
   <action id="GotoRelated" />
@@ -298,6 +294,9 @@
   <action id="MethodDown" />
   <action id="MethodHierarchy" />
   <action id="MethodUp" />
+  <action id="Move">
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift alt down" />
     <keyboard-shortcut first-keystroke="meta down" />
@@ -346,11 +345,8 @@
   </action>
   <action id="Refresh" />
   <action id="RemoteHost.NewRemoteItem" />
-  <action id="RemoteHostView.Rename">
-    <keyboard-shortcut first-keystroke="shift f6" />
-  </action>
+  <action id="RemoteHostView.Rename" />
   <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="RenameFile">
@@ -406,9 +402,8 @@
   </action>
   <action id="ServiceView.ShowServices" />
   <action id="ShelveChanges.UnshelveWithDialog" />
-  <action id="ShelvedChanges.Rename">
-    <keyboard-shortcut first-keystroke="shift f6" />
-  </action>
+  <action id="ShelvedChanges.Rename" />
+  <action id="ShowBookmarks" />
   <action id="ShowContent" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
@@ -431,9 +426,7 @@
   <action id="StepOver">
     <keyboard-shortcut first-keystroke="f10" />
   </action>
-  <action id="Stop">
-    <keyboard-shortcut first-keystroke="f5" />
-  </action>
+  <action id="Stop" />
   <action id="StringManipulation.SwitchStyleAction">
     <keyboard-shortcut first-keystroke="ctrl quote" />
   </action>
