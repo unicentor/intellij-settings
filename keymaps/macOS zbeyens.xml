@@ -254,7 +254,6 @@
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta t" />
-    <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="GotoLine" />
   <action id="GotoNextError">
@@ -278,6 +277,9 @@
   <action id="Images.Editor.ToggleGrid" />
   <action id="InsertLiveTemplate" />
   <action id="IntroduceField" />
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="shift alt v" />
+  </action>
   <action id="List-selectNextColumn">
     <keyboard-shortcut first-keystroke="right" />
   </action>
@@ -341,9 +343,6 @@
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="ctrl j" />
     <mouse-shortcut keystroke="control button2" />
-  </action>
-  <action id="Refactorings.QuickListPopupAction">
-    <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
   <action id="Refresh" />
   <action id="RemoteHost.NewRemoteItem" />
