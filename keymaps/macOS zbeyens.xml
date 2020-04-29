@@ -205,7 +205,6 @@
   </action>
   <action id="EditorSelectLine">
     <keyboard-shortcut first-keystroke="meta i" />
-    <keyboard-shortcut first-keystroke="meta g" />
   </action>
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLine">
@@ -264,7 +263,9 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
-  <action id="GotoLine" />
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="meta g" />
+  </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="f8" />
   </action>
