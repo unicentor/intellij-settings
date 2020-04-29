@@ -352,4 +352,10 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="imuuid" value="import { v4 as uuid } from 'uuid';" description="import uuid" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
