@@ -76,10 +76,6 @@
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="shift alt w" />
   </action>
-  <action id="CodeCompletion">
-    <keyboard-shortcut first-keystroke="shift space" />
-    <keyboard-shortcut first-keystroke="ctrl space" />
-  </action>
   <action id="CollapseExpandableComponent">
     <keyboard-shortcut first-keystroke="meta subtract" />
     <keyboard-shortcut first-keystroke="meta minus" />
