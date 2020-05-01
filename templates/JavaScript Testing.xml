@@ -275,4 +275,11 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="descit" value="describe('when $1$', () =&gt; {&#10;  it('should $2$', () =&gt; {&#10;    $END$&#10;  });&#10;});" description="creates a describe block + it" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
