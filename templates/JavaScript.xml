@@ -357,4 +357,11 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="oa" value="Object.assign($END$)" description="Object.values()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
