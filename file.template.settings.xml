@@ -1,8 +1,7 @@
 <application>
   <component name="ExportableFileTemplateSettings">
     <default_templates>
-      <template name="Index File.ts" reformat="true" live-template-enabled="true" />
-      <template name="Storybook File༏ext༏.stories.tsx" reformat="false" live-template-enabled="true" />
+      <template name="Typescript Test File༏ext༏.spec.ts" reformat="true" live-template-enabled="true" />
     </default_templates>
   </component>
 </application>

@@ -334,6 +334,9 @@
     <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
   <action id="NewElement" />
+  <action id="NewElementMenu">
+    <keyboard-shortcut first-keystroke="ctrl meta help" />
+  </action>
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
