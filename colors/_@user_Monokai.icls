@@ -3,7 +3,7 @@
     <property name="created">2020-03-09T00:39:41</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2019.3.3.0.0</property>
-    <property name="modified">2020-04-23T20:04:10</property>
+    <property name="modified">2020-05-04T16:32:48</property>
     <property name="originalScheme">Monokai</property>
   </metaInfo>
   <colors>
@@ -1094,7 +1094,9 @@
       </value>
     </option>
     <option name="LINE_FULL_COVERAGE">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="a0d911" />
+      </value>
     </option>
     <option name="LINE_NONE_COVERAGE">
       <value>
@@ -1103,7 +1105,7 @@
     </option>
     <option name="LINE_PARTIAL_COVERAGE">
       <value>
-        <option name="FOREGROUND" value="b97512" />
+        <option name="FOREGROUND" value="faad14" />
       </value>
     </option>
     <option name="LOG_DEBUG_OUTPUT">
