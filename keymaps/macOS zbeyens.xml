@@ -25,7 +25,7 @@
     <keyboard-shortcut first-keystroke="ctrl meta enter" />
   </action>
   <action id="ActivateCommitToolWindow">
-    <keyboard-shortcut first-keystroke="meta 2" />
+    <keyboard-shortcut first-keystroke="meta k" />
   </action>
   <action id="ActivateEventLogToolWindow">
     <keyboard-shortcut first-keystroke="meta alt e" />
@@ -44,7 +44,7 @@
     <keyboard-shortcut first-keystroke="meta back_quote" />
   </action>
   <action id="ActivateVersionControlToolWindow">
-    <keyboard-shortcut first-keystroke="meta 3" />
+    <keyboard-shortcut first-keystroke="meta 2" />
   </action>
   <action id="AddToFavoritesPopup" />
   <action id="Arrangement.Alias.Rule.Edit" />
