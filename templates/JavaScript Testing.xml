@@ -93,7 +93,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="it" value="it('should $1$', () =&gt; {&#10;  $END$&#10;});" description="creates an it block" toReformat="true" toShortenFQNames="true">
+  <template name="it" value="it('should be $1$', () =&gt; {&#10;  $END$&#10;});" description="creates an it block" toReformat="true" toShortenFQNames="true">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
@@ -275,7 +275,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="descit" value="describe('when $1$', () =&gt; {&#10;  it('should $2$', () =&gt; {&#10;    $END$&#10;  });&#10;});" description="creates a describe block + it" toReformat="true" toShortenFQNames="true">
+  <template name="dit" value="describe('when $1$', () =&gt; {&#10;  it('should $2$', () =&gt; {&#10;    $END$&#10;  });&#10;});" description="creates a describe block + it" toReformat="true" toShortenFQNames="true">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -283,6 +283,18 @@
     </context>
   </template>
   <template name="hjsx" value="/** @jsx jsx */&#10;&#10;import { jsx } from '__test-utils__/jsx';" description="jsx hyperscript" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="dte" value="describe('when $1$', () =&gt; {&#10;  it('should be', () =&gt; {&#10;    expect($END$(input)).toEqual(output);&#10;  });&#10;});&#10;" description="creates a describe block" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="substringBefore(fileName(), &quot;.&quot;)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ite" value="it('should be', () =&gt; {&#10;  expect($1$(input)).toEqual(output);&#10;});" description="it toEqual" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
