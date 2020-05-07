@@ -325,8 +325,7 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="edf" value="export default ($params$) =&gt; $END$" description="Export default function" toReformat="true" toShortenFQNames="true">
-    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="edf" value="export default () =&gt; {&#10;  $END$&#10;};" description="Export default function" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
