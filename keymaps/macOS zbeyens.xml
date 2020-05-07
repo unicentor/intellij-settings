@@ -22,11 +22,11 @@
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
   <action id="AceAction" />
+  <action id="AceWordAction">
+    <keyboard-shortcut first-keystroke="ctrl meta enter" />
+  </action>
   <action id="AceWordBackwardsAction">
     <keyboard-shortcut first-keystroke="ctrl meta back_space" />
-  </action>
-  <action id="AceWordForwardAction">
-    <keyboard-shortcut first-keystroke="ctrl meta enter" />
   </action>
   <action id="ActivateCommitToolWindow">
     <keyboard-shortcut first-keystroke="meta k" />
