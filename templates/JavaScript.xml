@@ -29,14 +29,14 @@
     </context>
   </template>
   <template name="exaf" value="export * from '$MODULE$';" description="Export all from - export * from 'a'" toReformat="true" toShortenFQNames="true">
-    <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ES6_STATEMENT" value="true" />
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="exd" value="export { $ITEM$$END$ } from '$MODULE$';&#10;" description="exportDestructing" toReformat="true" toShortenFQNames="true">
-    <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ITEM" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ES6_STATEMENT" value="true" />
