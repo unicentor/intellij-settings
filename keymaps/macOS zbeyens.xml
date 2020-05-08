@@ -242,8 +242,9 @@
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
   <action id="ForceStepInto">
-    <keyboard-shortcut first-keystroke="shift alt f11" />
+    <keyboard-shortcut first-keystroke="shift alt f8" />
   </action>
+  <action id="ForceStepOver" />
   <action id="Forward">
     <keyboard-shortcut first-keystroke="meta close_bracket" />
     <keyboard-shortcut first-keystroke="meta alt right" />
@@ -279,9 +280,7 @@
     <keyboard-shortcut first-keystroke="meta g" />
   </action>
   <action id="GotoNextError" />
-  <action id="GotoPreviousError">
-    <keyboard-shortcut first-keystroke="shift f8" />
-  </action>
+  <action id="GotoPreviousError" />
   <action id="GotoRelated" />
   <action id="GotoSuperMethod">
     <keyboard-shortcut first-keystroke="ctrl u" />
@@ -373,7 +372,7 @@
     <keyboard-shortcut first-keystroke="shift meta o" />
   </action>
   <action id="Pause">
-    <keyboard-shortcut first-keystroke="meta f8" />
+    <keyboard-shortcut first-keystroke="meta f10" />
   </action>
   <action id="PreviousDiff">
     <keyboard-shortcut first-keystroke="f7" />
@@ -419,8 +418,7 @@
   </action>
   <action id="RestoreDefaultLayout" />
   <action id="Resume">
-    <keyboard-shortcut first-keystroke="meta alt r" />
-    <keyboard-shortcut first-keystroke="f8" />
+    <keyboard-shortcut first-keystroke="f10" />
   </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="r" />
@@ -479,12 +477,11 @@
     <keyboard-shortcut first-keystroke="alt home" />
   </action>
   <action id="ShowUmlDiagramPopup" />
-  <action id="SmartStepInto" />
-  <action id="StepInto">
-    <keyboard-shortcut first-keystroke="f11" />
+  <action id="SmartStepInto">
+    <keyboard-shortcut first-keystroke="ctrl meta f8" />
   </action>
-  <action id="StepOut">
-    <keyboard-shortcut first-keystroke="shift f11" />
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f8" />
   </action>
   <action id="StepOver">
     <keyboard-shortcut first-keystroke="f9" />
@@ -520,6 +517,7 @@
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="shift meta back_slash" />
   </action>
+  <action id="UpdateRunningApplication" />
   <action id="UsageView.Exclude">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
