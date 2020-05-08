@@ -108,11 +108,17 @@
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
   <action id="CopyElement" />
+  <action id="Coverage">
+    <keyboard-shortcut first-keystroke="shift meta f5" />
+  </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
   <action id="DebugClass">
-    <keyboard-shortcut first-keystroke="meta f5" />
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
+  <action id="Debugger.RemoveAllBreakpoints">
+    <keyboard-shortcut first-keystroke="ctrl f10" />
   </action>
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
@@ -424,17 +430,20 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="r" />
   </action>
   <action id="Run">
-    <keyboard-shortcut first-keystroke="alt r" />
+    <keyboard-shortcut first-keystroke="f5" />
   </action>
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
-    <keyboard-shortcut first-keystroke="f5" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="RunCoverage">
     <keyboard-shortcut first-keystroke="shift f5" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
-  <action id="RunDashboard.Debug" />
+  <action id="RunDashboard.Debug">
+    <keyboard-shortcut first-keystroke="meta f5" />
+  </action>
+  <action id="RunDashboard.Run" />
   <action id="RunDashboard.UngroupConfigurations">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
@@ -505,6 +514,10 @@
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="ToggleBookmark" />
   <action id="ToggleLineBreakpoint" />
+  <action id="ToggleTemporaryLineBreakpoint">
+    <keyboard-shortcut first-keystroke="shift meta alt f8" />
+    <keyboard-shortcut first-keystroke="alt b" />
+  </action>
   <action id="ToggleZenMode">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl z" />
   </action>
