@@ -1,0 +1,7 @@
+<templateSet group="Javascript Slate">
+  <template name="hsel" value="&lt;selection&gt;&#10;  &lt;anchor path={[0, 0]} offset={0} /&gt;&#10;  &lt;focus path={[0, 0]} offset={1} /&gt;&#10;&lt;/selection&gt;" description="hyperscript selection" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
