@@ -241,6 +241,9 @@
     <keyboard-shortcut first-keystroke="alt f7" />
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
+  <action id="ForceStepInto">
+    <keyboard-shortcut first-keystroke="shift alt f11" />
+  </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="meta close_bracket" />
     <keyboard-shortcut first-keystroke="meta alt right" />
@@ -275,9 +278,7 @@
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="meta g" />
   </action>
-  <action id="GotoNextError">
-    <keyboard-shortcut first-keystroke="f8" />
-  </action>
+  <action id="GotoNextError" />
   <action id="GotoPreviousError">
     <keyboard-shortcut first-keystroke="shift f8" />
   </action>
@@ -300,6 +301,9 @@
   <action id="IntroduceField" />
   <action id="IntroduceVariable">
     <keyboard-shortcut first-keystroke="shift alt v" />
+  </action>
+  <action id="JavaScript.Debugger.RestartFrame">
+    <keyboard-shortcut first-keystroke="f7" />
   </action>
   <action id="List-selectNextColumn">
     <keyboard-shortcut first-keystroke="right" />
@@ -347,6 +351,9 @@
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
   <action id="NewScratchFile" />
+  <action id="NextDiff">
+    <keyboard-shortcut first-keystroke="f9" />
+  </action>
   <action id="NextEditorTab" />
   <action id="NextOccurence">
     <keyboard-shortcut first-keystroke="ctrl meta down" />
@@ -364,6 +371,12 @@
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="ctrl alt o" />
     <keyboard-shortcut first-keystroke="shift meta o" />
+  </action>
+  <action id="Pause">
+    <keyboard-shortcut first-keystroke="meta f8" />
+  </action>
+  <action id="PreviousDiff">
+    <keyboard-shortcut first-keystroke="f7" />
   </action>
   <action id="PreviousEditorTab" />
   <action id="PreviousOccurence">
@@ -406,6 +419,7 @@
   <action id="RestoreDefaultLayout" />
   <action id="Resume">
     <keyboard-shortcut first-keystroke="meta alt r" />
+    <keyboard-shortcut first-keystroke="f8" />
   </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="r" />
@@ -427,6 +441,10 @@
   <action id="RunDashboard.UngroupConfigurations">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="RunToCursor">
+    <mouse-shortcut keystroke="Force touch" />
+    <keyboard-shortcut first-keystroke="meta f9" />
   </action>
   <action id="SafeDelete" />
   <action id="SearchEverywhere.NavigateToNextGroup">
@@ -462,15 +480,15 @@
     <keyboard-shortcut first-keystroke="alt home" />
   </action>
   <action id="ShowUmlDiagramPopup" />
+  <action id="SmartStepInto" />
   <action id="StepInto">
-    <keyboard-shortcut first-keystroke="f7" />
     <keyboard-shortcut first-keystroke="f11" />
   </action>
   <action id="StepOut">
     <keyboard-shortcut first-keystroke="shift f11" />
   </action>
   <action id="StepOver">
-    <keyboard-shortcut first-keystroke="f10" />
+    <keyboard-shortcut first-keystroke="f9" />
   </action>
   <action id="Stop">
     <keyboard-shortcut first-keystroke="f6" />
@@ -490,10 +508,7 @@
   <action id="Terminal.MoveToolWindowTabRight" />
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="ToggleBookmark" />
-  <action id="ToggleLineBreakpoint">
-    <keyboard-shortcut first-keystroke="meta f8" />
-    <keyboard-shortcut first-keystroke="f9" />
-  </action>
+  <action id="ToggleLineBreakpoint" />
   <action id="ToggleZenMode">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl z" />
   </action>
