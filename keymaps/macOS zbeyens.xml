@@ -35,7 +35,9 @@
     <keyboard-shortcut first-keystroke="meta alt e" />
   </action>
   <action id="ActivateFavoritesToolWindow" />
-  <action id="ActivateFindToolWindow" />
+  <action id="ActivateFindToolWindow">
+    <keyboard-shortcut first-keystroke="meta 2" />
+  </action>
   <action id="ActivateServicesToolWindow">
     <keyboard-shortcut first-keystroke="meta 6" />
   </action>
@@ -48,7 +50,7 @@
     <keyboard-shortcut first-keystroke="meta back_quote" />
   </action>
   <action id="ActivateVersionControlToolWindow">
-    <keyboard-shortcut first-keystroke="meta 2" />
+    <keyboard-shortcut first-keystroke="meta 3" />
   </action>
   <action id="AddToFavoritesPopup" />
   <action id="Arrangement.Alias.Rule.Edit" />
