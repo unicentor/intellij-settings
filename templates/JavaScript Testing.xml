@@ -292,7 +292,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="test" value="const input = $input$;&#10;&#10;const output = $output$;&#10;&#10;it('should be', () =&gt; {&#10;  expect($fn$(input)).toEqual(output);&#10;});&#10;" toReformat="false" toShortenFQNames="true">
+  <template name="test" value="const input = $input$;&#10;&#10;const output = $output$;&#10;&#10;it('should be', () =&gt; {&#10;  expect($fn$(input)).toEqual(output);&#10;});&#10;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="fn" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="input" expression="" defaultValue="&quot;null&quot;" alwaysStopAt="true" />
     <variable name="output" expression="" defaultValue="&quot;null&quot;" alwaysStopAt="true" />
