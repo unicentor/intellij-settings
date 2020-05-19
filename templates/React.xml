@@ -137,4 +137,10 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="uset" value="const { t } = useTranslation();" description="useTranslation" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
