@@ -143,4 +143,10 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="usett" value="const { t } = useTypedTranslation();" description="useTypedTranslation" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
