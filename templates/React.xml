@@ -149,4 +149,10 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="rt" value="{t('$1$')}" description="React t('')" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
