@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="preview.js" type="JSX Harmony" />
+      <mapping pattern="MentionSelectComponent.spec.tsx" type="PLAIN_TEXT" />
       <mapping pattern="type-tagNames.tsx" type="PLAIN_TEXT" />
       <mapping pattern="selected" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
