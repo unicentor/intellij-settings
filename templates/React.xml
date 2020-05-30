@@ -51,7 +51,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="usem" value="import { useMemo } from 'react';&#10;&#10;useMemo(() =&gt; $function$, [])" description="useMemo" toReformat="true" toShortenFQNames="true">
+  <template name="usem" value="useMemo(() =&gt; $function$, [])" description="useMemo" toReformat="true" toShortenFQNames="true">
     <variable name="function" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_EXPRESSION" value="true" />
