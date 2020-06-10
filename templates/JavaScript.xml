@@ -396,4 +396,11 @@
     <variable name="ITEM" expression="jsSuggestImportedEntityName()" defaultValue="Namespace" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="efile" value="export const $1$ = ($params$) =&gt; {$END$}" description="Export named function" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="substringBefore(fileName(), &quot;.&quot;)" defaultValue="" alwaysStopAt="false" />
+    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
