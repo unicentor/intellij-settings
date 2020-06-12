@@ -104,6 +104,7 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="c" />
   </action>
   <action id="CompareTwoFiles" />
+  <action id="CompileDirty" />
   <action id="Console.Execute.Multiline" />
   <action id="Console.History.Browse" />
   <action id="ConsoleView.ClearAll">
@@ -257,6 +258,7 @@
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
+  <action id="FindUsagesInFile" />
   <action id="ForceStepInto">
     <keyboard-shortcut first-keystroke="shift alt f8" />
   </action>
@@ -296,10 +298,10 @@
     <keyboard-shortcut first-keystroke="meta g" />
   </action>
   <action id="GotoNextError">
-    <keyboard-shortcut first-keystroke="alt f9" />
+    <keyboard-shortcut first-keystroke="meta f9" />
   </action>
   <action id="GotoPreviousError">
-    <keyboard-shortcut first-keystroke="alt f7" />
+    <keyboard-shortcut first-keystroke="meta f7" />
   </action>
   <action id="GotoRelated" />
   <action id="GotoSuperMethod">
@@ -459,10 +461,6 @@
   <action id="RunDashboard.UngroupConfigurations">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
-  </action>
-  <action id="RunToCursor">
-    <mouse-shortcut keystroke="Force touch" />
-    <keyboard-shortcut first-keystroke="meta f9" />
   </action>
   <action id="SafeDelete" />
   <action id="SearchEverywhere.NavigateToNextGroup">
