@@ -332,6 +332,9 @@
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="ctrl meta h" />
   </action>
+  <action id="Macro.Optimize Imports + Save">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
   <action id="ManageRecentProjects">
     <keyboard-shortcut first-keystroke="shift alt p" />
   </action>
