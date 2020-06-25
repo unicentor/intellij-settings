@@ -1,0 +1,19 @@
+<templateSet group="React Fluent UI">
+  <template name="fui-classNamesConst" value="const classNames = getClassNames(styles, {&#10;  className,&#10;  // Other style props&#10;});" description="Generates base for getting your classNames from the styles file." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fui-classNamesFunction" value="import { classNamesFunction } from '@uifabric/utilities';&#10;import {&#10;  $ComponentName$StyleProps,&#10;  $ComponentName$Styles,&#10;} from  './$ComponentName$.types';&#10;&#10;const getClassNames = classNamesFunction&lt;&#10;  $ComponentName$StyleProps,&#10;  $ComponentName$Styles&#10;&gt;();&#10;&#10;/**&#10; * $ComponentName$ with no default styles.&#10; * [Use the `styles` API to add your own styles.](https://github.com/OfficeDev/office-ui-fabric-react/wiki/Component-Styling)&#10;*/" description="Generates base functions for enabling themes and styles API" toReformat="false" toShortenFQNames="true">
+    <variable name="ComponentName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fui-styledComponent" value="import { styled } from 'office-fabric-react';&#10;import { &#10;  $ComponentName$Props,&#10;  $ComponentName$StyleProps,&#10;  $ComponentName$Styles&#10;} from './$ComponentName$.types';&#10;import { get$ComponentName$Styles } from './$ComponentName$.styles';&#10;&#10;/**&#10; * $ComponentName$&#10; */&#10;export const $ComponentName$ = styled&lt;&#10;  $ComponentName$Props,&#10;  $ComponentName$StyleProps,&#10;  $ComponentName$Styles&#10;&gt;($ComponentName$Base, get$ComponentName$Styles, undefined, {&#10;  scope: '$ComponentName$',&#10;});" description="Generates styled component file for making variants of Component Base.&quot;" toReformat="false" toShortenFQNames="true">
+    <variable name="ComponentName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
