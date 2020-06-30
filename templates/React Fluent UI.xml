@@ -10,7 +10,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="fui-sc" value="import { styled } from 'office-fabric-react';&#10;import { &#10;  $ComponentName$Props,&#10;  $ComponentName$StyleProps,&#10;  $ComponentName$Styles&#10;} from './$ComponentName$.types';&#10;import { get$ComponentName$Styles } from './$ComponentName$.styles';&#10;&#10;/**&#10; * $ComponentName$&#10; */&#10;export const $ComponentName$ = styled&lt;&#10;  $ComponentName$Props,&#10;  $ComponentName$StyleProps,&#10;  $ComponentName$Styles&#10;&gt;($ComponentName$Base, get$ComponentName$Styles, undefined, {&#10;  scope: '$ComponentName$',&#10;});&#10;" description="Generates styled component file for making variants of Component Base.&quot;" toReformat="false" toShortenFQNames="true">
+  <template name="fui-sc" value="import { styled } from '@uifabric/utilities';&#10;import { &#10;  $ComponentName$Props,&#10;} from './$ComponentName$.types';&#10;import { get$ComponentName$Styles } from './$ComponentName$.styles';&#10;&#10;/**&#10; * $ComponentName$&#10; */&#10;export const $ComponentName$ = styled&lt;&#10;  $ComponentName$Props,&#10;  $ComponentName$StyleProps,&#10;  $ComponentName$Styles&#10;&gt;($ComponentName$Base, get$ComponentName$Styles, undefined, {&#10;  scope: '$ComponentName$',&#10;});&#10;" description="Generates styled component file for making variants of Component Base.&quot;" toReformat="false" toShortenFQNames="true">
     <variable name="ComponentName" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
