@@ -47,7 +47,7 @@
   <action id="ActivateTODOToolWindow" />
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt f12" />
-    <keyboard-shortcut first-keystroke="meta back_quote" />
+    <keyboard-shortcut first-keystroke="alt dead_grave" />
   </action>
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="meta 3" />
