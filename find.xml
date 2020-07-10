@@ -19,6 +19,7 @@
     <mask>*.ts*</mask>
     <mask>*.ts?</mask>
     <mask>*.ts, *.tsx</mask>
+    <mask>*.stories.*</mask>
     <mask>!*.log</mask>
   </component>
 </application>
