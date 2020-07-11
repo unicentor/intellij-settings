@@ -4,7 +4,8 @@
     <option name="UI_FILTER_LEGALS" value="true" />
   </component>
   <component name="UISettings">
+    <option name="IDE_AA_TYPE" value="Greyscale" />
+    <option name="OPEN_TABS_AT_THE_END" value="true" />
     <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
-    <option name="SORT_LOOKUP_ELEMENTS_LEXICOGRAPHICALLY" value="true" />
   </component>
 </application>
