@@ -312,9 +312,11 @@
   </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="meta f9" />
+    <keyboard-shortcut first-keystroke="f9" />
   </action>
   <action id="GotoPreviousError">
     <keyboard-shortcut first-keystroke="meta f7" />
+    <keyboard-shortcut first-keystroke="f7" />
   </action>
   <action id="GotoRelated" />
   <action id="GotoSuperMethod">
