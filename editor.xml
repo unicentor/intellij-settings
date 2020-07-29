@@ -22,6 +22,7 @@
     <option name="USE_SOFT_WRAPS" value="" />
     <option name="TOOLTIPS_DELAY_MS" value="50" />
     <option name="SHOW_BREADCRUMBS_ABOVE" value="true" />
+    <option name="ENABLE_RENDERED_DOC" value="true" />
     <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="true" />
   </component>
   <component name="InlayHintsSettings">
