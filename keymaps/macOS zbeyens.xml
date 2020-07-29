@@ -544,6 +544,7 @@
   <action id="ToggleLineBreakpoint" />
   <action id="ToggleRenderedDocPresentationForAll">
     <keyboard-shortcut first-keystroke="alt q" />
+    <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
   <action id="ToggleTemporaryLineBreakpoint">
     <keyboard-shortcut first-keystroke="shift meta alt f8" />
