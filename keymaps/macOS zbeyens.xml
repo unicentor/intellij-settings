@@ -34,7 +34,9 @@
   <action id="ActivateEventLogToolWindow">
     <keyboard-shortcut first-keystroke="meta alt e" />
   </action>
-  <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateFavoritesToolWindow">
+    <keyboard-shortcut first-keystroke="meta 5" />
+  </action>
   <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="meta 2" />
   </action>
