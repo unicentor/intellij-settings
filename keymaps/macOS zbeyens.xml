@@ -349,7 +349,7 @@
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="ctrl meta h" />
   </action>
-  <action id="Macro.Optimize Imports + Save">
+  <action id="Macro.Organize Import + Save All">
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
   <action id="ManageRecentProjects">
@@ -565,6 +565,7 @@
     <keyboard-shortcut first-keystroke="shift meta back_slash" />
   </action>
   <action id="UpdateRunningApplication" />
+  <action id="UsageGrouping.FileStructure" />
   <action id="UsageView.Exclude">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />

@@ -8,5 +8,10 @@
       <action id="OptimizeImports" />
       <action id="SaveAll" />
     </macro>
+    <macro name="Organize Import + Save All">
+      <action id="OptimizeImports" />
+      <action id="OptimizeImports" />
+      <action id="SaveAll" />
+    </macro>
   </component>
 </application>
