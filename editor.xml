@@ -25,13 +25,8 @@
     <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="true" />
   </component>
   <component name="InlayHintsSettings">
-    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
+    <option name="lastViewedProviderKeyId" value="js.type.hints" />
     <settingsMapElement>
-      <JavaScript.js.type.hints>
-        <Settings>
-          <option name="showForFunctions" value="true" />
-        </Settings>
-      </JavaScript.js.type.hints>
       <TypeScript.ts.type.hints>
         <Settings>
           <option name="showForFunctions" value="true" />
@@ -39,6 +34,12 @@
           <option name="showForVariablesAndFields" value="true" />
         </Settings>
       </TypeScript.ts.type.hints>
+      <JavaScript.js.type.hints>
+        <Settings>
+          <option name="showForFunctions" value="true" />
+          <option name="showForVariablesAndFields" value="true" />
+        </Settings>
+      </JavaScript.js.type.hints>
     </settingsMapElement>
   </component>
   <component name="TodoConfiguration">
