@@ -34,12 +34,9 @@
   <action id="ActivateEventLogToolWindow">
     <keyboard-shortcut first-keystroke="meta alt e" />
   </action>
-  <action id="ActivateFavoritesToolWindow">
-    <keyboard-shortcut first-keystroke="meta 5" />
-  </action>
   <action id="ActivateFindToolWindow" />
   <action id="ActivateProblemsViewToolWindow">
-    <keyboard-shortcut first-keystroke="meta 2" />
+    <keyboard-shortcut first-keystroke="ctrl meta 2" />
   </action>
   <action id="ActivatePullRequestsToolWindow">
     <keyboard-shortcut first-keystroke="ctrl meta 3" />
