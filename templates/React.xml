@@ -167,9 +167,10 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="use" value="const $x$ = use$y$();" description="const x = useX()" toReformat="false" toShortenFQNames="true">
+  <template name="use" value="const $x$ = use$y$$end$();" description="const x = useX()" toReformat="false" toShortenFQNames="true">
     <variable name="y" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="x" expression="camelCase(y)" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
