@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="!*.md,!*.stories.*" />
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.htm</mask>
@@ -21,5 +22,6 @@
     <mask>*.stories.*</mask>
     <mask>!*.log</mask>
     <mask>!*.md</mask>
+    <mask>!*.md,!*.stories.*</mask>
   </component>
 </application>
