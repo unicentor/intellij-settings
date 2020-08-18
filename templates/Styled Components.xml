@@ -1,7 +1,7 @@
 <templateSet group="Styled Components">
   <template name="sc" value="const $1$ = styled.$2$`&#10;  $END$&#10;`;" description="Styled component" toReformat="false" toShortenFQNames="true">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="&quot;div&quot;" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
@@ -91,6 +91,13 @@
     <context>
       <option name="CSS_DECLARATION_BLOCK" value="true" />
       <option name="CSS_PROPERTY_VALUE" value="true" />
+    </context>
+  </template>
+  <template name="esc" value="export const $1$ = styled.$2$`&#10;  $END$&#10;`;" description="Styled component" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="&quot;div&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
