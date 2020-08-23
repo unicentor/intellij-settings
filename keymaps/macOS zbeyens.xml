@@ -524,6 +524,9 @@
   <action id="StringManipulation.SwitchStyleAction">
     <keyboard-shortcut first-keystroke="ctrl quote" />
   </action>
+  <action id="StringManipulation.ToPascalCaseOrCamelCase">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
   <action id="SurroundWith" />
   <action id="SurroundWithEmmet">
     <keyboard-shortcut first-keystroke="alt a" />
