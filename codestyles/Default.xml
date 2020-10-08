@@ -30,6 +30,7 @@
   </TypeScriptCodeStyleSettings>
   <codeStyleSettings language="CSS">
     <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>
