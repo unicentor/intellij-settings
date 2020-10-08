@@ -61,8 +61,6 @@
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_CLASS" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JS_STATEMENT" value="false" />
       <option name="JS_TOP_LEVEL_STATEMENT" value="false" />
     </context>
   </template>
