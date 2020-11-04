@@ -319,9 +319,7 @@
   <action id="GotoSuperMethod">
     <keyboard-shortcut first-keystroke="ctrl u" />
   </action>
-  <action id="GotoTest">
-    <keyboard-shortcut first-keystroke="meta alt t" />
-  </action>
+  <action id="GotoTest" />
   <action id="Graph.ApplyCurrentLayout" />
   <action id="Help.KeymapReference">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl r" />
@@ -550,6 +548,9 @@
   </action>
   <action id="ToggleZenMode">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl z" />
+  </action>
+  <action id="TypeScript.Restart.Service">
+    <keyboard-shortcut first-keystroke="meta alt t" />
   </action>
   <action id="Uml.ShowDiff" />
   <action id="UnselectPreviousOccurrence">
