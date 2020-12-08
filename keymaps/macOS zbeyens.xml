@@ -69,7 +69,9 @@
     <keyboard-shortcut first-keystroke="meta alt open_bracket" />
   </action>
   <action id="Bitbucket.CopyFileUrlInBitbucket" />
-  <action id="Bitbucket.CreatePullRequest" />
+  <action id="Bitbucket.CreatePullRequest">
+    <keyboard-shortcut first-keystroke="ctrl meta b" />
+  </action>
   <action id="Bitbucket.CreateSnippet" />
   <action id="Bitbucket.OpenFileInBitbucket" />
   <action id="ChangeSignature">
