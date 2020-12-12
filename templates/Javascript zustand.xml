@@ -7,14 +7,14 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="zs" value="$name$: $END$,&#10;set$Name$: (value) =&gt;&#10;  set((state) =&gt; {&#10;    state.$name$ = value;&#10;  })," description="zustand store" toReformat="false" toShortenFQNames="true">
+  <template name="zs" value="$name$: $END$,&#10;set$Name$: setStoreValue(set, '$name$')," description="zustand store" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="Name" expression="capitalize(name)" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="usez" value="const $name$ = use$store$Store((state) =&gt; state.$name$);&#10;" description="use zustand" toReformat="false" toShortenFQNames="true">
+  <template name="usez" value="const $name$ = use$store$Store$END$((state) =&gt; state.$name$);&#10;" description="use zustand" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="store" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
