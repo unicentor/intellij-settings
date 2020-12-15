@@ -1,0 +1,14 @@
+<application>
+  <component name="DuplicatesDetector">
+    <entry key="JavaScript">
+      <language>
+        <option name="anonymizeFunctions" value="true" />
+      </language>
+    </entry>
+    <entry key="TypeScript">
+      <language>
+        <option name="anonymizeFunctions" value="true" />
+      </language>
+    </entry>
+  </component>
+</application>
