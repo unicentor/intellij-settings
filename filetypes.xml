@@ -3,8 +3,8 @@
     <extensionMap>
       <mapping pattern="*ejs.t" type="Handlebars/Mustache" />
       <mapping pattern="preview.js" type="JSX Harmony" />
-      <mapping pattern="2" type="PLAIN_TEXT" />
       <mapping pattern="1" type="PLAIN_TEXT" />
+      <mapping pattern="2" type="PLAIN_TEXT" />
       <mapping pattern="CODEOWNERS" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="getDes" type="PLAIN_TEXT" />
@@ -16,6 +16,7 @@
       <mapping pattern="SelectEditorMode" type="TypeScript JSX" />
       <removed_mapping ext="csv" approved="true" type="CSV file" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping ext="log" approved="true" type="ANSI Aware" />
     </extensionMap>
   </component>
 </application>
