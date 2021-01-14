@@ -7,7 +7,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="zs" value="$name$: $END$,&#10;set$Name$: setStoreValue(set, '$name$')," description="zustand store" toReformat="false" toShortenFQNames="true">
+  <template name="zs" value="$name$: $END$,&#10;set$Name$: setStoreValue(set, '$name$', 'set$Name$'),$END$" description="zustand store" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="Name" expression="capitalize(name)" defaultValue="" alwaysStopAt="false" />
     <context>
@@ -17,7 +17,14 @@
   <template name="usez" value="const $3$ = use$1$((state) =&gt; state.$key$);&#10;" description="use zustand" toReformat="false" toShortenFQNames="true">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="key" expression="complete()" defaultValue="" alwaysStopAt="true" />
-    <variable name="3" expression="key" defaultValue="&quot;a&quot;" alwaysStopAt="false" />
+    <variable name="3" expression="key" defaultValue="&quot;a&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="zc" value="export const use$Name$Store = createStore('$name$')&lt;$Name$State&gt;(&#10;  (set) =&gt; ({&#10;    $END$&#10;  })&#10;);" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="camelCase(Name)" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>

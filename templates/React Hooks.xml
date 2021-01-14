@@ -104,4 +104,10 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="cusec" value="const use$1$ = () =&gt; {&#10;  return useCallback(&#10;    () =&gt; {&#10;        $END$&#10;      },&#10;    [],&#10;  )&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
