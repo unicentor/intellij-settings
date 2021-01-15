@@ -22,7 +22,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="zc" value="export const use$Name$Store = createStore('$name$')&lt;$Name$State&gt;(&#10;  (set) =&gt; ({&#10;    $END$&#10;  })&#10;);" toReformat="false" toShortenFQNames="true">
+  <template name="zc" value="export const use$Name$Store = createStore('$name$')&lt;$Name$State&gt;(&#10;  (set) =&gt; ({&#10;    $END$&#10;  })&#10;);" description="" toReformat="false" toShortenFQNames="true">
     <variable name="Name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="name" expression="camelCase(Name)" defaultValue="" alwaysStopAt="false" />
     <context>
