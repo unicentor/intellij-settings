@@ -14,10 +14,9 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="usez" value="const $3$ = use$1$((state) =&gt; state.$key$);&#10;" description="use zustand" toReformat="false" toShortenFQNames="true">
-    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="key" expression="complete()" defaultValue="" alwaysStopAt="true" />
-    <variable name="3" expression="key" defaultValue="&quot;a&quot;" alwaysStopAt="true" />
+  <template name="usezs" value="const {&#10;  $state$&#10;} = useQuickPickStore(&#10;  ({&#10;    $state1$&#10;  }) =&gt; ({&#10;    $state$&#10;  }),&#10;  shallow&#10;);" description="cusec" toReformat="false" toShortenFQNames="true">
+    <variable name="state1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="state" expression="state1" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>

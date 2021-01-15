@@ -1,7 +1,7 @@
 <templateSet group="React Hooks">
   <template name="use" value="const $x$ = use$y$$end$();" description="const x = useX()" toReformat="false" toShortenFQNames="true">
-    <variable name="y" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="x" expression="camelCase(y)" defaultValue="" alwaysStopAt="true" />
+    <variable name="x" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="y" expression="capitalize(x)" defaultValue="" alwaysStopAt="false" />
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
@@ -104,8 +104,8 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="cusec" value="const use$1$ = () =&gt; {&#10;  return useCallback(&#10;    () =&gt; {&#10;        $END$&#10;      },&#10;    [],&#10;  )&#10;}" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="cusec" value="const use$name$ = () =&gt; {&#10;  return useCallback(&#10;    () =&gt; {&#10;        $END$&#10;      },&#10;    [],&#10;  )&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="capitalize" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
