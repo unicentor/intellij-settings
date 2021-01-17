@@ -30,4 +30,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="za" value="$1$: () =&gt; {&#10;  set((state) =&gt; {&#10;    action(state, '$1$');&#10;    &#10;    $end$&#10;  });&#10;}" description="zustand action" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
