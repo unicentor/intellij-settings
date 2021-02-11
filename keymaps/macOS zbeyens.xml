@@ -35,6 +35,9 @@
     <keyboard-shortcut first-keystroke="meta alt e" />
   </action>
   <action id="ActivateFindToolWindow" />
+  <action id="ActivateGraphQLToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl meta 4" />
+  </action>
   <action id="ActivateProblemsViewToolWindow">
     <keyboard-shortcut first-keystroke="ctrl meta 2" />
   </action>
