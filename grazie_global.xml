@@ -1,0 +1,9 @@
+<application>
+  <component name="GraziConfig">
+    <option name="userDisabledRules">
+      <set>
+        <option value="COMMA_BEFORE_AND" />
+      </set>
+    </option>
+  </component>
+</application>
