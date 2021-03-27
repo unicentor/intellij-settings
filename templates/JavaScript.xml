@@ -221,7 +221,7 @@
       <option name="JS_CLASS" value="true" />
     </context>
   </template>
-  <template name="dob" value="const { $propertyName$ } = $objectToDestruct$;" description="Creates and assigns a local variable using object destructing" toReformat="true" toShortenFQNames="true">
+  <template name="dob" value="const { $propertyName$$END$ } = $objectToDestruct$;" description="Creates and assigns a local variable using object destructing" toReformat="true" toShortenFQNames="true">
     <variable name="objectToDestruct" expression="" defaultValue="&quot;props&quot;" alwaysStopAt="true" />
     <variable name="propertyName" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
