@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="!CHANGELOG.md" />
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.htm</mask>
@@ -24,5 +25,6 @@
     <mask>!*.md,!*.stories.*</mask>
     <mask>!*spec*</mask>
     <mask>!*spec*,!CHANGELOG.md</mask>
+    <mask>!CHANGELOG.md</mask>
   </component>
 </application>
