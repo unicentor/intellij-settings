@@ -128,9 +128,7 @@
   <action id="Debug">
     <keyboard-shortcut first-keystroke="meta f5" />
   </action>
-  <action id="DebugClass">
-    <keyboard-shortcut first-keystroke="ctrl e" />
-  </action>
+  <action id="DebugClass" />
   <action id="Debugger.RemoveAllBreakpoints">
     <keyboard-shortcut first-keystroke="ctrl f10" />
   </action>
@@ -205,7 +203,7 @@
   <action id="EditorCutLineEnd" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta open_bracket" />
-    <keyboard-shortcut first-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="shift meta e" />
   </action>
   <action id="EditorDeleteToLineEnd">
     <keyboard-shortcut first-keystroke="meta delete" />
@@ -433,6 +431,7 @@
     <keyboard-shortcut first-keystroke="ctrl j" />
     <mouse-shortcut keystroke="control button2" />
   </action>
+  <action id="RecentLocations" />
   <action id="Refresh" />
   <action id="RemoteHost.NewRemoteItem" />
   <action id="RemoteHostView.Rename" />
@@ -492,7 +491,6 @@
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl g" />
-    <keyboard-shortcut first-keystroke="alt d" />
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
   <action id="SendEOF" />
