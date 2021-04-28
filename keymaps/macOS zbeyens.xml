@@ -204,6 +204,7 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta open_bracket" />
     <keyboard-shortcut first-keystroke="shift meta e" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="EditorDeleteToLineEnd">
     <keyboard-shortcut first-keystroke="meta delete" />
@@ -346,6 +347,9 @@
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="ctrl meta h" />
   </action>
+  <action id="Macro.Optimize Imports + Save">
+    <keyboard-shortcut first-keystroke="meta s" />
+  </action>
   <action id="ManageRecentProjects">
     <keyboard-shortcut first-keystroke="shift alt p" />
   </action>
@@ -407,6 +411,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt o" />
     <keyboard-shortcut first-keystroke="shift meta o" />
     <keyboard-shortcut first-keystroke="ctrl s" />
+    <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
   <action id="Pause">
     <keyboard-shortcut first-keystroke="meta f10" />
@@ -479,6 +484,8 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="SafeDelete" />
+  <action id="SaveAll" />
+  <action id="SaveAs" />
   <action id="SearchEverywhere.NavigateToNextGroup">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
