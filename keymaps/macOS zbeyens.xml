@@ -117,6 +117,11 @@
   <action id="Console.Execute.Multiline" />
   <action id="Console.History.Browse" />
   <action id="Console.TableResult.CompareCells" />
+  <action id="Console.TableResult.DeleteRows">
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
+    <keyboard-shortcut first-keystroke="shift ctrl meta w" />
+  </action>
   <action id="ConsoleView.ClearAll">
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
@@ -203,8 +208,8 @@
   <action id="EditorCutLineEnd" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta open_bracket" />
-    <keyboard-shortcut first-keystroke="shift meta e" />
-    <keyboard-shortcut first-keystroke="ctrl e" />
+    <keyboard-shortcut first-keystroke="shift ctrl meta w" />
+    <keyboard-shortcut first-keystroke="meta e" />
   </action>
   <action id="EditorDeleteToLineEnd">
     <keyboard-shortcut first-keystroke="meta delete" />
@@ -436,6 +441,9 @@
     <keyboard-shortcut first-keystroke="ctrl j" />
     <mouse-shortcut keystroke="control button2" />
   </action>
+  <action id="RecentFiles">
+    <keyboard-shortcut first-keystroke="shift meta e" />
+  </action>
   <action id="RecentLocations" />
   <action id="Refresh" />
   <action id="RemoteHost.NewRemoteItem" />
@@ -541,6 +549,12 @@
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="Switcher" />
+  <action id="SwitcherIterateItems">
+    <keyboard-shortcut first-keystroke="shift meta e" />
+  </action>
+  <action id="SwitcherRecentEditedChangedToggleCheckBox">
+    <keyboard-shortcut first-keystroke="shift meta e" />
+  </action>
   <action id="Table-selectNextColumn">
     <keyboard-shortcut first-keystroke="right" />
   </action>
@@ -584,6 +598,9 @@
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Log.Refresh" />
   <action id="Vcs.MoveChangedLinesToChangelist" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
   <action id="Vcs.UpdateProject" />
   <action id="ViewSource" />
   <action id="WelcomeScreen.Plugins">
