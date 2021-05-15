@@ -7,6 +7,7 @@
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="!CHANGELOG.md, !*.spec.*, !schema.graphql, !sdk.ts" />
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.htm</mask>
@@ -30,5 +31,6 @@
     <mask>!*spec*,!CHANGELOG.md</mask>
     <mask>!CHANGELOG.md</mask>
     <mask>!CHANGELOG.md, !*.spec.*</mask>
+    <mask>!CHANGELOG.md, !*.spec.*, !schema.graphql, !sdk.ts</mask>
   </component>
 </application>
