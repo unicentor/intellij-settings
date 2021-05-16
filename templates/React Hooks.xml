@@ -7,14 +7,14 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="usec" value="useCallback(&#10;  $callback$,&#10;  [],&#10;)" description="useCallback" toReformat="true" toShortenFQNames="true">
+  <template name="uc" value="useCallback(&#10;  $callback$,&#10;  [],&#10;)" description="useCallback" toReformat="true" toShortenFQNames="true">
     <variable name="callback" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_EXPRESSION" value="true" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="useco" value="const $context$ = useContext($contextValue$);" description="useContext" toReformat="true" toShortenFQNames="true">
+  <template name="uctx" value="const $context$ = useContext($contextValue$);" description="useContext" toReformat="true" toShortenFQNames="true">
     <variable name="context" expression="" defaultValue="&quot;context&quot;" alwaysStopAt="true" />
     <variable name="contextValue" expression="" defaultValue="&quot;contextValue&quot;" alwaysStopAt="true" />
     <context>
@@ -22,20 +22,20 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="usedb" value="useDebugValue($value$);" description="useDebugValue" toReformat="true" toShortenFQNames="true">
+  <template name="udv" value="useDebugValue($value$);" description="useDebugValue" toReformat="true" toShortenFQNames="true">
     <variable name="value" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
     <context>
       <option name="JS_EXPRESSION" value="true" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="usee" value="useEffect(() =&gt; {&#10;  $END$&#10;}, []);" description="useEffect" toReformat="true" toShortenFQNames="true">
+  <template name="ue" value="useEffect(() =&gt; {&#10;  $END$&#10;}, []);" description="useEffect" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_EXPRESSION" value="true" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="useer" value="useEffect(() =&gt; {&#10;  $effect$&#10;&#10;  return () =&gt; {&#10;    $cleanup$&#10;  };&#10;}, []);" description="useEffect with return" toReformat="true" toShortenFQNames="true">
+  <template name="uer" value="useEffect(() =&gt; {&#10;  $effect$&#10;&#10;  return () =&gt; {&#10;    $cleanup$&#10;  };&#10;}, []);" description="useEffect with return" toReformat="true" toShortenFQNames="true">
     <variable name="effect" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="cleanup" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -43,7 +43,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="useih" value="useImperativeHandle(&#10;  $ref$,&#10;  () =&gt; {&#10;    $handler$&#10;  },&#10;  [$input$],&#10;);&#10;$END$" description="useImperativeHandle" toReformat="true" toShortenFQNames="true">
+  <template name="uih" value="useImperativeHandle(&#10;  $ref$,&#10;  () =&gt; {&#10;    $handler$&#10;  },&#10;  [$input$],&#10;);&#10;$END$" description="useImperativeHandle" toReformat="true" toShortenFQNames="true">
     <variable name="ref" expression="" defaultValue="&quot;ref&quot;" alwaysStopAt="true" />
     <variable name="handler" expression="" defaultValue="&quot;handler&quot;" alwaysStopAt="true" />
     <variable name="input" expression="" defaultValue="&quot;input&quot;" alwaysStopAt="true" />
@@ -52,7 +52,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="usele" value="useLayoutEffect(() =&gt; {&#10;  return () =&gt; {&#10;    $effect$&#10;  },&#10;  [$input$]&#10;});&#10;$END$" description="useLayoutEffect" toReformat="true" toShortenFQNames="true">
+  <template name="ule" value="useLayoutEffect(() =&gt; {&#10;  return () =&gt; {&#10;    $effect$&#10;  },&#10;  [$input$]&#10;});&#10;$END$" description="useLayoutEffect" toReformat="true" toShortenFQNames="true">
     <variable name="effect" expression="" defaultValue="&quot;effect&quot;" alwaysStopAt="true" />
     <variable name="input" expression="" defaultValue="&quot;input&quot;" alwaysStopAt="true" />
     <context>
@@ -60,21 +60,21 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="usem" value="useMemo(() =&gt; $function$, [])" description="useMemo" toReformat="true" toShortenFQNames="true">
+  <template name="um" value="useMemo(() =&gt; $function$, [])" description="useMemo" toReformat="true" toShortenFQNames="true">
     <variable name="function" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_EXPRESSION" value="true" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="user" value="const $ref$ = useRef(null);" description="useRef" toReformat="true" toShortenFQNames="true">
+  <template name="ur" value="const $ref$ = useRef(null);" description="useRef" toReformat="true" toShortenFQNames="true">
     <variable name="ref" expression="" defaultValue="&quot;ref&quot;" alwaysStopAt="true" />
     <context>
       <option name="JS_EXPRESSION" value="true" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="usered" value="const [state, dispatch] = useReducer($reducer$, $initialState$, $init$);$END$" description="useReducer" toReformat="true" toShortenFQNames="true">
+  <template name="ured" value="const [state, dispatch] = useReducer($reducer$, $initialState$, $init$);$END$" description="useReducer" toReformat="true" toShortenFQNames="true">
     <variable name="reducer" expression="" defaultValue="&quot;reducer&quot;" alwaysStopAt="true" />
     <variable name="initialState" expression="" defaultValue="&quot;initialState&quot;" alwaysStopAt="true" />
     <variable name="init" expression="" defaultValue="&quot;init&quot;" alwaysStopAt="true" />
@@ -83,7 +83,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="uses" value="const [$state$, set$setState$] = useState($initState$);$END$" description="useState" toReformat="true" toShortenFQNames="true">
+  <template name="us" value="const [$state$, set$setState$] = useState($initState$);$END$" description="useState" toReformat="true" toShortenFQNames="true">
     <variable name="state" expression="" defaultValue="&quot;state&quot;" alwaysStopAt="true" />
     <variable name="setState" expression="capitalize(state)" defaultValue="" alwaysStopAt="false" />
     <variable name="initState" expression="" defaultValue="" alwaysStopAt="true" />
@@ -92,29 +92,57 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="uset" value="const { t } = useTranslation();" description="useTranslation" toReformat="true" toShortenFQNames="true">
+  <template name="ut" value="const { t } = useTranslation();" description="useTranslation" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_EXPRESSION" value="true" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="usett" value="const { t } = useTTranslation();" description="useTTranslation" toReformat="true" toShortenFQNames="true">
+  <template name="utt" value="const { t } = useTTranslation();" description="useTTranslation" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_EXPRESSION" value="true" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="cusec" value="const use$name$ = () =&gt; {&#10;  return useCallback(&#10;    () =&gt; {&#10;        $END$&#10;      },&#10;    [],&#10;  )&#10;}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="cuc" value="const use$name$ = () =&gt; {&#10;  return useCallback(&#10;    () =&gt; {&#10;        $END$&#10;      },&#10;    [],&#10;  )&#10;}" description="const = () =&gt; useCallback" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="capitalize" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="usesn" value="const $name$ = useSnapshot($nameProxy$);" description="useSnapshot" toReformat="false" toShortenFQNames="true">
-    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="nameProxy" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="usn" value="const $var$ = useSnapshot($state$);" description="useSnapshot" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="state" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ua" value="const [$state$, set$stateCap$] = useAtom($state$Atom$1$);" description="useAtom" toReformat="true" toShortenFQNames="true">
+    <variable name="state" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="stateCap" expression="capitalize(state)" defaultValue="" alwaysStopAt="false" />
+    <variable name="1" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="uua" value="const set$state$ = useUpdateAtom$1$($stateCamel$Atom$2$);" description="useUpdateAtom" toReformat="true" toShortenFQNames="true">
+    <variable name="state" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="stateCamel" expression="camelCase(state)" defaultValue="" alwaysStopAt="false" />
+    <variable name="1" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="uav" value="const $state$ = useAtomValue$1$($state$Atom$2$);" description="useAtomValue" toReformat="true" toShortenFQNames="true">
+    <variable name="state" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
