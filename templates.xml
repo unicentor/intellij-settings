@@ -147,6 +147,10 @@
           <option name="key" value="exportitems" />
         </TemplateKey>
         <TemplateKey>
+          <option name="groupName" value="JavaScript" />
+          <option name="key" value="us" />
+        </TemplateKey>
+        <TemplateKey>
           <option name="groupName" value="React" />
           <option name="key" value="bnd" />
         </TemplateKey>
