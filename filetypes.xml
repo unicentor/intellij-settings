@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="_redirects" type="AUTO_DETECTED" />
       <mapping pattern="*ejs.t" type="Handlebars/Mustache" />
       <mapping pattern="preview.js" type="JSX Harmony" />
       <mapping pattern="2" type="PLAIN_TEXT" />
