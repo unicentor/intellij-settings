@@ -79,8 +79,9 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="map" value="$arr$.map((item) =&gt; $END$)" description="map" toReformat="true" toShortenFQNames="true">
+  <template name="map" value="$arr$.map(($item$) =&gt; $END$)" description="map" toReformat="true" toShortenFQNames="true">
     <variable name="arr" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="item" expression="" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
     <context>
       <option name="JSX_HTML" value="true" />
       <option name="JS_EXPRESSION" value="true" />
@@ -269,6 +270,15 @@
   </template>
   <template name="find" value="$arr$.find((item) =&gt; $END$)" description="find" toReformat="true" toShortenFQNames="true">
     <variable name="arr" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="mapo" value="$arr$.map(($item$) =&gt; ({&#10;  $END$&#10;})" description="map" toReformat="true" toShortenFQNames="true">
+    <variable name="arr" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="item" expression="" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
     <context>
       <option name="JSX_HTML" value="true" />
       <option name="JS_EXPRESSION" value="true" />
