@@ -1,0 +1,9 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="JavaScript/Convert anonymous function to named function" />
+    <ignoreAction name="JavaScript/Join subsequent variable declarations" />
+    <ignoreAction name="JavaScript/Quote property names" />
+    <ignoreAction name="JavaScript/Replace with indexer access" />
+    <ignoreAction name="JavaScript/ECMAScript 6/Convert arrow function to anonymous function" />
+  </component>
+</application>
