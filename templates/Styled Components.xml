@@ -36,25 +36,28 @@
   </template>
   <template name="scpt" value="${({ theme }) =&gt; theme.$END$};" description="Use props.theme inside styled-component" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="CSS_PROPERTY_VALUE" value="true" />
+      <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="scp" value="${({ $1$ }) =&gt; $END$};" description="Use props inside styled-component" toReformat="false" toShortenFQNames="true">
+  <template name="scp" value="${({ $1$ }) =&gt; $1$ &amp;&amp; '$END$'};" description="Use props inside styled-component" toReformat="false" toShortenFQNames="true">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
       <option name="CSS_PROPERTY_VALUE" value="true" />
     </context>
   </template>
   <template name="scpd" value="${({ $propsName$ }) =&gt;&#10;  $propsName$ &amp;&amp;&#10;  css`&#10;    $END$&#10;  `}" description="Conditional CSS inside styled-component" toReformat="false" toShortenFQNames="true">
     <variable name="propsName" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="CSS" value="true" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="true" />
+      <option name="CSS_RULESET_LIST" value="true" />
     </context>
   </template>
   <template name="scpco" value="${({ theme }) =&gt; theme.colors.$1$};" description="Use props.theme.colors inside styled-component" toReformat="false" toShortenFQNames="true">
     <variable name="1" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
       <option name="CSS_PROPERTY_VALUE" value="true" />
     </context>
   </template>
