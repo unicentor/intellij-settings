@@ -367,6 +367,7 @@
   <action id="MethodUp" />
   <action id="Move">
     <keyboard-shortcut first-keystroke="f3" />
+    <keyboard-shortcut first-keystroke="ctrl f3" />
   </action>
   <action id="MoveElementLeft" />
   <action id="MoveElementRight" />
