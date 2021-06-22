@@ -78,9 +78,6 @@
   </action>
   <action id="Bitbucket.CreateSnippet" />
   <action id="Bitbucket.OpenFileInBitbucket" />
-  <action id="ChangeSignature">
-    <keyboard-shortcut first-keystroke="meta f3" />
-  </action>
   <action id="ChangesView.Diff" />
   <action id="ChangesView.Move" />
   <action id="ChangesView.Rename" />
@@ -366,8 +363,8 @@
   <action id="MethodHierarchy" />
   <action id="MethodUp" />
   <action id="Move">
-    <keyboard-shortcut first-keystroke="f3" />
     <keyboard-shortcut first-keystroke="ctrl f3" />
+    <keyboard-shortcut first-keystroke="meta f3" />
   </action>
   <action id="MoveElementLeft" />
   <action id="MoveElementRight" />
