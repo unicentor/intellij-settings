@@ -21,6 +21,7 @@
       </map>
     </option>
     <option name="USE_SOFT_WRAPS" value="" />
+    <option name="STRIP_TRAILING_SPACES" value="None" />
     <option name="TOOLTIPS_DELAY_MS" value="50" />
     <option name="SHOW_BREADCRUMBS_ABOVE" value="true" />
     <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="true" />

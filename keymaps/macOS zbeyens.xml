@@ -344,13 +344,16 @@
   <action id="JavaScript.Debugger.RestartFrame">
     <keyboard-shortcut first-keystroke="f7" />
   </action>
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="ctrl meta s" />
+  </action>
   <action id="List-selectNextColumn">
     <keyboard-shortcut first-keystroke="right" />
   </action>
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="ctrl meta h" />
   </action>
-  <action id="Macro.Optimize Imports + Save">
+  <action id="Macro.Optimize Imports + Eslint Fix + Save All">
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
   <action id="ManageRecentProjects">
@@ -490,7 +493,9 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="SafeDelete" />
-  <action id="SaveAll" />
+  <action id="SaveAll">
+    <keyboard-shortcut first-keystroke="meta alt s" />
+  </action>
   <action id="SaveAs" />
   <action id="SearchEverywhere.NavigateToNextGroup">
     <keyboard-shortcut first-keystroke="page_down" />

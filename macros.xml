@@ -13,5 +13,10 @@
       <action id="OptimizeImports" />
       <action id="SaveAll" />
     </macro>
+    <macro name="Optimize Imports + Eslint Fix + Save All">
+      <action id="OptimizeImports" />
+      <action id="Javascript.Linters.EsLint.Fix" />
+      <action id="SaveAll" />
+    </macro>
   </component>
 </application>
