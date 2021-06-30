@@ -353,7 +353,7 @@
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="ctrl meta h" />
   </action>
-  <action id="Macro.Optimize Imports + Eslint Fix + Save All">
+  <action id="Macro.Optimize Imports + Save">
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
   <action id="ManageRecentProjects">
