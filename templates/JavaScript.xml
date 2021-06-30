@@ -65,7 +65,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="okfe" value="Object.keys($obj$).forEach(item =&gt; {&#10;  $END$&#10;});" description="Object.keys().forEach" toReformat="true" toShortenFQNames="true">
+  <template name="okfe" value="Object.keys($obj$).forEach((key) =&gt; {&#10;  $END$&#10;});" description="Object.keys().forEach" toReformat="true" toShortenFQNames="true">
     <variable name="obj" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JSX_HTML" value="true" />
