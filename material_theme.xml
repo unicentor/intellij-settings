@@ -2,17 +2,18 @@
   <component name="MaterialThemeConfig">
     <option name="highContrast" value="true" />
     <option name="highlightColorEnabled" value="true" />
+    <option name="premium" value="true" />
     <option name="isHighlightColorEnabled" value="true" />
     <option name="isHighContrast" value="true" />
     <option name="isWizardShown" value="true" />
     <option name="pristineConfig" value="false" />
     <option name="tabFontSize" value="14" />
     <option name="tabsHeight" value="18" />
-    <option name="accentColor" value="66d9ef" />
+    <option name="accentColor" value="5a565b" />
     <option name="highlightColor" value="007acc" />
-    <option name="selectedTheme" value="CUSTOM" />
+    <option name="selectedTheme" value="NATIVE" />
     <option name="userId" value="-62b24e66:170bb4b480e:-8000" />
-    <option name="version" value="5.5.0" />
+    <option name="version" value="6.7.0" />
     <option name="tabHighlightPosition" value="Top" />
   </component>
 </application>
