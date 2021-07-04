@@ -1,0 +1,19 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="HTML" injector-id="js">
+      <display-name>clsx</display-name>
+      <prefix>&lt;div class=&quot;</prefix>
+      <suffix>&quot;&gt;&lt;/div&gt;</suffix>
+      <place><![CDATA[jsArgument(jsReferenceExpression().withQualifiedName("clsx"), 0)]]></place>
+      <place><![CDATA[jsArgument(jsReferenceExpression().withQualifiedName("clsx"), 1)]]></place>
+      <place><![CDATA[jsArgument(jsReferenceExpression().withQualifiedName("clsx"), 2)]]></place>
+      <place><![CDATA[jsArgument(jsReferenceExpression().withQualifiedName("clsx"), 3)]]></place>
+      <place><![CDATA[jsArgument(jsReferenceExpression().withQualifiedName("clsx"), 4)]]></place>
+      <place><![CDATA[jsArgument(jsReferenceExpression().withQualifiedName("clsx"), 5)]]></place>
+      <place><![CDATA[jsArgument(jsReferenceExpression().withQualifiedName("clsx"), 6)]]></place>
+      <place><![CDATA[jsArgument(jsReferenceExpression().withQualifiedName("clsx"), 7)]]></place>
+      <place><![CDATA[jsArgument(jsReferenceExpression().withQualifiedName("clsx"), 8)]]></place>
+      <place><![CDATA[jsArgument(jsReferenceExpression().withQualifiedName("clsx"), 9)]]></place>
+    </injection>
+  </component>
+</application>
