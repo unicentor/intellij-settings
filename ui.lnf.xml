@@ -4,6 +4,8 @@
     <option name="UI_FILTER_LEGALS" value="true" />
   </component>
   <component name="UISettings">
+    <option name="CLOSE_NON_MODIFIED_FILES_FIRST" value="true" />
+    <option name="EDITOR_TAB_LIMIT" value="100" />
     <option name="IDE_AA_TYPE" value="Greyscale" />
     <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
   </component>
