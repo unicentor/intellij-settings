@@ -299,12 +299,21 @@
   </action>
   <action id="Git.Rename.Local.Branch" />
   <action id="Git.Reword.Commit" />
+  <action id="Github.Create.Gist">
+    <keyboard-shortcut first-keystroke="shift ctrl meta g" />
+  </action>
   <action id="Github.Create.Pull.Request">
     <keyboard-shortcut first-keystroke="ctrl meta k" />
+  </action>
+  <action id="Github.Open.In.Browser">
+    <keyboard-shortcut first-keystroke="ctrl meta g" />
   </action>
   <action id="Github.PullRequest.Comments.Reload" />
   <action id="Github.PullRequest.Details.Reload" />
   <action id="Github.PullRequest.Timeline.Update" />
+  <action id="Github.View.Pull.Request">
+    <keyboard-shortcut first-keystroke="shift ctrl meta k" />
+  </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="f1" />
     <keyboard-shortcut first-keystroke="shift meta p" />
@@ -504,7 +513,6 @@
     <keyboard-shortcut first-keystroke="page_up" />
   </action>
   <action id="SelectAllOccurrences">
-    <keyboard-shortcut first-keystroke="ctrl meta g" />
     <keyboard-shortcut first-keystroke="meta f2" />
   </action>
   <action id="SelectNextOccurrence">
