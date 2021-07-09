@@ -6,8 +6,8 @@
       <mapping pattern="_redirects" type="AUTO_DETECTED" />
       <mapping pattern="*ejs.t" type="Handlebars/Mustache" />
       <mapping pattern="preview.js" type="JSX Harmony" />
-      <mapping pattern="1" type="PLAIN_TEXT" />
       <mapping pattern="2" type="PLAIN_TEXT" />
+      <mapping pattern="1" type="PLAIN_TEXT" />
       <mapping pattern="CODEOWNERS" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="getDes" type="PLAIN_TEXT" />
