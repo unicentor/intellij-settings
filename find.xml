@@ -3,6 +3,7 @@
     <option name="customScope" value="Default Changelist" />
     <option name="defaultScopeName" value="Default Changelist" />
     <option name="SEARCH_SCOPE" value="Default Changelist" />
+    <option name="FILE_MASK" value="!CHANGELOG.md" />
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.htm</mask>
@@ -23,9 +24,9 @@
     <mask>!*.md</mask>
     <mask>!*.md,!*.stories.*</mask>
     <mask>!*spec*</mask>
-    <mask>!CHANGELOG.md</mask>
     <mask>!CHANGELOG.md, !*.spec.*</mask>
     <mask>!CHANGELOG.md, !*.spec.*, !schema.graphql, !sdk.ts</mask>
     <mask>!*spec*,!CHANGELOG.md</mask>
+    <mask>!CHANGELOG.md</mask>
   </component>
 </application>
