@@ -361,6 +361,7 @@
   </action>
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="ctrl meta h" />
+    <keyboard-shortcut first-keystroke="shift meta h" />
   </action>
   <action id="Macro.Optimize Imports + Save">
     <keyboard-shortcut first-keystroke="meta s" />
