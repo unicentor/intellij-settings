@@ -5,5 +5,14 @@
         <option value="COMMA_BEFORE_AND" />
       </set>
     </option>
+    <option name="suppressingContext">
+      <SuppressingContext>
+        <option name="suppressed">
+          <set>
+            <option value="rule UI plugin" />
+          </set>
+        </option>
+      </SuppressingContext>
+    </option>
   </component>
 </application>
