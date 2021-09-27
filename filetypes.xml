@@ -4,6 +4,7 @@
       <mapping pattern="docusaurus-plugin/src/index.js" type="AUTO_DETECTED" />
       <mapping pattern="_redirect" type="AUTO_DETECTED" />
       <mapping pattern="hasura" type="AUTO_DETECTED" />
+      <mapping pattern="LICENSE" type="AUTO_DETECTED" />
       <mapping pattern="RandomUtils" type="AUTO_DETECTED" />
       <mapping pattern="_redirects" type="AUTO_DETECTED" />
       <mapping pattern="*ejs.t" type="Handlebars/Mustache" />
