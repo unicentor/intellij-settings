@@ -29,6 +29,7 @@
     <mask>!CHANGELOG.md</mask>
     <mask>!CHANGELOG.md, !*.spec.*</mask>
     <mask>!CHANGELOG.md, !*.spec.*, !*.js*</mask>
+    <mask>*.spec.tsx</mask>
     <mask>!CHANGELOG.md, !*.spec.*, !*.js.*</mask>
   </component>
 </application>
