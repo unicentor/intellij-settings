@@ -5,6 +5,7 @@
       <mapping pattern="_redirect" type="AUTO_DETECTED" />
       <mapping pattern="hasura" type="AUTO_DETECTED" />
       <mapping pattern="LICENSE" type="AUTO_DETECTED" />
+      <mapping pattern="403" type="AUTO_DETECTED" />
       <mapping pattern="RandomUtils" type="AUTO_DETECTED" />
       <mapping pattern="_redirects" type="AUTO_DETECTED" />
       <mapping pattern="*ejs.t" type="Handlebars/Mustache" />
