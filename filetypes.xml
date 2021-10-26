@@ -18,6 +18,7 @@
       <mapping pattern="selected" type="PLAIN_TEXT" />
       <mapping pattern="block" type="PLAIN_TEXT" />
       <mapping pattern="type-tagNames.tsx" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="MentionSelectComponent.spec.tsx" type="PLAIN_TEXT" />
       <mapping ext="snapshot" type="PLAIN_TEXT" />
