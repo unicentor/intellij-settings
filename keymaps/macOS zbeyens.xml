@@ -363,9 +363,6 @@
     <keyboard-shortcut first-keystroke="ctrl meta h" />
     <keyboard-shortcut first-keystroke="shift meta h" />
   </action>
-  <action id="Macro.Optimize Imports + Save">
-    <keyboard-shortcut first-keystroke="meta s" />
-  </action>
   <action id="ManageRecentProjects">
     <keyboard-shortcut first-keystroke="shift alt p" />
   </action>
@@ -505,6 +502,7 @@
   <action id="SafeDelete" />
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="meta alt s" />
+    <keyboard-shortcut first-keystroke="meta s" />
   </action>
   <action id="SaveAs" />
   <action id="SearchEverywhere.NavigateToNextGroup">
