@@ -2,25 +2,25 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="docusaurus-plugin/src/index.js" type="AUTO_DETECTED" />
-      <mapping pattern="_redirect" type="AUTO_DETECTED" />
       <mapping pattern="hasura" type="AUTO_DETECTED" />
+      <mapping pattern="_redirect" type="AUTO_DETECTED" />
       <mapping pattern="LICENSE" type="AUTO_DETECTED" />
-      <mapping pattern="403" type="AUTO_DETECTED" />
       <mapping pattern="RandomUtils" type="AUTO_DETECTED" />
+      <mapping pattern="403" type="AUTO_DETECTED" />
       <mapping pattern="_redirects" type="AUTO_DETECTED" />
       <mapping pattern="*ejs.t" type="Handlebars/Mustache" />
       <mapping pattern="preview.js" type="JSX Harmony" />
-      <mapping pattern="2" type="PLAIN_TEXT" />
-      <mapping pattern="1" type="PLAIN_TEXT" />
-      <mapping pattern="CODEOWNERS" type="PLAIN_TEXT" />
-      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
-      <mapping pattern="getDes" type="PLAIN_TEXT" />
-      <mapping pattern="selected" type="PLAIN_TEXT" />
       <mapping pattern="block" type="PLAIN_TEXT" />
-      <mapping pattern="type-tagNames.tsx" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern="selected" type="PLAIN_TEXT" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="1" type="PLAIN_TEXT" />
+      <mapping pattern="2" type="PLAIN_TEXT" />
+      <mapping pattern="CODEOWNERS" type="PLAIN_TEXT" />
+      <mapping pattern="getDes" type="PLAIN_TEXT" />
       <mapping pattern="MentionSelectComponent.spec.tsx" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern="type-tagNames.tsx" type="PLAIN_TEXT" />
       <mapping ext="snapshot" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping pattern="useQuickPickDocumentSearchQuery.ts" type="TypeScript" />
@@ -28,6 +28,8 @@
       <removed_mapping ext="csv" approved="true" type="CSV file" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="log" approved="true" type="ANSI Aware" />
+      <removed_mapping pattern=".dockerignore" approved="true" type="Docker File" />
+      <removed_mapping pattern=".env" approved="true" type=".env file" />
     </extensionMap>
   </component>
 </application>

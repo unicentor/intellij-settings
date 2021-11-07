@@ -4,7 +4,7 @@
     <property name="created">2020-03-08T19:40:53</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2019.3.3.0.0</property>
-    <property name="modified">2021-11-06T02:36:22</property>
+    <property name="modified">2021-11-07T13:32:05</property>
     <property name="originalScheme">Monokai Pro</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -3353,7 +3353,7 @@
     </option>
     <option name="MARKDOWN_NAVIGATOR.HEADER_TEXT_STRIKETHROUGH_TEXT_BOLD_TEXT_UNDERLINE_TEXT_SUPERSCRIPT_TEXT_SUBSCRIPT_TEXT_ITALIC_TEXT">
       <value>
-        <option name="FOREGROUND" value="834952" />
+        <option name="FOREGROUND" value="824952" />
         <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_COLOR" value="898059" />
         <option name="EFFECT_TYPE" value="1" />
@@ -3730,7 +3730,7 @@
       <value>
         <option name="FOREGROUND" value="804758" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="804759" />
+        <option name="EFFECT_COLOR" value="804758" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
