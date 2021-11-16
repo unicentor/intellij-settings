@@ -429,6 +429,9 @@
   <action id="Pause">
     <keyboard-shortcut first-keystroke="meta f10" />
   </action>
+  <action id="PinActiveTab">
+    <keyboard-shortcut first-keystroke="ctrl meta p" />
+  </action>
   <action id="PreviousDiff">
     <keyboard-shortcut first-keystroke="f7" />
   </action>
