@@ -479,7 +479,7 @@
     <keyboard-shortcut first-keystroke="shift alt u" />
   </action>
   <action id="RestartIde">
-    <keyboard-shortcut first-keystroke="ctrl meta r" />
+    <keyboard-shortcut first-keystroke="ctrl meta w" />
   </action>
   <action id="RestoreDefaultLayout" />
   <action id="Resume">
@@ -632,7 +632,9 @@
   <action id="com.intellij.lang.jsgraphql.v1.ide.actions.JSGraphQLExecuteEditorAction" />
   <action id="hg4idea.QFold" />
   <action id="hg4idea.QPushAction" />
-  <action id="hg4idea.QRefresh" />
+  <action id="hg4idea.QRefresh">
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
   <action id="openAssertEqualsDiff" />
   <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="v" />
