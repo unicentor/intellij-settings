@@ -4,9 +4,9 @@
     <keyboard-shortcut first-keystroke="meta semicolon" />
   </action>
   <action id="$Cut">
-    <keyboard-shortcut first-keystroke="meta x" />
     <keyboard-shortcut first-keystroke="shift delete" />
     <keyboard-shortcut first-keystroke="meta l" />
+    <keyboard-shortcut first-keystroke="meta x" />
   </action>
   <action id="$Delete">
     <keyboard-shortcut first-keystroke="delete" />
@@ -116,7 +116,6 @@
   <action id="Console.History.Browse" />
   <action id="Console.TableResult.CompareCells" />
   <action id="Console.TableResult.DeleteRows">
-    <keyboard-shortcut first-keystroke="meta open_bracket" />
     <keyboard-shortcut first-keystroke="ctrl e" />
     <keyboard-shortcut first-keystroke="shift ctrl meta w" />
   </action>
@@ -127,6 +126,10 @@
   <action id="Coverage">
     <keyboard-shortcut first-keystroke="shift meta f5" />
     <keyboard-shortcut first-keystroke="shift f5" />
+  </action>
+  <action id="DatabaseView.DataSourceCutAction">
+    <keyboard-shortcut first-keystroke="shift delete" />
+    <keyboard-shortcut first-keystroke="meta l" />
   </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="meta f5" />
@@ -161,6 +164,7 @@
   </action>
   <action id="Editor Cut">
     <keyboard-shortcut first-keystroke="meta l" />
+    <keyboard-shortcut first-keystroke="meta x" />
   </action>
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="meta quote" />
@@ -181,16 +185,12 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="meta alt down" />
   </action>
-  <action id="EditorCodeBlockEnd">
-    <keyboard-shortcut first-keystroke="alt close_bracket" />
-  </action>
+  <action id="EditorCodeBlockEnd" />
   <action id="EditorCodeBlockEndWithSelection">
     <keyboard-shortcut first-keystroke="shift meta alt close_bracket" />
     <keyboard-shortcut first-keystroke="shift alt close_bracket" />
   </action>
-  <action id="EditorCodeBlockStart">
-    <keyboard-shortcut first-keystroke="alt open_bracket" />
-  </action>
+  <action id="EditorCodeBlockStart" />
   <action id="EditorCodeBlockStartWithSelection">
     <keyboard-shortcut first-keystroke="shift meta alt open_bracket" />
     <keyboard-shortcut first-keystroke="shift alt open_bracket" />
@@ -199,13 +199,11 @@
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
   </action>
   <action id="EditorCut">
-    <keyboard-shortcut first-keystroke="meta x" />
     <keyboard-shortcut first-keystroke="shift delete" />
     <keyboard-shortcut first-keystroke="meta l" />
+    <keyboard-shortcut first-keystroke="meta x" />
   </action>
-  <action id="EditorCutLineEnd" />
   <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="meta open_bracket" />
     <keyboard-shortcut first-keystroke="shift ctrl meta w" />
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
@@ -279,7 +277,6 @@
   </action>
   <action id="ForceStepOver" />
   <action id="Forward">
-    <keyboard-shortcut first-keystroke="meta close_bracket" />
     <keyboard-shortcut first-keystroke="meta alt right" />
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="meta alt close_bracket" />
@@ -605,6 +602,10 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="UsageView.Remove">
+    <keyboard-shortcut first-keystroke="shift delete" />
+    <keyboard-shortcut first-keystroke="meta l" />
+  </action>
   <action id="Vcs.EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -630,6 +631,14 @@
   </action>
   <action id="XDebugger.SetValue" />
   <action id="com.intellij.lang.jsgraphql.v1.ide.actions.JSGraphQLExecuteEditorAction" />
+  <action id="copilot.cycleNextInlays">
+    <keyboard-shortcut first-keystroke="alt close_bracket" />
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+  </action>
+  <action id="copilot.cyclePrevInlays">
+    <keyboard-shortcut first-keystroke="alt open_bracket" />
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+  </action>
   <action id="hg4idea.QFold" />
   <action id="hg4idea.QPushAction" />
   <action id="hg4idea.QRefresh">
