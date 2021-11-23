@@ -24,7 +24,7 @@
       <option name="XML" value="false" />
     </context>
   </template>
-  <template name="tsx" value="```tsx&#10;$END$&#10;```" description="```tsx" toReformat="false" toShortenFQNames="true">
+  <template name="ts" value="```tsx&#10;$END$&#10;```" description="```tsx" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
