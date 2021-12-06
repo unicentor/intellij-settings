@@ -9,6 +9,7 @@
       <mapping pattern="403" type="AUTO_DETECTED" />
       <mapping pattern="_redirects" type="AUTO_DETECTED" />
       <mapping pattern="core-mi" type="AUTO_DETECTED" />
+      <mapping pattern="useAPICollectionCreateMutation" type="AUTO_DETECTED" />
       <mapping pattern="*ejs.t" type="Handlebars/Mustache" />
       <mapping pattern="preview.js" type="JSX Harmony" />
       <mapping pattern="block" type="PLAIN_TEXT" />
