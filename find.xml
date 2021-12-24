@@ -19,6 +19,8 @@
     <mask>!CHANGELOG.md, !*.spec.*</mask>
     <mask>!CHANGELOG.md, !*.spec.*, !*.js*</mask>
     <mask>*.md</mask>
+    <mask>!CHANGELOG.md, !*.spec.*, !*.js.*</mask>
+    <mask>!*.spec.*, !*.js.*, !BREAKING_CHANGES.md, !CHANGELOG.md</mask>
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.shtml</mask>
@@ -31,8 +33,6 @@
     <mask>*.ts</mask>
     <mask>*.cjs</mask>
     <mask>*.js</mask>
-    <mask>!CHANGELOG.md, !*.spec.*, !*.js.*</mask>
-    <mask>!*.spec.*, !*.js.*, !BREAKING_CHANGES.md, !CHANGELOG.md</mask>
     <mask>!CHANGELOG.md</mask>
   </component>
 </application>
