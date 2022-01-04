@@ -78,6 +78,7 @@
   </action>
   <action id="Bitbucket.CreateSnippet" />
   <action id="Bitbucket.OpenFileInBitbucket" />
+  <action id="CallHierarchy" />
   <action id="ChangesView.Diff" />
   <action id="ChangesView.Move" />
   <action id="ChangesView.Rename" />
