@@ -3,8 +3,7 @@
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
     <option name="SEARCH_SCOPE" value="Project Files" />
-    <option name="FILE_MASK" value="!CHANGELOG.md" />
-    <mask>*.ts*</mask>
+    <option name="FILE_MASK" value="!CHANGELOG.md, !*.spec.*, !*.test.*" />
     <mask>*.ts?</mask>
     <mask>*.ts, *.tsx</mask>
     <mask>*.stories.*</mask>
@@ -21,6 +20,7 @@
     <mask>*.md</mask>
     <mask>!CHANGELOG.md, !*.spec.*, !*.js.*</mask>
     <mask>!*.spec.*, !*.js.*, !BREAKING_CHANGES.md, !CHANGELOG.md</mask>
+    <mask>!CHANGELOG.md</mask>
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.shtml</mask>
@@ -33,6 +33,6 @@
     <mask>*.ts</mask>
     <mask>*.cjs</mask>
     <mask>*.js</mask>
-    <mask>!CHANGELOG.md</mask>
+    <mask>!CHANGELOG.md, !*.spec.*, !*.test.*</mask>
   </component>
 </application>
