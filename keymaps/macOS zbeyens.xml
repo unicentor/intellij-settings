@@ -95,9 +95,14 @@
     <keyboard-shortcut first-keystroke="shift alt w" />
   </action>
   <action id="CodeGlance.toggle" />
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
   <action id="CollapseExpandableComponent">
     <keyboard-shortcut first-keystroke="meta subtract" />
-    <keyboard-shortcut first-keystroke="meta minus" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
   <action id="CollapseSelection" />
   <action id="CommentByBlockComment">
@@ -204,6 +209,9 @@
     <keyboard-shortcut first-keystroke="meta l" />
     <keyboard-shortcut first-keystroke="meta x" />
   </action>
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="meta minus" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift ctrl meta w" />
     <keyboard-shortcut first-keystroke="meta e" />
@@ -217,6 +225,9 @@
   <action id="EditorDuplicate" />
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="shift meta d" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="meta equals" />
   </action>
   <action id="EditorJoinLines">
     <keyboard-shortcut first-keystroke="shift ctrl j" />
@@ -240,6 +251,9 @@
     <keyboard-shortcut first-keystroke="shift alt left" />
     <keyboard-shortcut first-keystroke="shift meta alt left" />
   </action>
+  <action id="EditorResetFontSize">
+    <keyboard-shortcut first-keystroke="meta 0" />
+  </action>
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
   </action>
@@ -256,11 +270,22 @@
     <keyboard-shortcut first-keystroke="shift enter" />
   </action>
   <action id="EditorToggleCase" />
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
   <action id="ExpandExpandableComponent">
     <keyboard-shortcut first-keystroke="meta add" />
-    <keyboard-shortcut first-keystroke="meta equals" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="meta add" />
   </action>
   <action id="ExternalJavaDoc" />
+  <action id="ExternalSystem.CollapseAll">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="ExternalSystem.ExpandAll">
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.GotoModule" />
   <action id="FileChooser.GotoProject" />
@@ -343,6 +368,12 @@
     <keyboard-shortcut first-keystroke="ctrl back_slash" />
   </action>
   <action id="Images.Editor.ToggleGrid" />
+  <action id="Images.Editor.ZoomIn">
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
+  <action id="Images.Editor.ZoomOut">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
   <action id="InsertLiveTemplate" />
   <action id="IntroduceField" />
   <action id="IntroduceVariable">
