@@ -132,6 +132,7 @@
   <action id="Coverage">
     <keyboard-shortcut first-keystroke="shift meta f5" />
     <keyboard-shortcut first-keystroke="shift f5" />
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
   <action id="DatabaseView.DataSourceCutAction">
     <keyboard-shortcut first-keystroke="shift delete" />
@@ -673,9 +674,7 @@
   </action>
   <action id="hg4idea.QFold" />
   <action id="hg4idea.QPushAction" />
-  <action id="hg4idea.QRefresh">
-    <keyboard-shortcut first-keystroke="ctrl meta r" />
-  </action>
+  <action id="hg4idea.QRefresh" />
   <action id="openAssertEqualsDiff" />
   <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="v" />
