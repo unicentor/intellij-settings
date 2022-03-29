@@ -7,8 +7,9 @@
         <option name="autoCheckIntervalHours" value="24" />
       </OutdatedBranchesAutoCleanupConfig>
     </option>
+    <option name="outdatedBranchesOldCommitDeleteConfirmation" value="false" />
     <option name="previousVersionMigrated" value="true" />
     <option name="showEditorInlineBlame" value="false" />
-    <option name="version" value="4" />
+    <option name="version" value="5" />
   </component>
 </application>
