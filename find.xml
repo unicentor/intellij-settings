@@ -2,6 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
+    <option name="wholeWordsOnly" value="true" />
+    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
     <mask>*.ts?</mask>
     <mask>*.ts, *.tsx</mask>
@@ -20,6 +22,7 @@
     <mask>!CHANGELOG.md, !*.spec.*, !*.js.*</mask>
     <mask>!*.spec.*, !*.js.*, !BREAKING_CHANGES.md, !CHANGELOG.md</mask>
     <mask>!CHANGELOG.md</mask>
+    <mask>!CHANGELOG.md, !*.spec.*, !*.test.*</mask>
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.shtml</mask>
@@ -32,6 +35,5 @@
     <mask>*.ts</mask>
     <mask>*.cjs</mask>
     <mask>*.js</mask>
-    <mask>!CHANGELOG.md, !*.spec.*, !*.test.*</mask>
   </component>
 </application>
