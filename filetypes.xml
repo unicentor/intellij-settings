@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern=".env" type=".env file" />
       <mapping pattern="docusaurus-plugin/src/index.js" type="AUTO_DETECTED" />
       <mapping pattern="hasura" type="AUTO_DETECTED" />
       <mapping pattern="_redirect" type="AUTO_DETECTED" />
@@ -22,7 +23,6 @@
       <mapping pattern="CODEOWNERS" type="PLAIN_TEXT" />
       <mapping pattern="getDes" type="PLAIN_TEXT" />
       <mapping pattern="MentionSelectComponent.spec.tsx" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="type-tagNames.tsx" type="PLAIN_TEXT" />
       <mapping ext="snapshot" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
@@ -32,7 +32,6 @@
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="log" approved="true" type="ANSI Aware" />
       <removed_mapping pattern=".dockerignore" approved="true" type="Docker File" />
-      <removed_mapping pattern=".env" approved="true" type=".env file" />
       <mapping ext=".model" type="Tabnine project model file" />
       <mapping ext=".tabnine" type="Tabnine project model file" />
       <mapping ext=".tabnine.model" type="Tabnine project model file" />
