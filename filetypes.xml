@@ -8,6 +8,7 @@
       <mapping pattern="RandomUtils" type="AUTO_DETECTED" />
       <mapping pattern="403" type="AUTO_DETECTED" />
       <mapping pattern="_redirects" type="AUTO_DETECTED" />
+      <mapping pattern="chakraSpace" type="AUTO_DETECTED" />
       <mapping pattern="core-mi" type="AUTO_DETECTED" />
       <mapping pattern="useAPICollectionCreateMutation" type="AUTO_DETECTED" />
       <mapping pattern="*ejs.t" type="Handlebars/Mustache" />
