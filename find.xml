@@ -3,11 +3,9 @@
     <option name="caseSensitive" value="true" />
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
-    <option name="wholeWordsOnly" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
-    <mask>*.ts?</mask>
+    <option name="FILE_MASK" value="!*.spec.*" />
     <mask>*.ts, *.tsx</mask>
     <mask>*.stories.*</mask>
     <mask>!*.log</mask>
@@ -37,5 +35,6 @@
     <mask>*.ts</mask>
     <mask>*.cjs</mask>
     <mask>*.js</mask>
+    <mask>!*.spec.*</mask>
   </component>
 </application>
