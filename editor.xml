@@ -22,7 +22,7 @@
         <entry key="TypeScript JSX" value="true" />
       </map>
     </option>
-    <option name="USE_SOFT_WRAPS" value="" />
+    <option name="USE_SOFT_WRAPS" value="PREVIEW" />
     <option name="STRIP_TRAILING_SPACES" value="None" />
     <option name="TOOLTIPS_DELAY_MS" value="50" />
     <option name="SHOW_BREADCRUMBS_ABOVE" value="true" />
