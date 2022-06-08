@@ -4,7 +4,7 @@
     <property name="created">2020-03-09T00:39:41</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2019.3.3.0.0</property>
-    <property name="modified">2021-11-26T19:08:47</property>
+    <property name="modified">2022-06-08T17:40:40</property>
     <property name="originalScheme">Dracula</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -914,7 +914,7 @@
     <option name="INDENT_RAINBOW_COLOR_1">
       <value>
         <option name="FOREGROUND" value="808080" />
-        <option name="BACKGROUND" value="343637" />
+        <option name="BACKGROUND" value="3a3d4b" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_1_CUSTOM">
@@ -926,7 +926,7 @@
     <option name="INDENT_RAINBOW_COLOR_2">
       <value>
         <option name="FOREGROUND" value="808080" />
-        <option name="BACKGROUND" value="2d363a" />
+        <option name="BACKGROUND" value="384049" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_2_CUSTOM">
@@ -938,7 +938,7 @@
     <option name="INDENT_RAINBOW_COLOR_3">
       <value>
         <option name="FOREGROUND" value="808080" />
-        <option name="BACKGROUND" value="342f41" />
+        <option name="BACKGROUND" value="3d4147" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_3_CUSTOM">
@@ -950,7 +950,7 @@
     <option name="INDENT_RAINBOW_COLOR_4">
       <value>
         <option name="FOREGROUND" value="808080" />
-        <option name="BACKGROUND" value="2a3540" />
+        <option name="BACKGROUND" value="413e46" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_4_CUSTOM">
@@ -962,7 +962,7 @@
     <option name="INDENT_RAINBOW_COLOR_5">
       <value>
         <option name="FOREGROUND" value="808080" />
-        <option name="BACKGROUND" value="483f48" />
+        <option name="BACKGROUND" value="413a44" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_5_CUSTOM">
@@ -974,7 +974,7 @@
     <option name="INDENT_RAINBOW_COLOR_6">
       <value>
         <option name="FOREGROUND" value="808080" />
-        <option name="BACKGROUND" value="483b46" />
+        <option name="BACKGROUND" value="413742" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_6_CUSTOM">
