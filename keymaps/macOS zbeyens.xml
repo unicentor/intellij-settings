@@ -323,6 +323,9 @@
   </action>
   <action id="Git.Rename.Local.Branch" />
   <action id="Git.Reword.Commit" />
+  <action id="GitToolBox.SwitchRecentBranches">
+    <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
   <action id="Github.Create.Gist">
     <keyboard-shortcut first-keystroke="shift ctrl meta g" />
   </action>
