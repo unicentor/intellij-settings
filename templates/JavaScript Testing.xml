@@ -292,10 +292,8 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="test" value="const output = $output$;&#10;&#10;it('should be', () =&gt; {&#10;  expect($fn$($input$)).toEqual(output);&#10;});&#10;" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="fn" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="output" expression="" defaultValue="&quot;null&quot;" alwaysStopAt="true" />
-    <variable name="input" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="test" value="describe('$TM_FILENAME_BASE$', () =&gt; {&#10;  it('should be', () =&gt; {&#10;    const expected = null;&#10;  &#10;    expect($TM_FILENAME_BASE$$END$()).toEqual(expected);&#10;  });&#10;})&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="TM_FILENAME_BASE" expression="substringBefore(fileName(), &quot;.&quot;)" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JSX_HTML" value="false" />
