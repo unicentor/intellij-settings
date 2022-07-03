@@ -1,6 +1,8 @@
 <application>
   <component name="github-copilot">
     <option name="signinNotificationShown" value="true" />
+    <option name="showIdeCompletions" value="true" />
+    <option name="enableProxySupport" value="true" />
     <option name="telemetryTermsAcceptedDate" value="2022-05-22T01:37:43.304055+02:00[Europe/Brussels]" />
   </component>
 </application>

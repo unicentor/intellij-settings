@@ -3,7 +3,6 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>*.ts, *.tsx</mask>
     <mask>*.stories.*</mask>
     <mask>!*.log</mask>
     <mask>!*.md</mask>
@@ -33,5 +32,6 @@
     <mask>*.ts</mask>
     <mask>*.cjs</mask>
     <mask>*.js</mask>
+    <mask>!examples</mask>
   </component>
 </application>

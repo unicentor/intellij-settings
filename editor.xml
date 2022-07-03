@@ -28,7 +28,7 @@
     <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="true" />
   </component>
   <component name="InlayHintsSettings">
-    <option name="lastViewedProviderKeyId" value="ts.type.hints" />
+    <option name="lastViewedProviderKeyId" value="TypeScript.ts.type.hints.function.returns" />
     <settingsMapElement>
       <JavaScript.js.type.hints>
         <Settings>
@@ -40,6 +40,7 @@
         <Settings>
           <option name="showForFunctions" value="true" />
           <option name="showForShorthandFunctions" value="true" />
+          <option name="showForVariablesAndFields" value="true" />
         </Settings>
       </TypeScript.ts.type.hints>
     </settingsMapElement>
