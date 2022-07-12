@@ -3,7 +3,7 @@
     <property name="created">2021-07-04T21:55:19</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2021.1.3.0.0</property>
-    <property name="modified">2022-07-06T19:55:23</property>
+    <property name="modified">2022-07-12T15:55:52</property>
     <property name="originalScheme">Monokai Pro (Filter Spectrum)</property>
   </metaInfo>
   <colors>
@@ -1033,7 +1033,7 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_1">
       <value>
-        <option name="BACKGROUND" value="353639" />
+        <option name="BACKGROUND" value="2e2e24" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_1_CUSTOM">
@@ -1043,7 +1043,7 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_2">
       <value>
-        <option name="BACKGROUND" value="333937" />
+        <option name="BACKGROUND" value="272e27" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_2_CUSTOM">
@@ -1053,7 +1053,7 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_3">
       <value>
-        <option name="BACKGROUND" value="383a35" />
+        <option name="BACKGROUND" value="2e272e" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_3_CUSTOM">
@@ -1063,7 +1063,7 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_4">
       <value>
-        <option name="BACKGROUND" value="3b3734" />
+        <option name="BACKGROUND" value="242d2d" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_4_CUSTOM">
