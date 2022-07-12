@@ -3,7 +3,7 @@
     <property name="created">2021-07-04T21:55:19</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2021.1.3.0.0</property>
-    <property name="modified">2022-07-06T19:55:22</property>
+    <property name="modified">2022-07-12T15:55:51</property>
     <property name="originalScheme">WarmNeon</property>
   </metaInfo>
   <colors>
@@ -572,7 +572,7 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_1">
       <value>
-        <option name="BACKGROUND" value="505054" />
+        <option name="BACKGROUND" value="4a4a40" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_1_CUSTOM">
@@ -582,7 +582,7 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_2">
       <value>
-        <option name="BACKGROUND" value="4d5451" />
+        <option name="BACKGROUND" value="434a43" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_2_CUSTOM">
@@ -592,7 +592,7 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_3">
       <value>
-        <option name="BACKGROUND" value="535450" />
+        <option name="BACKGROUND" value="4a434a" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_3_CUSTOM">
@@ -602,7 +602,7 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_4">
       <value>
-        <option name="BACKGROUND" value="56524f" />
+        <option name="BACKGROUND" value="414949" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_4_CUSTOM">
