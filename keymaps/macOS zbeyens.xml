@@ -209,6 +209,7 @@
     <keyboard-shortcut first-keystroke="meta l" />
     <keyboard-shortcut first-keystroke="meta x" />
   </action>
+  <action id="EditorCutLineEnd" />
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="meta minus" />
   </action>
@@ -608,6 +609,9 @@
   </action>
   <action id="Terminal.MoveToolWindowTabLeft" />
   <action id="Terminal.MoveToolWindowTabRight" />
+  <action id="Terminal.OpenInTerminal">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="back_quote" />
+  </action>
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="ToggleBookmark" />
   <action id="ToggleLineBreakpoint" />
