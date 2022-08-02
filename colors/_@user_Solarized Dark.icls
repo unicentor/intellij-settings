@@ -3,7 +3,7 @@
     <property name="created">2022-07-30T12:10:41</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2021.2.3.0.0</property>
-    <property name="modified">2022-07-30T12:10:43</property>
+    <property name="modified">2022-08-02T21:29:51</property>
     <property name="originalScheme">Solarized Dark</property>
   </metaInfo>
   <colors>
@@ -1300,22 +1300,32 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_1">
       <value>
-        <option name="BACKGROUND" value="e3737" />
+        <option name="BACKGROUND" value="173e4b" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_2">
       <value>
-        <option name="BACKGROUND" value="7373a" />
+        <option name="BACKGROUND" value="154149" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_3">
       <value>
-        <option name="BACKGROUND" value="e3041" />
+        <option name="BACKGROUND" value="1a4247" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_4">
       <value>
-        <option name="BACKGROUND" value="43640" />
+        <option name="BACKGROUND" value="1d3f46" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_5">
+      <value>
+        <option name="BACKGROUND" value="1d3b44" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_6">
+      <value>
+        <option name="BACKGROUND" value="1d3842" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_ERROR">
