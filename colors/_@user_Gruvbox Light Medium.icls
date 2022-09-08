@@ -3,7 +3,7 @@
     <property name="created">2022-07-30T12:11:10</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2021.2.3.0.0</property>
-    <property name="modified">2022-09-06T19:09:30</property>
+    <property name="modified">2022-09-08T21:55:16</property>
     <property name="originalScheme">Gruvbox Light Medium</property>
   </metaInfo>
   <colors>
@@ -587,22 +587,22 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_1">
       <value>
-        <option name="BACKGROUND" value="fbf2ba" />
+        <option name="BACKGROUND" value="f3eccc" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_2">
       <value>
-        <option name="BACKGROUND" value="eff2c0" />
+        <option name="BACKGROUND" value="f0f0c9" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_3">
       <value>
-        <option name="BACKGROUND" value="fbe6cc" />
+        <option name="BACKGROUND" value="f7f1c8" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_4">
       <value>
-        <option name="BACKGROUND" value="ebf1ca" />
+        <option name="BACKGROUND" value="fcedc6" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_5">
