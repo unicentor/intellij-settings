@@ -4,7 +4,7 @@
     <property name="created">2022-07-30T12:10:19</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2021.2.3.0.0</property>
-    <property name="modified">2022-09-08T21:55:16</property>
+    <property name="modified">2022-09-25T02:25:42</property>
     <property name="originalScheme">Roboticket Light</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -486,22 +486,22 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_1">
       <value>
-        <option name="BACKGROUND" value="efeff3" />
+        <option name="BACKGROUND" value="f7f6e4" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_2">
       <value>
-        <option name="BACKGROUND" value="ecf3f0" />
+        <option name="BACKGROUND" value="ebf6ea" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_3">
       <value>
-        <option name="BACKGROUND" value="f3f4ef" />
+        <option name="BACKGROUND" value="f7eaf6" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_4">
       <value>
-        <option name="BACKGROUND" value="f7f1ed" />
+        <option name="BACKGROUND" value="e6f4f4" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_5">
