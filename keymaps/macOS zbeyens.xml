@@ -616,7 +616,9 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="back_quote" />
   </action>
   <action id="TodoViewGroupByFlattenPackage" />
-  <action id="ToggleBookmark" />
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="shift meta d" />
+  </action>
   <action id="ToggleLineBreakpoint" />
   <action id="ToggleRenderedDocPresentationForAll">
     <keyboard-shortcut first-keystroke="alt q" />
