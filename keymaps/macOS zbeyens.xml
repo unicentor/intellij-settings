@@ -22,8 +22,14 @@
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
   <action id="AceAction" />
+  <action id="AceLineAction">
+    <keyboard-shortcut first-keystroke="shift ctrl semicolon" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
   <action id="AceWordAction">
     <keyboard-shortcut first-keystroke="ctrl meta enter" />
+    <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
   <action id="AceWordBackwardsAction">
     <keyboard-shortcut first-keystroke="ctrl meta back_space" />
@@ -121,7 +127,6 @@
   <action id="Console.History.Browse" />
   <action id="Console.TableResult.CompareCells" />
   <action id="Console.TableResult.DeleteRows">
-    <keyboard-shortcut first-keystroke="ctrl e" />
     <keyboard-shortcut first-keystroke="shift ctrl meta w" />
   </action>
   <action id="ConsoleView.ClearAll">
@@ -134,7 +139,6 @@
   <action id="Coverage">
     <keyboard-shortcut first-keystroke="shift meta f5" />
     <keyboard-shortcut first-keystroke="shift f5" />
-    <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
   <action id="DatabaseView.DataSourceCutAction">
     <keyboard-shortcut first-keystroke="shift delete" />
@@ -531,8 +535,7 @@
     <keyboard-shortcut first-keystroke="f5" />
   </action>
   <action id="RunClass">
-    <keyboard-shortcut first-keystroke="shift ctrl r" />
-    <keyboard-shortcut first-keystroke="ctrl r" />
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="RunDashboard.Debug" />
@@ -644,6 +647,7 @@
     <keyboard-shortcut first-keystroke="shift meta back_slash" />
   </action>
   <action id="UpdateRunningApplication" />
+  <action id="UsageFiltering.ReadAccess" />
   <action id="UsageGrouping.FileStructure" />
   <action id="UsageView.Exclude">
     <keyboard-shortcut first-keystroke="delete" />
@@ -698,6 +702,9 @@
   </action>
   <action id="osmedile.intellij.stringmanip.swap.SwapQuote">
     <keyboard-shortcut first-keystroke="alt quote" />
+  </action>
+  <action id="runShellFileAction">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
   <action id="tasks.close" />
   <action id="tasks.goto" />
