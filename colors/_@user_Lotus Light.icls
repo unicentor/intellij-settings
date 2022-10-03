@@ -4,7 +4,7 @@
     <property name="created">2022-07-30T12:14:27</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2021.2.3.0.0</property>
-    <property name="modified">2022-09-25T02:25:42</property>
+    <property name="modified">2022-10-03T00:39:50</property>
     <property name="originalScheme">Lotus Light</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="JetBrains Mono" />
@@ -1030,22 +1030,22 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_1">
       <value>
-        <option name="BACKGROUND" value="fffaed" />
+        <option name="BACKGROUND" value="f6f3fc" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_2">
       <value>
-        <option name="BACKGROUND" value="f3faf3" />
+        <option name="BACKGROUND" value="f4f8f9" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_3">
       <value>
-        <option name="BACKGROUND" value="ffefff" />
+        <option name="BACKGROUND" value="fbf8f7" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_4">
       <value>
-        <option name="BACKGROUND" value="eff9fd" />
+        <option name="BACKGROUND" value="fff5f5" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_5">

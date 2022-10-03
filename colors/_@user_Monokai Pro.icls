@@ -4,7 +4,7 @@
     <property name="created">2020-03-08T19:40:53</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2019.3.3.0.0</property>
-    <property name="modified">2022-09-25T02:25:43</property>
+    <property name="modified">2022-10-03T00:39:50</property>
     <property name="originalScheme">Monokai Pro</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -1059,7 +1059,7 @@
     <option name="INDENT_RAINBOW_COLOR_1">
       <value>
         <option name="FOREGROUND" value="808080" />
-        <option name="BACKGROUND" value="38362f" />
+        <option name="BACKGROUND" value="3f3d44" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_1_CUSTOM">
@@ -1071,7 +1071,7 @@
     <option name="INDENT_RAINBOW_COLOR_2">
       <value>
         <option name="FOREGROUND" value="808080" />
-        <option name="BACKGROUND" value="313632" />
+        <option name="BACKGROUND" value="3d4041" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_2_CUSTOM">
@@ -1083,7 +1083,7 @@
     <option name="INDENT_RAINBOW_COLOR_3">
       <value>
         <option name="FOREGROUND" value="808080" />
-        <option name="BACKGROUND" value="382f39" />
+        <option name="BACKGROUND" value="424140" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_3_CUSTOM">
@@ -1095,7 +1095,7 @@
     <option name="INDENT_RAINBOW_COLOR_4">
       <value>
         <option name="FOREGROUND" value="808080" />
-        <option name="BACKGROUND" value="2f3538" />
+        <option name="BACKGROUND" value="453e3f" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_4_CUSTOM">

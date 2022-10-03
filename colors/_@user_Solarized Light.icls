@@ -3,7 +3,7 @@
     <property name="created">2022-07-30T12:10:41</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2021.2.3.0.0</property>
-    <property name="modified">2022-09-25T02:25:42</property>
+    <property name="modified">2022-10-03T00:39:50</property>
     <property name="originalScheme">Solarized Light</property>
   </metaInfo>
   <colors>
@@ -1296,22 +1296,22 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_1">
       <value>
-        <option name="BACKGROUND" value="fdf7d4" />
+        <option name="BACKGROUND" value="f5f0e4" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_2">
       <value>
-        <option name="BACKGROUND" value="f1f7da" />
+        <option name="BACKGROUND" value="f2f4e1" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_3">
       <value>
-        <option name="BACKGROUND" value="fdebe6" />
+        <option name="BACKGROUND" value="f9f5df" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_4">
       <value>
-        <option name="BACKGROUND" value="edf5e4" />
+        <option name="BACKGROUND" value="fdf2de" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_5">
