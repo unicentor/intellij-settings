@@ -531,11 +531,9 @@
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="r" />
   </action>
-  <action id="Run">
-    <keyboard-shortcut first-keystroke="f5" />
-  </action>
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="ctrl meta r" />
+    <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="RunDashboard.Debug" />
