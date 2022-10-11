@@ -3,7 +3,7 @@
     <property name="created">2022-07-30T12:12:19</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2021.2.3.0.0</property>
-    <property name="modified">2022-10-07T01:53:39</property>
+    <property name="modified">2022-10-11T16:54:25</property>
     <property name="originalScheme">Atom One Light</property>
   </metaInfo>
   <colors>
@@ -273,22 +273,22 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_1">
       <value>
-        <option name="BACKGROUND" value="ffffed" />
+        <option name="BACKGROUND" value="f6f7fc" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_2">
       <value>
-        <option name="BACKGROUND" value="f3fff3" />
+        <option name="BACKGROUND" value="f4fcf9" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_3">
       <value>
-        <option name="BACKGROUND" value="fff3ff" />
+        <option name="BACKGROUND" value="fbfdf7" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_4">
       <value>
-        <option name="BACKGROUND" value="effdfd" />
+        <option name="BACKGROUND" value="fff9f5" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_5">

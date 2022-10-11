@@ -3,7 +3,7 @@
     <property name="created">2021-11-26T19:34:39</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2021.2.3.0.0</property>
-    <property name="modified">2022-10-07T01:53:39</property>
+    <property name="modified">2022-10-11T16:54:25</property>
     <property name="originalScheme">Monokai Pro (Classic)</property>
   </metaInfo>
   <colors>
@@ -1034,22 +1034,22 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_1">
       <value>
-        <option name="BACKGROUND" value="333424" />
+        <option name="BACKGROUND" value="393b39" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_2">
       <value>
-        <option name="BACKGROUND" value="2c3427" />
+        <option name="BACKGROUND" value="373e37" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_3">
       <value>
-        <option name="BACKGROUND" value="332d2e" />
+        <option name="BACKGROUND" value="3d3f35" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_4">
       <value>
-        <option name="BACKGROUND" value="29332d" />
+        <option name="BACKGROUND" value="403c34" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_5">
