@@ -4,7 +4,7 @@
     <property name="created">2022-07-30T12:14:27</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2021.2.3.0.0</property>
-    <property name="modified">2022-10-11T16:54:25</property>
+    <property name="modified">2022-10-16T03:12:11</property>
     <property name="originalScheme">Lotus Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -1052,22 +1052,22 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_1">
       <value>
-        <option name="BACKGROUND" value="2c2d30" />
+        <option name="BACKGROUND" value="25251a" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_2">
       <value>
-        <option name="BACKGROUND" value="2a302e" />
+        <option name="BACKGROUND" value="1e251e" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_3">
       <value>
-        <option name="BACKGROUND" value="2f312d" />
+        <option name="BACKGROUND" value="251e25" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_4">
       <value>
-        <option name="BACKGROUND" value="332e2b" />
+        <option name="BACKGROUND" value="1b2424" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_5">

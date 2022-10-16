@@ -3,7 +3,7 @@
     <property name="created">2020-03-08T18:57:19</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2019.3.3.0.0</property>
-    <property name="modified">2022-10-11T16:54:25</property>
+    <property name="modified">2022-10-16T03:12:11</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <colors>
@@ -33,7 +33,7 @@
   <attributes>
     <option name="INDENT_RAINBOW_COLOR_1">
       <value>
-        <option name="BACKGROUND" value="3d3e41" />
+        <option name="BACKGROUND" value="37372c" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_1_CUSTOM">
@@ -43,7 +43,7 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_2">
       <value>
-        <option name="BACKGROUND" value="3b413f" />
+        <option name="BACKGROUND" value="303730" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_2_CUSTOM">
@@ -53,7 +53,7 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_3">
       <value>
-        <option name="BACKGROUND" value="40423d" />
+        <option name="BACKGROUND" value="373037" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_3_CUSTOM">
@@ -63,7 +63,7 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_4">
       <value>
-        <option name="BACKGROUND" value="433f3c" />
+        <option name="BACKGROUND" value="2d3636" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_4_CUSTOM">

@@ -3,7 +3,7 @@
     <property name="created">2021-07-04T21:55:19</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2021.1.3.0.0</property>
-    <property name="modified">2022-10-11T16:54:25</property>
+    <property name="modified">2022-10-16T03:12:11</property>
     <property name="originalScheme">All hallow's eve</property>
   </metaInfo>
   <colors>
@@ -788,7 +788,7 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_1">
       <value>
-        <option name="BACKGROUND" value="17181b" />
+        <option name="BACKGROUND" value="e0e03" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_1_CUSTOM">
@@ -798,7 +798,7 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_2">
       <value>
-        <option name="BACKGROUND" value="151b19" />
+        <option name="BACKGROUND" value="70e07" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_2_CUSTOM">
@@ -808,7 +808,7 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_3">
       <value>
-        <option name="BACKGROUND" value="1a1c17" />
+        <option name="BACKGROUND" value="e070e" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_3_CUSTOM">
@@ -818,7 +818,7 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_4">
       <value>
-        <option name="BACKGROUND" value="1d1916" />
+        <option name="BACKGROUND" value="40d0d" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_4_CUSTOM">
