@@ -618,8 +618,9 @@
   </action>
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="ToggleBookmark">
-    <keyboard-shortcut first-keystroke="shift meta d" />
+    <keyboard-shortcut first-keystroke="ctrl meta f" />
   </action>
+  <action id="ToggleFullScreen" />
   <action id="ToggleLineBreakpoint" />
   <action id="ToggleRenderedDocPresentationForAll">
     <keyboard-shortcut first-keystroke="alt q" />
