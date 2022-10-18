@@ -360,7 +360,6 @@
   </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="meta f9" />
-    <keyboard-shortcut first-keystroke="f9" />
   </action>
   <action id="GotoPreviousError">
     <keyboard-shortcut first-keystroke="meta f7" />
@@ -445,7 +444,7 @@
   </action>
   <action id="NewScratchFile" />
   <action id="NextDiff">
-    <keyboard-shortcut first-keystroke="f9" />
+    <keyboard-shortcut first-keystroke="meta f9" />
   </action>
   <action id="NextEditorTab" />
   <action id="NextOccurence">
@@ -583,10 +582,13 @@
     <keyboard-shortcut first-keystroke="ctrl meta f8" />
   </action>
   <action id="StepInto">
+    <keyboard-shortcut first-keystroke="meta f8" />
+  </action>
+  <action id="StepOut">
     <keyboard-shortcut first-keystroke="f8" />
   </action>
   <action id="StepOver">
-    <keyboard-shortcut first-keystroke="f9" />
+    <keyboard-shortcut first-keystroke="meta f9" />
   </action>
   <action id="Stop">
     <keyboard-shortcut first-keystroke="meta f6" />
