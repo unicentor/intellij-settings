@@ -456,7 +456,6 @@
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="NextTab">
-    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
     <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
   <action id="NextWindow" />
@@ -480,7 +479,6 @@
     <keyboard-shortcut first-keystroke="ctrl meta up" />
   </action>
   <action id="PreviousTab">
-    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
   <action id="QuickActionPopup">
