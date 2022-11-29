@@ -3,13 +3,13 @@
     <option name="autoFetchEnabled" value="false" />
     <option name="outdatedBranchesAutoCleanup">
       <OutdatedBranchesAutoCleanupConfig>
-        <option name="autoCheckEnabled" value="true" />
         <option name="autoCheckIntervalHours" value="24" />
       </OutdatedBranchesAutoCleanupConfig>
     </option>
     <option name="outdatedBranchesOldCommitDeleteConfirmation" value="false" />
     <option name="previousVersionMigrated" value="true" />
     <option name="showEditorInlineBlame" value="false" />
-    <option name="version" value="5" />
+    <option name="startupNotificationVersion" value="1" />
+    <option name="version" value="6" />
   </component>
 </application>
