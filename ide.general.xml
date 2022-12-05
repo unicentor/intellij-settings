@@ -15,6 +15,8 @@
     <entry key="completion.stats.show.ml.ranking.diff" value="true" />
     <entry key="js.debugger.webconsole" value="false" />
     <entry key="ide.tree.collapse.recursively" value="false" />
+    <entry key="ide.experimental.ui" value="true" />
+    <entry key="debugger.new.tool.window.layout" value="true" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
