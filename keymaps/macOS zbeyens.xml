@@ -444,9 +444,7 @@
     <keyboard-shortcut first-keystroke="f9" />
   </action>
   <action id="NextEditorTab" />
-  <action id="NextOccurence">
-    <keyboard-shortcut first-keystroke="ctrl meta down" />
-  </action>
+  <action id="NextOccurence" />
   <action id="NextProjectWindow">
     <keyboard-shortcut first-keystroke="meta alt back_quote" />
     <keyboard-shortcut first-keystroke="alt s" />
@@ -472,9 +470,7 @@
     <keyboard-shortcut first-keystroke="f7" />
   </action>
   <action id="PreviousEditorTab" />
-  <action id="PreviousOccurence">
-    <keyboard-shortcut first-keystroke="ctrl meta up" />
-  </action>
+  <action id="PreviousOccurence" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
@@ -516,6 +512,22 @@
   <action id="RerunTests" />
   <action id="ResetToMySettings">
     <keyboard-shortcut first-keystroke="shift alt u" />
+  </action>
+  <action id="ResizeToolWindowDown">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+    <keyboard-shortcut first-keystroke="ctrl meta down" />
+  </action>
+  <action id="ResizeToolWindowLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+    <keyboard-shortcut first-keystroke="ctrl meta left" />
+  </action>
+  <action id="ResizeToolWindowRight">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+    <keyboard-shortcut first-keystroke="ctrl meta right" />
+  </action>
+  <action id="ResizeToolWindowUp">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+    <keyboard-shortcut first-keystroke="ctrl meta up" />
   </action>
   <action id="RestartIde">
     <keyboard-shortcut first-keystroke="ctrl meta w" />
