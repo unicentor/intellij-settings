@@ -4,7 +4,7 @@
     <property name="created">2022-07-30T12:14:27</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2021.2.3.0.0</property>
-    <property name="modified">2022-09-08T21:55:16</property>
+    <property name="modified">2022-10-18T10:26:49</property>
     <property name="originalScheme">Lotus Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -483,7 +483,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="CSS.IMPORTANT" baseAttributes="" />
+    <option name="CSS.IMPORTANT" baseAttributes="DEFAULT_KEYWORD" />
     <option name="CSS.PROPERTY_NAME">
       <value>
         <option name="FOREGROUND" value="fcfcfa" />
@@ -2666,7 +2666,7 @@
         <option name="FOREGROUND" value="99dc5d" />
       </value>
     </option>
-    <option name="SASS_COMMENT" baseAttributes="" />
+    <option name="SASS_COMMENT" baseAttributes="CSS.COMMENT" />
     <option name="SASS_MIXIN">
       <value>
         <option name="FOREGROUND" value="a9dc76" />

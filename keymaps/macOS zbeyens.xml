@@ -22,8 +22,14 @@
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
   <action id="AceAction" />
+  <action id="AceLineAction">
+    <keyboard-shortcut first-keystroke="shift ctrl semicolon" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
   <action id="AceWordAction">
     <keyboard-shortcut first-keystroke="ctrl meta enter" />
+    <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
   <action id="AceWordBackwardsAction">
     <keyboard-shortcut first-keystroke="ctrl meta back_space" />
@@ -121,7 +127,6 @@
   <action id="Console.History.Browse" />
   <action id="Console.TableResult.CompareCells" />
   <action id="Console.TableResult.DeleteRows">
-    <keyboard-shortcut first-keystroke="ctrl e" />
     <keyboard-shortcut first-keystroke="shift ctrl meta w" />
   </action>
   <action id="ConsoleView.ClearAll">
@@ -134,7 +139,6 @@
   <action id="Coverage">
     <keyboard-shortcut first-keystroke="shift meta f5" />
     <keyboard-shortcut first-keystroke="shift f5" />
-    <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
   <action id="DatabaseView.DataSourceCutAction">
     <keyboard-shortcut first-keystroke="shift delete" />
@@ -269,7 +273,6 @@
     <keyboard-shortcut first-keystroke="meta enter" />
   </action>
   <action id="EditorStartNewLineBefore">
-    <keyboard-shortcut first-keystroke="meta alt enter" />
     <keyboard-shortcut first-keystroke="shift meta enter" />
     <keyboard-shortcut first-keystroke="shift enter" />
   </action>
@@ -441,6 +444,7 @@
   </action>
   <action id="NewScratchFile" />
   <action id="NextDiff">
+    <keyboard-shortcut first-keystroke="meta f9" />
     <keyboard-shortcut first-keystroke="f9" />
   </action>
   <action id="NextEditorTab" />
@@ -450,7 +454,6 @@
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="NextTab">
-    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
     <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
   <action id="NextWindow" />
@@ -472,11 +475,9 @@
   <action id="PreviousEditorTab" />
   <action id="PreviousOccurence" />
   <action id="PreviousTab">
-    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
   <action id="QuickActionPopup">
-    <keyboard-shortcut first-keystroke="meta alt enter" />
     <keyboard-shortcut first-keystroke="meta period" />
   </action>
   <action id="QuickImplementations" />
@@ -539,12 +540,9 @@
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="r" />
   </action>
-  <action id="Run">
-    <keyboard-shortcut first-keystroke="f5" />
-  </action>
   <action id="RunClass">
-    <keyboard-shortcut first-keystroke="shift ctrl r" />
-    <keyboard-shortcut first-keystroke="ctrl r" />
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+    <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="RunDashboard.Debug" />
@@ -594,9 +592,13 @@
     <keyboard-shortcut first-keystroke="ctrl meta f8" />
   </action>
   <action id="StepInto">
+    <keyboard-shortcut first-keystroke="meta f8" />
+  </action>
+  <action id="StepOut">
     <keyboard-shortcut first-keystroke="f8" />
   </action>
   <action id="StepOver">
+    <keyboard-shortcut first-keystroke="meta f9" />
     <keyboard-shortcut first-keystroke="f9" />
   </action>
   <action id="Stop">
@@ -628,7 +630,10 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="back_quote" />
   </action>
   <action id="TodoViewGroupByFlattenPackage" />
-  <action id="ToggleBookmark" />
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="ctrl meta f" />
+  </action>
+  <action id="ToggleFullScreen" />
   <action id="ToggleLineBreakpoint" />
   <action id="ToggleRenderedDocPresentationForAll">
     <keyboard-shortcut first-keystroke="alt q" />
@@ -654,6 +659,7 @@
     <keyboard-shortcut first-keystroke="shift meta back_slash" />
   </action>
   <action id="UpdateRunningApplication" />
+  <action id="UsageFiltering.ReadAccess" />
   <action id="UsageGrouping.FileStructure" />
   <action id="UsageView.Exclude">
     <keyboard-shortcut first-keystroke="delete" />
@@ -696,6 +702,9 @@
     <keyboard-shortcut first-keystroke="alt open_bracket" />
     <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
+  <action id="copilot.openCopilot">
+    <keyboard-shortcut first-keystroke="meta alt enter" />
+  </action>
   <action id="hg4idea.QFold" />
   <action id="hg4idea.QPushAction" />
   <action id="hg4idea.QRefresh" />
@@ -708,6 +717,9 @@
   </action>
   <action id="osmedile.intellij.stringmanip.swap.SwapQuote">
     <keyboard-shortcut first-keystroke="alt quote" />
+  </action>
+  <action id="runShellFileAction">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
   <action id="tasks.close" />
   <action id="tasks.goto" />
