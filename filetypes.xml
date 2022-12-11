@@ -24,8 +24,8 @@
       <mapping pattern="getDes" type="PLAIN_TEXT" />
       <mapping pattern="MentionSelectComponent.spec.tsx" type="PLAIN_TEXT" />
       <mapping pattern="type-tagNames.tsx" type="PLAIN_TEXT" />
-      <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="snapshot" type="PLAIN_TEXT" />
+      <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping pattern="useQuickPickDocumentSearchQuery.ts" type="TypeScript" />
       <mapping pattern="SelectEditorMode" type="TypeScript JSX" />
       <removed_mapping ext="csv" approved="true" type="CSV file" />
