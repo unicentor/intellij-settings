@@ -24,11 +24,12 @@
       <mapping pattern="getDes" type="PLAIN_TEXT" />
       <mapping pattern="MentionSelectComponent.spec.tsx" type="PLAIN_TEXT" />
       <mapping pattern="type-tagNames.tsx" type="PLAIN_TEXT" />
-      <mapping ext="snapshot" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
+      <mapping ext="snapshot" type="PLAIN_TEXT" />
       <mapping pattern="useQuickPickDocumentSearchQuery.ts" type="TypeScript" />
       <mapping pattern="SelectEditorMode" type="TypeScript JSX" />
       <removed_mapping ext="csv" approved="true" type="CSV file" />
+      <removed_mapping ext="dockerignore" approved="true" type="DockerIgnore file" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="log" approved="true" type="ANSI Aware" />
       <removed_mapping pattern=".dockerignore" approved="true" type="Docker File" />
