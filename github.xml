@@ -1,11 +1,10 @@
 <application>
   <component name="GithubAccounts">
-    <account id="f883b125-094b-4c9c-ba4a-db70d9a265e9" name="zbeyens">
+    <account name="zbeyens" id="f883b125-094b-4c9c-ba4a-db70d9a265e9">
       <server host="github.com" />
     </account>
   </component>
   <component name="GithubSettings">
     <option name="COPY_URL_GIST" value="true" />
-    <option name="CREATE_PULL_REQUEST_CREATE_REMOTE" value="YES" />
   </component>
 </application>
