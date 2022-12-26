@@ -3,35 +3,19 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>*.stories.*</mask>
-    <mask>!*.log</mask>
-    <mask>!*.md</mask>
-    <mask>!*.md,!*.stories.*</mask>
-    <mask>!*spec*</mask>
-    <mask>!CHANGELOG.md, !*.spec.*, !schema.graphql, !sdk.ts</mask>
-    <mask>!*spec*,!CHANGELOG.md</mask>
-    <mask>*.spec.tsx</mask>
-    <mask>!*.md, !CHANGELOG.md, !*.spec.*, !*.js.*</mask>
-    <mask>!CHANGELOG.md, !*.spec.*</mask>
-    <mask>!CHANGELOG.md, !*.spec.*, !*.js*</mask>
-    <mask>*.md</mask>
-    <mask>!CHANGELOG.md, !*.spec.*, !*.js.*</mask>
-    <mask>!*.spec.*, !*.js.*, !BREAKING_CHANGES.md, !CHANGELOG.md</mask>
-    <mask>!CHANGELOG.md</mask>
-    <mask>!CHANGELOG.md, !*.spec.*, !*.test.*</mask>
-    <mask>!*.spec.*</mask>
     <mask>*.xml</mask>
     <mask>*.css</mask>
-    <mask>*.shtml</mask>
-    <mask>*.shtm</mask>
-    <mask>*.ng</mask>
     <mask>*.htm</mask>
     <mask>*.sht</mask>
+    <mask>*.shtm</mask>
+    <mask>*.ng</mask>
+    <mask>*.shtml</mask>
     <mask>*.html</mask>
+    <mask>*.mts</mask>
     <mask>*.ats</mask>
+    <mask>*.cts</mask>
     <mask>*.ts</mask>
     <mask>*.cjs</mask>
     <mask>*.js</mask>
-    <mask>!examples</mask>
   </component>
 </application>
