@@ -5,6 +5,5 @@
         <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.switching.ToPascalCaseOrCamelCaseAction" />
       </UniversalActionModel>
     </option>
-    <option name="version" value="2" />
   </component>
 </application>
