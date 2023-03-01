@@ -2,7 +2,7 @@
   <component name="GraziConfig">
     <option name="userDisabledRules">
       <set>
-        <option value="COMMA_BEFORE_AND" />
+        <option value="LanguageTool.EN.COMMA_BEFORE_AND" />
       </set>
     </option>
     <option name="suppressingContext">
@@ -13,6 +13,13 @@
           </set>
         </option>
       </SuppressingContext>
+    </option>
+    <option name="checkingContext">
+      <CheckingContext>
+        <option name="isCheckInCommitMessagesEnabled" value="false" />
+        <option name="isCheckInCommentsEnabled" value="false" />
+        <option name="isCheckInDocumentationEnabled" value="false" />
+      </CheckingContext>
     </option>
   </component>
 </application>
