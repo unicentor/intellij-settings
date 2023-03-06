@@ -17,7 +17,5 @@
     <mask>*.ts</mask>
     <mask>*.cjs</mask>
     <mask>*.js</mask>
-    <mask>*, !*test*</mask>
-    <mask>*, !**test**</mask>
   </component>
 </application>
