@@ -17,7 +17,7 @@
     <mask>*.cjs</mask>
     <mask>*.js</mask>
     <mask>!packages/utils/</mask>
-    <mask>*.ts</mask>
     <mask>*.tsx</mask>
+    <mask>*.ts</mask>
   </component>
 </application>
