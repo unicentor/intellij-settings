@@ -1,9 +1,15 @@
 <application>
   <component name="GithubAccounts">
+    <account name="issam2510" id="c9e793d3-1df3-4377-a7a6-e4b8c6d8771d">
+      <server host="github.com" />
+    </account>
+    <account name="TruongKien" id="a0c46e2f-5469-4e15-9974-ceeb4b0490d9">
+      <server host="github.com" />
+    </account>
     <account name="zbeyens" id="f883b125-094b-4c9c-ba4a-db70d9a265e9">
       <server host="github.com" />
     </account>
-    <account name="AlihanEr" id="65f0f917-fdfb-49e0-a3e8-40019e70eddf">
+    <account name="Samsamb0" id="bfd2dbb4-392a-4eda-8a34-5521c22c6185">
       <server host="github.com" />
     </account>
   </component>
